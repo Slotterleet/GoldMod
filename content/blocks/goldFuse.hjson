@@ -1,0 +1,36 @@
+type: ItemTurret
+	name: Gold Fuse
+	description: An improved version of the Fuse. Uses gold ingots as ammo.
+    targetAir: true
+    targetGround: true
+    hasPower: false
+    hasLiquids: true 
+    shootType: lancerLaser
+    shootSound: fuse
+    health: 1800
+    size: 3
+    inaccuracy: 0
+    reload: 20
+	shots: 5
+    recoil: 1
+    rotateSpeed: 30
+    range: 130
+	ammo: {
+		goldIngot: lancerLaser
+		}
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.05
+optional: true
+booster: true
+}}
+	requirements: [
+		goldIngot/100
+		copper/225
+		graphite/225
+		thorium/100
+	]
+	category: turret
+	research: fuse
+

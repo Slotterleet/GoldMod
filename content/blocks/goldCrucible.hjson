@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Gold Crucible"
+description: "Melts gold ore for further processing."
+liquidCapacity: 10
+outputLiquid: {
+  liquid: moltenGold
+  amount: 2
+}
+size: 1
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: goldOre
+}
+requirements: [
+  lead/100
+  titanium/75
+  thorium/50
+]
+category: crafting
+research: melter
+idleSound: respawning
+idleSoundVolume: 0.5

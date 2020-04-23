@@ -1,0 +1,27 @@
+type: Fracker
+	name: Gold Drill Station
+	description: Drills underground gold ore at a slow pace and smelts it immediately. Requires large amounts of power.
+	liquidCapacity: 10
+	itemCapacity: 10
+	result: moltenGold
+	size: 3
+	hasPower: true
+	hasLiquids: true
+	hasItems: true
+	pumpAmount: 0.03
+	updateEffect: pulverize
+    updateEffectChance: 0.08
+consumes: {
+power: 6.0
+}
+	requirements: [
+		lead/200
+		titanium/150
+		silicon/200
+		metaglass/50
+thorium/100
+	]
+	category: production
+	research: oil-extractor
+	idleSound: respawning
+	idleSoundVolume: 0.5

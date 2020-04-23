@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Gold Forge
+description: Casts molten gold ore to produce gold ingots.
+liquidCapacity: 10
+health: 240
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  liquid: {
+    liquid: moltenGold
+    amount: 0.083
+  }
+}
+requirements: [
+  lead/150
+  copper/150
+  silicon/100
+  titanium/50
+]
+category: crafting
+research: separator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: goldIngot/1

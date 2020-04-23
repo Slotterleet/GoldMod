@@ -1,0 +1,10 @@
+name: Gold Wall
+	description: A very tough wall, tougher than the surge wall.
+	type: Wall
+	health: 1200
+	size: 1
+	requirements: [
+goldIngot/6
+	]
+	category: defense
+	research: surge-wall
