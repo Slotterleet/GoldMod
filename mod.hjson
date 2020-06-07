@@ -1,6 +1,6 @@
 name: "goldmod"
 displayName: "[gold]Gold[] Mod"
 author: "[#a00000]The [red]Slaylord[][]"
-description: "Adds a rare, valuable resource.\n0.5 Patch Notes:\n- Fixed RU translation issues\n- A new attack map is out!"
-version: "0.5 beta"
+description: "Adds a rare, valuable resource.\n0.6 Patch Notes:\n- Changed some descriptions\n- Fixed Golden Dagger's mass so they won't be pushed away by conveyor belts\n- Added Golden Crawler and their factory\n- Added Crushed Gold (artist: FFirtes) and Gold Crusher\n- Gold Ore and Gold Crucible sprites have been updated (artist: VozDuh)\n\n[royal]Discord:[] [gray]https://discord.gg/kCvJKyb[]"
+version: "0.6 alpha"
 minGameVersion: "104"
