@@ -1,6 +1,6 @@
 name: "goldmod"
 displayName: "[gold]Gold[] Mod"
 author: "[#a00000]The [red]Slaylord[][]"
-description: "Adds a rare, valuable resource.\n0.5 Patch Notes:\n- Fixed RU translation issues\n- A new attack map is out!"
-version: "0.5 beta"
+description: "Adds a rare, valuable resource.\n0.5 Patch Notes:\n- Fixed RU translation issues\n- A new attack map is out!\n\n[royal]Discord[]: [gray]https://discord.gg/kCvJKyb[]"
+version: "0.5 release"
 minGameVersion: "104"
