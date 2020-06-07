@@ -1,7 +1,9 @@
 type: groundUnit
 name: Golden Dagger
-description: A more dangerous iteration of the Dagger.
-speed: 0.1
+description: An upgraded version of the Dagger unit.
+speed: 0.2
+mass: 2
+maxVelocity: 1
 flying: false
 health: 390
 range: 160
