@@ -1,16 +1,16 @@
 type: LaserTurret
 	name: Gold Meltdown
-	description: An improved version of the Meltdown. Now with built-in cooling system, but needs liquid gold to operate.
+	description: An improved version of the Meltdown.
 	targetAir: true
 	targetGround: true
-	hasPower: true
-	shootType: meltdownLaser
 powerUse: 23
-	health: 3200
+	health: 6000
 	size: 4
+hasPower: true
+	shootType: meltdownLaser
 inaccuracy: 0
 	reload: 1.2
-	shots: 0.75
+	shots: 6
 	recoil: 3
 	ammoUseEffect: shellEjectBig
 	shootCone: 24
@@ -31,3 +31,10 @@ inaccuracy: 0
 	category: turret
 	research: meltdown
 	shootSound: laserbig
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.5
+optional: false
+booster: true
+}}

@@ -7,30 +7,30 @@ type: ItemTurret
     hasLiquids: true 
     shootType: lancerLaser
     shootSound: fuse
-    health: 1800
+    health: 4800
     size: 3
     inaccuracy: 0
     reload: 20
-	shots: 5
+	shots: 4
     recoil: 1
     rotateSpeed: 30
     range: 130
+coolantMultiplier: 10
 	ammo: {
 		goldIngot: lancerLaser
 		}
-consumes: {
-liquid: {
-liquid: moltenGold
-amount: 0.05
-optional: true
-booster: true
-}}
 	requirements: [
-		goldIngot/100
+		goldIngot/200
 		copper/225
 		graphite/225
 		thorium/100
 	]
 	category: turret
 	research: fuse
-
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.2
+optional: true
+booster: true
+}}
