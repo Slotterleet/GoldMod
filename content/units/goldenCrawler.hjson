@@ -4,15 +4,17 @@ description: An upgraded version of the Crawler unit.
 health: 200
 speed: 0.27
 mass: 2
+range: 0
 maxVelocity: 1.1
 weapon: {
 bullet:
 {
-damage: 120
+damage: 200
 ammoMultiplier: 1
 killShooter: true
 instantDisappear: true
-splashDamage: 50
+splashDamage: 100
+splashDamageRadius: 40
 }
 shake: 1
 shootSound: boom
