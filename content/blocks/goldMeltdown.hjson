@@ -8,10 +8,9 @@ type: LaserTurret
 powerUse: 23
 	health: 3200
 	size: 4
-	damage: 2520
-inaccuracy: 0.1
+inaccuracy: 0
 	reload: 1.2
-	shots: 6
+	shots: 0.75
 	recoil: 3
 	ammoUseEffect: shellEjectBig
 	shootCone: 24
@@ -22,22 +21,13 @@ inaccuracy: 0.1
 	shootDuration: 310
 	range: 210
 	requirements: [
-		goldIngot/100 
+		goldIngot/200
 		copper/300
 		lead/400
 		graphite/350
 		silicon/325
 		surge-alloy/325
 	]
-consumes: {
-power: 9.0
-liquid: {
-liquid: moltenGold
-amount: 0.05
-optional: false
-booster: true
-}
-}, 
 	category: turret
 	research: meltdown
 	shootSound: laserbig
