@@ -5,7 +5,7 @@ health: 1200
 size: 1
 hasItems: true
 hasLiquids: true
-range: 100
+range: 116
 reload: 20
 inaccuracy: 2
 shots: 2
