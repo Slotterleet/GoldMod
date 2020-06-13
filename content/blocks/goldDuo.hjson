@@ -1,0 +1,20 @@
+type: DoubleTurret
+name: Gold Duo
+description: An improved version of the Duo turret.
+health: 1200
+size: 1
+hasItems: true
+hasLiquids: true
+reload: 20
+inaccuracy: 2
+shots: 2
+coolantMultiplier: 10
+ammo: {
+goldCrushed: standardThorium
+}
+requirements: [
+copper/20
+goldIngot/20
+]
+category: turret
+research: duo
