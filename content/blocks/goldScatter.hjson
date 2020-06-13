@@ -1,0 +1,31 @@
+type: ItemTurret
+name: Gold Scatter
+description: An improved version of the Scatter turret.
+health: 2400
+coolantMultiplier: 10
+size: 2
+hasItems: true
+hasLiquids: true
+requirements: [
+copper/75
+lead/50
+goldIngot/50
+]
+ammo: {
+goldCrushed: standardThorium
+}
+range: 180
+reload: 10
+inaccuracy: 15
+shots: 2
+targetAir: true
+targetGround: false
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.1
+optional: true
+booster: true
+}}
+category: turret
+research: scatter

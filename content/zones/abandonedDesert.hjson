@@ -1,0 +1,43 @@
+name: Abandoned Desert
+description: The unknown group had the gold processing facility here. Now it's your time to extract the plenty of gold here. Beware of the remaining forces here, they are quite strong.
+loadout: advancedShard
+requirements: [
+{
+type: Launched
+zone: saltFlats
+}
+{
+type: ZoneWave
+zone: ruinousShores
+wave: 20
+}
+{
+type: Unlock
+block: goldCrusher
+}
+{
+type: Unlock
+block: laser-drill
+}
+{
+type: Unlock
+block: goldCrucible
+}
+{
+type: Unlock
+block: goldForge
+}
+{
+type: Unlock
+block: goldDuo
+}
+]
+resources: [
+copper
+lead
+coal
+titanium
+thorium
+sand
+goldOre
+]

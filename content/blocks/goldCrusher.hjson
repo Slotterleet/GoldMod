@@ -1,0 +1,22 @@
+name: "Gold Crusher"
+description: "Crushes gold ingots for use as ammo."
+itemCapacity: 10
+outputItem: goldCrushed/2
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: goldIngot
+}
+requirements: [
+  copper/50
+  lead/50
+  goldIngot/50
+]
+category: crafting
+research: pulverizer
+idleSound: respawning
+idleSoundVolume: 0.5

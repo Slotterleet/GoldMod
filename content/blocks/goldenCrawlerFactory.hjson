@@ -1,0 +1,23 @@
+name: Golden Crawler Factory
+description: Produces the Golden Crawlers.
+type: UnitFactory
+unitType: goldenCrawler
+size: 2
+produceTime: 300
+maxSpawn: 6
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      blast-compound/2
+      goldIngot/3
+    ]
+  }
+}
+category: units
+research: crawler-factory
+requirements: [
+  goldIngot/15
+  silicon/15
+  lead/40
+]
