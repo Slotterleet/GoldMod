@@ -1,0 +1,4 @@
+type: resource
+name: Research Point
+description: Used to unlock advanced blocks and tech tree branches.
+color: 0074CD
