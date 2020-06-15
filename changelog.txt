@@ -1,0 +1,12 @@
+v0.6.1:
+- Fixed Gold Duo's range
+
+v0.6:
+- Changed some descriptions
+- Added Golden Crawler and their factory
+- Added Crushed Gold (artist: FFirtes) and Gold Crusher
+- Gold Ore and Gold Crucible sprites have been updated (artist: VozDuh)
+- Added Gold Duo and Gold Scatter
+- Added a new survival zone
+- Gold Fuse (Nerf): Lasers per shot decreased to 4
+- A lot of various minor fixes
