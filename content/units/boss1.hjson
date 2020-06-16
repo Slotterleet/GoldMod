@@ -6,10 +6,12 @@ mass: 5
 maxVelocity: 0.6
 flying: false
 health: 27000
-range: 240
+range: 200
 weapon: {
   name: boss1-blaster
   reload: 5
   alternate: true
   bullet: standardThoriumBig
+shake: 0.3
+shootSound: bigShot
 }
