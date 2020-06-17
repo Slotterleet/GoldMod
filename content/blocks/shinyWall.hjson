@@ -1,7 +1,7 @@
 type: SurgeWall
 name: Shiny Wall
 description: A very tough wall, which builds up charge on bullet contact. Has a better chance of striking an enemy.
-health: 6000
+health: 2000
 size: 1
 lightningChance: 0.1
 category: defense
