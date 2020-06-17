@@ -1,0 +1,10 @@
+name: Dart Mk. II
+description: A normal Dart ship, but well-armored and well-armed.
+flying: true
+health: 500
+weapon: {
+  name: dart-mk2-equip
+  reload: 10
+  alternate: true
+  bullet: standardThorium
+}
