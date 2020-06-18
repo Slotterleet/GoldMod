@@ -5,3 +5,6 @@ health: 400
 minePower: 4
 speed: 2
 maxVelocity: 1.5
+weapon: {
+bullet: lancerLaser
+}
