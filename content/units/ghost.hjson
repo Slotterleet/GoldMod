@@ -3,6 +3,7 @@ name: Ghost Miner Drone
 description: A modified Draug drone. Able to mine copper, lead, titanium and thorium.
 health: 400
 flying: true
+range: 50
 minePower: 4
 speed: 2
 maxVelocity: 1.5
