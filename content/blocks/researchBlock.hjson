@@ -4,4 +4,5 @@ description: Deconstruct this to get research points. Cannot be built. Only loca
 requirements: [
 researchPoint/80
 ]
+category: effect
 buildVisibility: sandboxOnly
