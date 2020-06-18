@@ -9,6 +9,11 @@ graphite/250
 silicon/250
 titanium/250
 ]
+configureObjective:
+{
+type: Launched
+zone: eradLair
+}
 requirements: [
 {
 type: ZoneWave
