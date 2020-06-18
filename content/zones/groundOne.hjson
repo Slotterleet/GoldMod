@@ -1,4 +1,4 @@
-zone: Ground One
+name: Ground One
 description: We managed to move away from the spore lands. Here is plenty of resources, but little space. Enemies are weak here.
 startingItems: [
 copper/100
