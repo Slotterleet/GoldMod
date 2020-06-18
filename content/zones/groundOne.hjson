@@ -7,9 +7,8 @@ conditionWave: 10
 launchPeriod: 5
 requirements: [
 {
-type: ZoneWave
+type: Launched
 zone: eradLair
-wave: 10
 }
 ]
 resources: [
