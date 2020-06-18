@@ -1,3 +1,4 @@
+type: MechPad
 name: Dart Mk. II Mech Pad
 description: Upgrades your Dart ship's armor and weapon.
 mech: dart-mk2
