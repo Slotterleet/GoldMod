@@ -4,7 +4,13 @@ description: A modified Draug drone. Able to mine copper, lead, titanium and tho
 health: 400
 flying: true
 range: 50
-minePower: 4
+minePower: 1
+toMine: [
+copper
+lead
+titanium
+thorium
+]
 speed: 2
 maxVelocity: 1.5
 weapon: {
