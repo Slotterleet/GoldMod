@@ -1,3 +1,4 @@
+type: Drill
 name: Shiny Drill
 description: An improved airblast drill.
 health: 1600
