@@ -5,7 +5,7 @@ const customPulverizer = extendContent(GenericCrafter, "goldCrusher", {
     },
     generateIcons: function(){
         return [
-            Core.atlas.find(this.name);
+            Core.atlas.find(this.name), 
             Core.atlas.find(this.name + "-rotator");
         ];
     },    
