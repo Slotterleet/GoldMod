@@ -12,8 +12,9 @@ shinyAlloy/50
 ] 
 tier: 6
 drillTime: 170
-liquidBoostIntensity: 2.56
+liquidBoostIntensity: 1.5
 consumes: {
+power: 4
 liquid: {
 liquid: moltenGold
 amount: 0.1
