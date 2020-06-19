@@ -1,3 +1,3 @@
 const ghost-ores = extendContent(MinerDrone, "ghost", {
-this.toMine = ["copper","lead","titanium","thorium"] 
+this.targetItem = ["copper","lead","titanium","thorium"] 
 } 
