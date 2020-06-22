@@ -1,0 +1,28 @@
+type: DoubleTurret
+name: Gold Spectre
+description: An improved version of the Spectre.
+health: 4800
+size: 4
+range: 240
+shootShake: 0.5
+shootSound: bigShot
+ammo: {
+goldCrushed: {
+type: BasicBulletType
+lifetime: 120
+speed: 3
+damage: 75
+pierce: false
+ammoMultiplier: 4
+frontColor: F0E4A8
+backColor: F0E4A8
+}} 
+requirements: [
+copper/500
+lead/500
+graphite/300
+surge-alloy/250
+goldIngot/250
+] 
+category: turret
+research: spectre
