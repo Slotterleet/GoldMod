@@ -13,6 +13,7 @@ v1.0:
 - Updated Crushed Gold sprite (artist: [hb] Kapzduke) 
 - Updated Gold Drill Station sprites (artist: kostyan) 
 - Updated Gold Forge sprite (artist: kostyan) 
+- Removed Gold Crusher's script and updated its sprite
 
 v0.6.1:
 - Fixed Gold Duo's range
