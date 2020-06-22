@@ -4,6 +4,7 @@ description: An improved version of the Spectre.
 health: 4800
 size: 4
 range: 240
+coolantMultiplier: 10
 shootShake: 0.5
 shootSound: bigShot
 ammo: {
@@ -24,5 +25,12 @@ graphite/300
 surge-alloy/250
 goldIngot/250
 ] 
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 1
+optional: true
+booster: true
+}} 
 category: turret
 research: spectre
