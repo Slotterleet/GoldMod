@@ -13,6 +13,7 @@ shinyAlloy/50
 tier: 6
 drillTime: 170
 liquidBoostIntensity: 1.5
+rotateSpeed: 10
 drawRim: true
 consumes: {
 power: 4
