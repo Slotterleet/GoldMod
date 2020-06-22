@@ -14,7 +14,7 @@ bulletWidth: 15
 bulletHeight: 21
 drawSize: 200
 lifetime: 120
-speed: 3
+speed: 7
 damage: 100
 pierce: false
 ammoMultiplier: 4
