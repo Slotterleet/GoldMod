@@ -10,6 +10,7 @@ shootSound: bigShot
 ammo: {
 goldCrushed: {
 type: BasicBulletType
+drawSize: 200
 lifetime: 120
 speed: 3
 damage: 75
