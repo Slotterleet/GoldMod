@@ -1,3 +1,18 @@
+v1.0:
+- Added the Eradicator's Lair and Ground One
+- Added a new boss, the Golden Eradicator
+- Added the Ghost Miner Drone and their factory (suggested by [hb] Kapzduke) 
+- Added Dart Mk. II and their pad
+- Added two new items: Research Point and Shiny Alloy
+- Added a new branch to the tech tree
+- Added a Shiny Alloy Smelter
+- Added the Gold Spectre
+- Added Shiny Walls
+- Added the Shiny Drill, an improved airblast drill (suggested by [hb] Kapzduke) 
+- Fixed turrets' booster multipliers
+- Updated the Crushed Gold sprite (artist: [hb] Kapzduke) 
+- Updated Gold Drill Station sprites (artist: kostyan) 
+
 v0.6.1:
 - Fixed Gold Duo's range
 
