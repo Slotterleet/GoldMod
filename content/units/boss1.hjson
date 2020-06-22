@@ -8,10 +8,21 @@ flying: false
 health: 27000
 range: 200
 weapon: {
-  name: boss1-blaster
-  reload: 5
-  alternate: true
-  bullet: standardThoriumBig
-shake: 0.3
-shootSound: bigShot
+weaponlength: 13
+reload: 30
+width: 22
+alternate: true
+recoil: 3
+shake: 2
+inaccuracy: 3
+shots: 4
+spacing: 0
+shotDelay: 3
+ejectEffect: shellEjectMedium
+name: boss1-blaster
+reload: 5
+alternate: true
+bullet: standardThoriumBig
+shake: 0.5
+shootSound: shootBig
 }
