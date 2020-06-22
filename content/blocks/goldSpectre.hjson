@@ -8,7 +8,7 @@ coolantMultiplier: 5
 shootShake: 1
 shootSound: shootBig
 ammo: {
-goldCrushed: {
+goldIngot: {
 type: BasicBulletType
 bulletWidth: 15
 bulletHeight: 21
