@@ -1,3 +1,4 @@
+type: GenericCrafter
 name: "Gold Crusher"
 description: "Crushes gold ingots for use as ammo."
 itemCapacity: 10
