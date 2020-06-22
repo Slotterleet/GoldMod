@@ -10,8 +10,9 @@ v1.0:
 - Added Shiny Walls
 - Added the Shiny Drill, an improved airblast drill (suggested by [hb] Kapzduke) 
 - Fixed turrets' booster multipliers
-- Updated the Crushed Gold sprite (artist: [hb] Kapzduke) 
+- Updated Crushed Gold sprite (artist: [hb] Kapzduke) 
 - Updated Gold Drill Station sprites (artist: kostyan) 
+- Updated Gold Forge sprite (artist: kostyan) 
 
 v0.6.1:
 - Fixed Gold Duo's range
