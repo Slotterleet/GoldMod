@@ -9,7 +9,7 @@ range: 116
 reload: 20
 inaccuracy: 2
 shots: 2
-coolantMultiplier: 10
+coolantMultiplier: 40
 ammo: {
 goldCrushed: standardThorium
 }

@@ -1,0 +1,15 @@
+type: MechPad
+name: Dart Mk. II Mech Pad
+description: Upgrades your Dart ship's armor and weapon.
+mech: dart-mk2
+health: 1200
+size: 2
+requirements: [
+shinyAlloy/20
+goldIngot/50
+copper/100
+lead/100
+graphite/125
+]
+category: upgrade
+research: shinyAlloySmelter

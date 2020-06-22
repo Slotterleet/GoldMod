@@ -8,9 +8,10 @@ flying: false
 health: 390
 range: 120
 weapon: {
-  name: goldenDagger-blaster
-  length: 1.5
-  reload: 10
-  alternate: true
-  bullet: standardThorium
+ejectEffect: shellEjectSmall
+name: goldenDagger-blaster
+length: 1.5
+reload: 10
+alternate: true
+bullet: standardThorium
 }

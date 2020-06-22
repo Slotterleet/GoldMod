@@ -1,0 +1,26 @@
+type: groundUnit
+name: Golden Eradicator
+description: "The world's most dangerous Eradicator.\nThe first boss of the Gold Mod."
+speed: 0.2
+mass: 5
+maxVelocity: 0.6
+flying: false
+health: 27000
+range: 200
+weapon: {
+weaponLength: 13
+width: 22
+alternate: true
+recoil: 3
+shake: 2
+inaccuracy: 0
+shots: 4
+spacing: 0
+shotDelay: 3
+ejectEffect: shellEjectMedium
+name: boss1-blaster
+reload: 15
+alternate: true
+bullet: standardThoriumBig
+shootSound: shootBig
+}

@@ -1,0 +1,8 @@
+name: Tier 2 Branch
+description: Research this to unlock a branch with tier 2 blocks.
+requirements: [
+researchPoint/1
+]
+category: effect
+buildVisibility: debugOnly
+research: core-shard

@@ -4,6 +4,7 @@ type: LaserTurret
 	targetAir: true
 	targetGround: true
 powerUse: 23
+coolantMultiplier: 20
 	health: 6000
 	size: 4
 hasPower: true

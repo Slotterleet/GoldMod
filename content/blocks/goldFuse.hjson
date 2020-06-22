@@ -15,7 +15,7 @@ type: ItemTurret
     recoil: 1
     rotateSpeed: 30
     range: 130
-coolantMultiplier: 10
+coolantMultiplier: 20
 	ammo: {
 		goldIngot: lancerLaser
 		}

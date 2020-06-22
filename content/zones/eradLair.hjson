@@ -1,0 +1,50 @@
+name: Eradicator's Lair
+description: "[red][ WARNING: BOSS LEVEL ][]\n\nAn unknown signal: 'Do you know who are you dealing with? I guess you don't. Why are you bothering me? Oh nevermind, I'm sending the Golden Eradicator for you.'"
+conditionWave: 10
+launchPeriod: 1
+startingItems: [
+copper/500
+lead/500
+graphite/250
+silicon/250
+titanium/250
+]
+configureObjective:
+{
+type: Launched
+zone: eradLair
+}
+requirements: [
+{
+type: ZoneWave
+zone: abandonedDesert
+wave: 20
+}
+{
+type: ZoneWave
+zone: desolateRift
+wave: 50
+}
+{
+type: Launched
+zone: overgrowth
+}
+{
+type: ZoneWave
+zone: nuclearComplex
+wave: 50
+}
+{
+type: Launched
+zone: goldMines
+}
+]
+resources: [
+copper
+lead
+coal
+sand
+titanium
+thorium
+goldOre
+]

@@ -1,5 +1,5 @@
-name: Golden Dagger Mech Factory
-description: Produces the Golden Dagger mechs.
+name: Golden Dagger Factory
+description: Produces the Golden Daggers.
 type: UnitFactory
 unitType: goldenDagger
 size: 2

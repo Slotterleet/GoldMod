@@ -2,7 +2,7 @@ type: ItemTurret
 name: Gold Scatter
 description: An improved version of the Scatter turret.
 health: 2400
-coolantMultiplier: 10
+coolantMultiplier: 40
 size: 2
 hasItems: true
 hasLiquids: true
