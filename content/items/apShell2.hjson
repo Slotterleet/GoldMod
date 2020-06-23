@@ -1,1 +1,4 @@
-
+type: resource
+name: AP Shell II
+description: A second-tier armor piercing shell. Deals large damage to a single target. Emits lightning arcs if missed. 
+color: DEAE66
