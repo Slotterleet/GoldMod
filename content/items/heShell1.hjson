@@ -1,4 +1,4 @@
 type: resource
 name: HE Shell I
-description: A first-tier high explosive shell. Deals average splash damage. Its fragments deal small damage. 
+description: A first-tier high explosive shell. Deals average splash damage in a small area. Its fragments deal small damage. 
 color: DEAE66
