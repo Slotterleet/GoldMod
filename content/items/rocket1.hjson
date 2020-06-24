@@ -1,1 +1,4 @@
-
+type: resource
+name: Rocket I
+description: A first-tier rocket. Deals small damage in a small area. 
+color: deae66
