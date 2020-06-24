@@ -1,4 +1,4 @@
 type: resource
 name: HE Shell II
-description: A second-tier high explosive shell. Deals average splash damage. Its fragments deal small damage. 
+description: A second-tier high explosive shell. Deals average splash damage in a medium area. Its fragments deal small damage. 
 color: d6d6d6
