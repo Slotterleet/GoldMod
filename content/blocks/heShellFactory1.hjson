@@ -3,10 +3,11 @@ name: HE Shell I Factory
 description: Produces first-tier high explosive shells. 
 consumes: {
 power: 0.15
+items: {
 items: [
 goldCrushed/1
 blast-compound/1
-]} 
+]}} 
 outputItem: heShell1/2
 requirements: [
 lead/100
