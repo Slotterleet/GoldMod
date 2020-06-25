@@ -3,10 +3,11 @@ name: AP Shell II Factory
 description: Produces second-tier armor piercing shells. 
 consumes: {
 power: 0.15
+items: {
 items: [
 apShell1/3
 shinyAlloy/1
-]} 
+]}} 
 outputItem: apShell2/3
 requirements: [
 lead/100
