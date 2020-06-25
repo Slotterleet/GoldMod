@@ -1,1 +1,19 @@
-
+type: GenericCrafter
+name: HE Shell I Factory
+description: Produces first-tier high explosive shells. 
+consumes: {
+power: 0.15
+items: [
+goldCrushed/1
+blast-compound/1
+]} 
+outputItem: heShell1/2
+requirements: [
+lead/100
+titanium/100
+graphite/50
+silicon/100
+goldIngot/50
+]
+category: crafting
+research: alloy-smelter
