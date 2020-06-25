@@ -4,7 +4,7 @@ description: Produces second-tier armor piercing shells.
 consumes: {
 power: 0.15
 items: [
-apShell/3
+apShell1/3
 shinyAlloy/1
 ]} 
 outputItem: apShell2/3
