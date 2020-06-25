@@ -3,10 +3,11 @@ name: AP Shell I Factory
 description: Produces first-tier armor piercing shells. 
 consumes: {
 power: 0.15
+items: {
 items: [
 goldCrushed/1
 titanium/2
-]} 
+]}} 
 outputItem: apShell1/2
 requirements: [
 lead/100
