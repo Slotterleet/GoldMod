@@ -3,10 +3,11 @@ name: AP Shell I Factory
 description: Produces first-tier rockets. 
 consumes: {
 power: 0.15
+items: {
 items: [
 goldCrushed/1
 pyratite/1
-]} 
+]}} 
 outputItem: rocket1/2
 requirements: [
 lead/100
