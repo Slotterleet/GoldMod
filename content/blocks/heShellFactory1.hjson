@@ -1,6 +1,7 @@
 type: GenericCrafter
 name: HE Shell I Factory
-description: Produces first-tier high explosive shells. 
+description: Produces first-tier high explosive shells.
+size: 2 
 consumes: {
 power: 0.15
 items: {
