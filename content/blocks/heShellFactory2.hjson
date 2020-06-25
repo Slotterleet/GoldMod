@@ -1,1 +1,20 @@
-
+type: GenericCrafter
+name: HE Shell II Factory
+description: Produces second-tier high explosive shells. 
+consumes: {
+power: 0.15
+items: [
+heShell1/3
+shinyAlloy/1
+]} 
+outputItem: heShell2/3
+requirements: [
+lead/100
+titanium/100
+graphite/50
+plastanium/75
+goldIngot/100
+shinyAlloy/50
+]
+category: crafting
+research: shinyAlloySmelter
