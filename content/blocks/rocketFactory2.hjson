@@ -3,10 +3,11 @@ name: Rocket II Factory
 description: Produces second-tier rockets. 
 consumes: {
 power: 0.15
+items: {
 items: [
 rocket1/3
 shinyAlloy/1
-]} 
+]}} 
 outputItem: rocket2/3
 requirements: [
 lead/100
