@@ -3,10 +3,11 @@ name: HE Shell II Factory
 description: Produces second-tier high explosive shells. 
 consumes: {
 power: 0.15
+items: {
 items: [
 heShell1/3
 shinyAlloy/1
-]} 
+]}} 
 outputItem: heShell2/3
 requirements: [
 lead/100
