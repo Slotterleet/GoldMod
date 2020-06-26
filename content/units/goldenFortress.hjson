@@ -1,1 +1,23 @@
-
+type: GroundUnit
+name: Golden Fortress
+description: An upgraded version of the Fortress. 
+maxVelocity: 0.75
+speed: 0.15
+drag: 0.4
+mass: 5
+hitsize: 10
+rotatespeed: 0.06
+targetAir: false
+health: 2250
+weapon: {
+name: goldArtillery
+length: 1
+reload: 40
+width: 10
+alternate: true
+recoil: 4
+shake: 2
+ejectEffect: shellEjectMedium
+bullet: artilleryExplosive
+shootSound: artillery
+} 
