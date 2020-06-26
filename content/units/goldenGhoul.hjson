@@ -1,1 +1,24 @@
-
+type: FlyingUnit
+name: Golden Ghoul
+description: An upgraded version of the Ghoul. Its bombs are incendiary. 
+health: 660
+speed: 0.2
+maxVelocity: 1.4
+mass: 3
+drag: 0.01
+flying: true
+targetAir: false
+engineOffset: 7.8
+range: 180
+weapon: {
+length: 0
+width: 2
+reload: 6
+alternate: true
+ejectEffect: none
+velocityRnd: 1
+inaccuracy: 40
+ignoreRotation: true
+bullet: bombIncendiary
+shootSound: none
+} 
