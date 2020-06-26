@@ -12,14 +12,13 @@ goldIngot: {
 type: BasicBulletType
 bulletWidth: 15
 bulletHeight: 21
-drawSize: 200
-lifetime: 120
+lifetime: 60
 speed: 7
 damage: 100
 pierce: false
 ammoMultiplier: 4
 frontColor: F0E4A8
-backColor: F0E4A8
+backColor: deae66
 }} 
 requirements: [
 copper/500
