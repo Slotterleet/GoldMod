@@ -11,8 +11,15 @@ inaccuracy: 2
 shots: 2
 coolantMultiplier: 40
 ammo: {
-goldCrushed: standardThorium
-}
+goldCrushed: {
+lifetime: 60
+speed: 3
+ammoMultiplier: 2
+shootEffect: shootSmall
+damage: 20
+bulletWidth: 9
+bulletHeight: 12
+}} 
 requirements: [
 copper/20
 goldIngot/20
