@@ -92,7 +92,7 @@ damage: 8
 bulletSprite: shell
 lifetime: 30
 speed: 2
-}}} 
+}}}} 
 requirements: [
 copper/20
 goldIngot/20
