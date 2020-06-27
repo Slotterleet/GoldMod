@@ -55,7 +55,7 @@ damage: 8
 bulletSprite: shell
 lifetime: 30
 speed: 2
-}} 
+}
 apShell2: {
 type: BasicBulletType
 bulletWidth: 9
@@ -67,7 +67,8 @@ ammoMultiplier: 1
 bulletSprite: goldmod-apShell
 frontColor: ffffff
 backColor: d6d6d6
-lightning: 3
+lightining: 3
+lightningLength: 20
 }
 heShell2: {
 type: BasicBulletType
@@ -83,7 +84,8 @@ ammoMultiplier: 1
 frontColor: ffffff
 backColor: d6d6d6
 bulletSprite: goldmod-heShell
-lightning: 3
+lightining: 3
+lightningLength: 20
 fragBullet: {
 type: BasicBulletType
 bulletWidth: 3
@@ -92,7 +94,7 @@ damage: 8
 bulletSprite: shell
 lifetime: 30
 speed: 2
-}}}
+}}} 
 requirements: [
 copper/20
 goldIngot/20
