@@ -92,7 +92,7 @@ fragBullet: {
 type: BasicBulletType
 bulletWidth: 3
 bulletHeight: 4
-damage: 8
+damage: 12
 bulletSprite: shell
 lifetime: 30
 speed: 2
