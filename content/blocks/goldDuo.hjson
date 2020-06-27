@@ -55,7 +55,7 @@ damage: 8
 bulletSprite: shell
 lifetime: 30
 speed: 2
-}
+}} 
 apShell2: {
 type: BasicBulletType
 bulletWidth: 9
