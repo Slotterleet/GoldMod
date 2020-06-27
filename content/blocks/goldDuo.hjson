@@ -5,6 +5,8 @@ health: 1200
 size: 1
 hasItems: true
 hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 10
 range: 116
 reload: 20
 inaccuracy: 2
