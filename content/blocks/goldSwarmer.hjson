@@ -1,1 +1,10 @@
-
+type: ItemTurret
+name: Gold Swarmer
+description: An improved version of the Swarmer. Uses rockets as ammo. 
+requirements: [
+graphite/35
+titanium/35
+plastanium/45
+silicon/30
+goldIngot/50
+]
