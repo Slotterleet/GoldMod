@@ -1,1 +1,108 @@
-
+type: BurstTurret
+name: Gold Salvo
+description: An improved version of the Salvo.
+requirements: [
+copper/105
+graphite/95
+titanium/60
+goldIngot/75
+]
+health: 960
+size: 2
+range: 150
+reload: 30
+restitution: 0.03
+coolantMultiplier: 20
+ammoEjectBack: 3
+cooldown: 0.03
+recoil: 3
+shootShake: 2
+burstSpacing: 3
+shots: 4
+ammoUseEffect: shellEjectBig
+shootSound: shootBig
+ammo: {
+goldCrushed: {
+lifetime: 60
+speed: 3
+ammoMultiplier: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 20
+bulletWidth: 9
+bulletHeight: 12
+} 
+apShell1: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 60
+speed: 3
+damage: 60
+ammoMultiplier: 1
+bulletSprite: goldmod-apShell
+frontColor: F0E4A8
+backColor: deae66
+} 
+heShell1: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 60
+speed: 3
+damage: 30
+splashDamage: 15
+splashDamageRadius: 16
+fragBullets: 6
+ammoMultiplier: 1
+frontColor: F0E4A8
+backColor: deae66
+bulletSprite: goldmod-heShell
+fragBullet: {
+type: BasicBulletType
+bulletWidth: 3
+bulletHeight: 4
+damage: 8
+bulletSprite: shell
+lifetime: 30
+speed: 2
+}} 
+apShell2: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 60
+speed: 3
+damage: 90
+ammoMultiplier: 1
+bulletSprite: goldmod-apShell
+frontColor: ffffff
+backColor: d6d6d6
+lightining: 3
+lightningLength: 20
+}
+heShell2: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 60
+speed: 3
+damage: 45
+splashDamage: 20
+splashDamageRadius: 24
+fragBullets: 6
+ammoMultiplier: 1
+frontColor: ffffff
+backColor: d6d6d6
+bulletSprite: goldmod-heShell
+lightining: 3
+lightningLength: 20
+fragBullet: {
+type: BasicBulletType
+bulletWidth: 3
+bulletHeight: 4
+damage: 12
+bulletSprite: shell
+lifetime: 30
+speed: 2
+}}} 
