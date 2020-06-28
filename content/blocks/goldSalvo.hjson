@@ -5,7 +5,7 @@ requirements: [
 copper/105
 graphite/95
 titanium/60
-goldIngot/75
+goldIngot/80
 ]
 health: 960
 size: 2
