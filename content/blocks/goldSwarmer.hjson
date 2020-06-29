@@ -33,5 +33,18 @@ hitEffect: blastExplosion
 status: burning
 } 
 rocket2: {
-
+type: MissileBulletType
+bulletWidth: 8
+bulletHeight: 8
+bulletShrink: 0
+drag: -0.01
+splashDamageRadius: 48
+splashDamage: 80
+damage: 30
+ammoMultiplier: 1
+lifetime: 150
+hitEffect: blastExplosion
+status: burning
+lightining: 3
+lightningLength: 20
 }} 
