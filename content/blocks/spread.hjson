@@ -115,4 +115,4 @@ optional: true
 booster: true
 }}
 category: turret
-research: scatter
+research: shinyAlloySmelter
