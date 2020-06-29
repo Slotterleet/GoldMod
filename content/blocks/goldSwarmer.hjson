@@ -1,4 +1,4 @@
-type: ItemTurret
+type: BurstTurret
 name: Gold Swarmer
 description: An improved version of the Swarmer. Uses rockets as ammo. 
 requirements: [
@@ -8,3 +8,30 @@ plastanium/45
 silicon/30
 goldIngot/50
 ]
+reload: 40
+shots: 4
+burstSpacing: 5
+inaccuracy: 10
+range: 185
+xRand: 6
+size: 2
+health: 3600
+shootSound: missile
+ammo: {
+rocket1: {
+type: MissileBulletType
+bulletWidth: 8
+bulletHeight: 8
+bulletShrink: 0
+drag: -0.01
+splashDamageRadius: 32
+splashDamage: 60
+damage: 15
+ammoMultiplier: 1
+lifetime: 150
+hitEffect: blastExplosion
+status: burning
+} 
+rocket2: {
+
+}} 
