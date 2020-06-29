@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Gold Scatter
+name: Spread
 description: An opposite of Scatter-type turrets. Targets ground units. 
 health: 2400
 coolantMultiplier: 40
@@ -11,7 +11,7 @@ liquidCapacity: 10
 requirements: [
 copper/75
 lead/50
-goldIngot/50
+shinyAlloy/50
 ]
 ammo: {
 scrap: flakScrap
