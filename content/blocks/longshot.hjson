@@ -7,14 +7,14 @@ hasItems: true
 hasLiquids: true
 itemCapacity: 10
 liquidCapacity: 10
-range: 720
+range: 360
 reload: 120
 inaccuracy: 0
 shots: 1
 coolantMultiplier: 40
 ammo: {
 goldCrushed: {
-lifetime: 60
+lifetime: 30
 speed: 12
 ammoMultiplier: 2
 shootEffect: shootSmall
@@ -27,7 +27,7 @@ apShell1: {
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
-lifetime: 60
+lifetime: 30
 speed: 12
 damage: 120
 ammoMultiplier: 1
@@ -39,7 +39,7 @@ apShell2: {
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
-lifetime: 60
+lifetime: 30
 speed: 12
 damage: 180
 ammoMultiplier: 1
