@@ -3,7 +3,7 @@ description: Produces Golden Fortresses.
 type: UnitFactory
 unitType: goldenFortress
 size: 3
-produceTime: 1500
+produceTime: 1800
 consumes: {
   power: 0.5
   items: {
