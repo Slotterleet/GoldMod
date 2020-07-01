@@ -73,6 +73,6 @@ damage: 12
 bulletSprite: shell
 lifetime: 30
 speed: 2
-}}
+}}} 
 category: turret
 research: hail
