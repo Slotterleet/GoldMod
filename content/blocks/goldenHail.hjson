@@ -1,1 +1,76 @@
-
+type: ArtilleryTurret
+name: Golden Hail
+description: An improved version of the Hail. 
+requirements: [
+copper/40
+graphite/20
+goldIngot/20
+]
+reload: 60
+recoil: 2
+range: 230
+inaccuracy: 1
+shootCone: 10
+health: 780
+shootSound: artillery
+coolantMultiplier: 40
+ammo: {
+goldCrushed: {
+lifetime: 80
+speed: 3
+ammoMultiplier: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 20
+bulletWidth: 9
+bulletHeight: 9
+bulletSprite: shell
+} 
+heShell1: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 80
+speed: 3
+damage: 30
+splashDamage: 15
+splashDamageRadius: 16
+fragBullets: 6
+ammoMultiplier: 1
+frontColor: F0E4A8
+backColor: deae66
+bulletSprite: goldmod-heShell
+fragBullet: {
+type: BasicBulletType
+bulletWidth: 3
+bulletHeight: 4
+damage: 8
+bulletSprite: shell
+lifetime: 30
+speed: 2
+}} 
+heShell2: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 80
+speed: 3
+damage: 45
+splashDamage: 20
+splashDamageRadius: 24
+fragBullets: 6
+ammoMultiplier: 1
+frontColor: ffffff
+backColor: d6d6d6
+bulletSprite: goldmod-heShell
+lightining: 3
+lightningLength: 20
+fragBullet: {
+type: BasicBulletType
+bulletWidth: 3
+bulletHeight: 4
+damage: 12
+bulletSprite: shell
+lifetime: 30
+speed: 2
+}}
