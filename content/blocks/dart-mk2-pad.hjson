@@ -11,5 +11,8 @@ copper/100
 lead/100
 graphite/125
 ]
+consumes: {
+power: 1.2
+}
 category: upgrade
 research: shinyAlloySmelter
