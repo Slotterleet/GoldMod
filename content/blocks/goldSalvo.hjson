@@ -108,3 +108,10 @@ speed: 2
 }}} 
 category: turret
 research: salvo
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.1
+optional: true
+booster: true
+}}
