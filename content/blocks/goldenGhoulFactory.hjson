@@ -10,7 +10,7 @@ consumes: {
     items: [
       silicon/12
 titanium/10
-      goldIngot/3
+      goldIngot/10
     ]
   }
 }
