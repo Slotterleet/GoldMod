@@ -1,0 +1,24 @@
+name: Golden Ghoul Factory
+description: Produces Golden Ghouls.
+type: UnitFactory
+unitType: goldenGhoul
+size: 3
+produceTime: 1500
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/12
+titanium/10
+      goldIngot/3
+    ]
+  }
+}
+category: units
+research: ghoul-factory
+requirements: [
+  goldIngot/75
+  silicon/115
+  lead/150
+titanium/100
+]
