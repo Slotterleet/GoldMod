@@ -33,7 +33,7 @@ bulletHeight: 12
 lifetime: 80
 speed: 3
 damage: 30
-splashDamage: 15
+splashDamage: 30
 splashDamageRadius: 16
 fragBullets: 6
 ammoMultiplier: 1
@@ -56,7 +56,7 @@ bulletHeight: 12
 lifetime: 80
 speed: 3
 damage: 45
-splashDamage: 20
+splashDamage: 40
 splashDamageRadius: 24
 fragBullets: 6
 ammoMultiplier: 1
