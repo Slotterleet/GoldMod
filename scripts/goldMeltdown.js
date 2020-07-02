@@ -1,5 +1,5 @@
 const tmpColor = new Color();
-const colors = [Color.valueOf("ec745855"), Color.valueOf("b099eb"), Color.valueOf("d2c9eb"), Color.white];
+const colors = [Color.valueOf("ec745855"), Color.valueOf("ec7458aa"), Color.valueOf("ff9c5a"), Color.white];
 const tscales = [1, 0.7, 0.5, 0.2];
 const strokes = [2, 1.5, 1, 0.3];
 const lenscales = [1, 1.12, 1.15, 1.17];
