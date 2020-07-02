@@ -20,13 +20,14 @@ shootSound: missile
 ammo: {
 rocket1: {
 type: MissileBulletType
+speed: 2.7f
 bulletWidth: 8
 bulletHeight: 8
 bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 32
-splashDamage: 60
-damage: 15
+splashDamage: 90
+damage: 22.5
 ammoMultiplier: 1
 lifetime: 150
 hitEffect: blastExplosion
@@ -34,13 +35,14 @@ status: burning
 } 
 rocket2: {
 type: MissileBulletType
+speed: 2.7f
 bulletWidth: 8
 bulletHeight: 8
 bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 48
-splashDamage: 80
-damage: 30
+splashDamage: 120
+damage: 45
 ammoMultiplier: 1
 lifetime: 150
 hitEffect: blastExplosion
