@@ -40,17 +40,11 @@ gmdLaser.collides = true;
 gmdLaser.collidesGround = true;
 gmdLaser.collidesAir = true;
 gmdLaser.collidesTiles = true;
-gmdLaser.damage = 70;
+gmdLaser.damage = 210;
 gmdLaser.shootEffect = Fx.none;
 gmdLaser.smokeEffect = Fx.none;
 gmdLaser.despawnEffect = Fx.none;
 gmdLaser.hitEffect = Fx.none;
-
-const gmdSquare = newEffect(18, h => {
-  Draw.alpha(0.6);
-  Draw.color(colors[3], colors[1], 0.2);
-  Lines.square(h.x, h.y, h.fout() * 16);
-});
 
 const goldmeltdown = extendContent(LaserTurret, "goldMeltdown", {
   load(){
@@ -63,12 +57,6 @@ const goldmeltdown = extendContent(LaserTurret, "goldMeltdown", {
   draw(tile){
     Draw.rect(this.baseRegion, tile.drawx(), tile.drawy())
     Draw.color();
-
-    if(tile.entity.power.status > 0.0001){
-      if(Mathf.chance(0.005)){
-        Effects.effect(gmdSquare, tile.drawx(), tile.drawy())
-      }
-    }
   }
 });
 
