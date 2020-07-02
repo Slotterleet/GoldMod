@@ -83,3 +83,10 @@ speed: 2
 }}} 
 category: turret
 research: ripple
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.2
+optional: true
+booster: true
+}}
