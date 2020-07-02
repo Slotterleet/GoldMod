@@ -47,4 +47,6 @@ hitEffect: blastExplosion
 status: burning
 lightining: 3
 lightningLength: 20
-}} 
+}}
+category: turret
+research: swarmer
