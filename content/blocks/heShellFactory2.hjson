@@ -3,7 +3,7 @@ name: HE Shell II Factory
 description: Produces second-tier high explosive shells.
 size: 2 
 consumes: {
-power: 0.15
+power: 1.5
 items: {
 items: [
 heShell1/3
