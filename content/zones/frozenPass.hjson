@@ -1,0 +1,34 @@
+name: Frozen Pass
+description: A place between ice and stone, occupied by our recent enemy. Looks like they actively produce shiny alloy there. You can't go further until you destroy their outpost.
+startingItems: [
+copper/500
+lead/500
+graphite/250
+silicon/250
+metaglass/250
+titanium/250
+goldIngot/100
+]
+configureObjective: {
+type: Launched
+zone: frozenPass
+} 
+requirements: [
+{type: Unlock
+block: shinyAlloySmelter} 
+{type: ZoneWave
+zone: cavern-retreat
+wave: 30}
+{type: ZoneWave
+zone: groundOne
+wave: 30}
+]
+resources: [
+copper
+lead
+coal
+scrap
+titanium
+thorium
+goldOre
+] 
