@@ -14,14 +14,20 @@ type: Launched
 zone: frozenPass
 } 
 requirements: [
-{type: Unlock
-block: shinyAlloySmelter} 
-{type: ZoneWave
+{
+type: Unlock
+block: shinyAlloySmelter
+} 
+{
+type: ZoneWave
 zone: cavern-retreat
-wave: 30}
-{type: ZoneWave
+wave: 30
+}
+{
+type: ZoneWave
 zone: groundOne
-wave: 30}
+wave: 30
+}
 ]
 resources: [
 copper
