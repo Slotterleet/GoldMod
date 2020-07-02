@@ -40,8 +40,8 @@ bulletWidth: 9
 bulletHeight: 12
 lifetime: 100
 speed: 3
-damage: 30
-splashDamage: 30
+damage: 45
+splashDamage: 45
 splashDamageRadius: 16
 fragBullets: 6
 ammoMultiplier: 1
@@ -52,7 +52,7 @@ fragBullet: {
 type: BasicBulletType
 bulletWidth: 3
 bulletHeight: 4
-damage: 8
+damage:12
 bulletSprite: shell
 lifetime: 30
 speed: 2
@@ -63,8 +63,8 @@ bulletWidth: 9
 bulletHeight: 12
 lifetime: 100
 speed: 3
-damage: 45
-splashDamage: 40
+damage: 67.5
+splashDamage: 60
 splashDamageRadius: 24
 fragBullets: 6
 ammoMultiplier: 1
@@ -77,7 +77,7 @@ fragBullet: {
 type: BasicBulletType
 bulletWidth: 3
 bulletHeight: 4
-damage: 12
+damage: 18
 bulletSprite: shell
 lifetime: 30
 speed: 2
