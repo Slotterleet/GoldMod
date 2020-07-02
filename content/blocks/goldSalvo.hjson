@@ -38,7 +38,7 @@ bulletWidth: 9
 bulletHeight: 12
 lifetime: 60
 speed: 3
-damage: 60
+damage: 90
 ammoMultiplier: 1
 bulletSprite: goldmod-apShell
 frontColor: F0E4A8
@@ -50,8 +50,8 @@ bulletWidth: 9
 bulletHeight: 12
 lifetime: 60
 speed: 3
-damage: 30
-splashDamage: 15
+damage: 45
+splashDamage: 22.5
 splashDamageRadius: 16
 fragBullets: 6
 ammoMultiplier: 1
@@ -62,7 +62,7 @@ fragBullet: {
 type: BasicBulletType
 bulletWidth: 3
 bulletHeight: 4
-damage: 8
+damage: 12
 bulletSprite: shell
 lifetime: 30
 speed: 2
@@ -73,7 +73,7 @@ bulletWidth: 9
 bulletHeight: 12
 lifetime: 60
 speed: 3
-damage: 90
+damage: 135
 ammoMultiplier: 1
 bulletSprite: goldmod-apShell
 frontColor: ffffff
@@ -87,8 +87,8 @@ bulletWidth: 9
 bulletHeight: 12
 lifetime: 60
 speed: 3
-damage: 45
-splashDamage: 20
+damage: 67.5
+splashDamage: 30
 splashDamageRadius: 24
 fragBullets: 6
 ammoMultiplier: 1
@@ -101,7 +101,7 @@ fragBullet: {
 type: BasicBulletType
 bulletWidth: 3
 bulletHeight: 4
-damage: 12
+damage: 18
 bulletSprite: shell
 lifetime: 30
 speed: 2
