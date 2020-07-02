@@ -1,18 +1,14 @@
 const tmpColor = new Color();
-const colors = [Color.valueOf("8a63eb"), Color.valueOf("b099eb"), Color.valueOf("d2c9eb"), Color.white];
-const tscales = [0.8, 0.6, 0.5, 0.2];
-const strokes = [1.6, 1.3, 0.7, 0.2];
-const lenscales = [1, 1.1, 1.13, 1.15];
-const length = 210;
+const colors = [Color.valueOf("ec745855"), Color.valueOf("b099eb"), Color.valueOf("d2c9eb"), Color.white];
+const tscales = [1, 0.7, 0.5, 0.2];
+const strokes = [2, 1.5, 1, 0.3];
+const lenscales = [1, 1.12, 1.15, 1.17];
+const length = 220;
 
 const gmdLaser = extend(BasicBulletType, {
   update(b){
     if(b.timer.get(1, 5)){
       Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x, b.y, b.rot(), length, true);
-    }
-
-    if(Mathf.chance(0.9)){
-      Lightning.create(b.getTeam(), colors[2], Mathf.random(2, 7), b.x, b.y, Mathf.random(360), Mathf.random(10, 18));
     }
   },
   draw(b){
