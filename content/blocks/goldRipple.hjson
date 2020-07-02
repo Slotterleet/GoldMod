@@ -28,7 +28,8 @@ speed: 3
 ammoMultiplier: 2
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
-damage: 20
+splashDamage: 20
+splashDamageRadius: 12
 bulletWidth: 9
 bulletHeight: 9
 bulletSprite: shell
