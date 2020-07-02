@@ -1,7 +1,7 @@
 name: Gold Ridge
 description: On a very remote ridge lies lots of gold ore pockets scattered on the nearest ridge below and also on the mouth of a cave, but be careful, it was heavily occupied by it's still defending occupant, use this to your advantage and mine as many gold as you can
 loadout: basicFoundation
-condtitonWave: 15
+condtitionWave: 15
 launchPeriod: 20
 requirements: [
 {
