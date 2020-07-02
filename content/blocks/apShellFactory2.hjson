@@ -3,7 +3,7 @@ name: AP Shell II Factory
 description: Produces second-tier armor piercing shells. 
 size: 2
 consumes: {
-power: 0.15
+power: 1.5
 items: {
 items: [
 apShell1/3
