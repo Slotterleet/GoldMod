@@ -3,7 +3,7 @@ name: Rocket II Factory
 description: Produces second-tier rockets. 
 size: 2
 consumes: {
-power: 0.15
+power: 1.5
 items: {
 items: [
 rocket1/3
