@@ -3,7 +3,7 @@
 	targetAir: true
 	targetGround: true
 powerUse: 23
-coolantMultiplier: 40
+coolantMultiplier: 20
 	health: 6000
 	size: 4
 hasPower: true
