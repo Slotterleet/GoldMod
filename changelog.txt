@@ -1,3 +1,37 @@
+v1.1 "Arms Race":
+New items:
+    - AP Shell I
+    - AP Shell II
+    - HE Shell I
+    - HE Shell II
+    - Rocket I
+    - Rocket II
+New units:
+    - Deadeye
+    - Golden Titan
+    - Golden Fortress
+    - Golden Wraith
+    - Golden Ghoul
+    - Golden Revenant
+    - Golden Chaos Array
+    - Golden Lich
+    - Golden Reaper
+New blocks: 
+    - Factories of things mentioned above (excluding chaos array, lich and reaper) 
+    - Gold Hail
+    - Gold Ripple
+    - Gold Salvo
+    - Spread
+    - Longshot
+New zones:
+    - Gold Ridge (by GlitchyShipBoi) 
+    - Cavern Retreat (by GlitchyShipBoi) 
+    - Frozen Pass
+Fixes:
+    - Dart Mk. II pad now needs power to work
+    - Dart Mk. II can now mine and build
+    - Gold Meltdown now shoots 1 laser instead of 5; DPS changed to 2520
+
 v1.0:
 - Added the Eradicator's Lair and Ground One
 - Added a new boss, the Golden Eradicator

@@ -1,5 +1,5 @@
 name: Golden Crawler Factory
-description: Produces the Golden Crawlers.
+description: Produces Golden Crawlers.
 type: UnitFactory
 unitType: goldenCrawler
 size: 2

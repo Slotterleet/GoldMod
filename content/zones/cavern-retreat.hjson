@@ -1,0 +1,34 @@
+name: Cavern Retreat
+description: You got chased by hordes of enemies, and thus led you to a cavern filled with many possible ways the enemy's could attack, defend yourselves!
+loadout: basicFoundation
+conditionWave: 30
+launchPeriod: 15
+requirements: [
+{
+type: ZoneWave
+zone: gold-ridge
+wave: 35
+}
+{
+type: Unlock
+block: goldCrusher
+}
+{
+type: Unlock
+block: goldDuo
+}
+{
+type: Unlock
+block: goldScatter
+}
+]
+resources: [
+copper
+lead
+coal
+titanium
+thorium
+scrap
+sand
+goldOre
+]

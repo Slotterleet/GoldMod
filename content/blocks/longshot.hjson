@@ -1,0 +1,66 @@
+type: ItemTurret
+name: Longshot
+description: A sniper turret. Very large damage, but low fire rate. 
+health: 3600
+size: 3
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 10
+range: 360
+reload: 120
+inaccuracy: 0
+shots: 1
+coolantMultiplier: 40
+ammo: {
+goldCrushed: {
+lifetime: 30
+speed: 12
+ammoMultiplier: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 40
+bulletWidth: 9
+bulletHeight: 12
+} 
+apShell1: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 30
+speed: 12
+damage: 120
+ammoMultiplier: 1
+bulletSprite: goldmod-apShell
+frontColor: F0E4A8
+backColor: deae66
+} 
+apShell2: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 30
+speed: 12
+damage: 180
+ammoMultiplier: 1
+bulletSprite: goldmod-apShell
+frontColor: ffffff
+backColor: d6d6d6
+lightining: 3
+lightningLength: 20
+}} 
+requirements: [
+lead/100
+graphite/75
+plastanium/50
+shinyAlloy/75
+]
+category: turret
+research: shinyAlloySmelter
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.1
+optional: true
+booster: true
+}}

@@ -1,0 +1,4 @@
+type: resource
+name: Rocket II
+description: A second-tier rocket. Deals average damage in a medium area. Emits lightning arcs if missed.
+color: d6d6d6

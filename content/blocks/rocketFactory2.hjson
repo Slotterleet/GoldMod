@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Rocket II Factory
+description: Produces second-tier rockets. 
+size: 2
+consumes: {
+power: 1.5
+items: {
+items: [
+rocket1/3
+shinyAlloy/1
+]}} 
+outputItem: rocket2/3
+requirements: [
+lead/100
+titanium/100
+graphite/50
+plastanium/75
+goldIngot/100
+shinyAlloy/50
+]
+category: crafting
+research: shinyAlloySmelter

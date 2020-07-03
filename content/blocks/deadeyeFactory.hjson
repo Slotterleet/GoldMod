@@ -1,0 +1,22 @@
+name: Deadeye Factory
+description: Produces powerful sniper units.
+type: UnitFactory
+unitType: deadeye
+size: 2
+produceTime: 1500
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silicon/12
+      shinyAlloy/6
+    ]
+  }
+}
+category: units
+research: shinyAlloySmelter
+requirements: [
+  shinyAlloy/50
+  silicon/50
+  lead/100
+]

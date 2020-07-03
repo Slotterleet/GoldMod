@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: AP Shell I Factory
+description: Produces first-tier armor piercing shells. 
+size: 2
+consumes: {
+power: 1.5
+items: {
+items: [
+goldCrushed/1
+titanium/2
+]}} 
+outputItem: apShell1/2
+requirements: [
+lead/100
+titanium/100
+graphite/50
+silicon/100
+goldIngot/50
+]
+category: crafting
+research: alloy-smelter

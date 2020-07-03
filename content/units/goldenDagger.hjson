@@ -9,9 +9,9 @@ health: 390
 range: 120
 weapon: {
 ejectEffect: shellEjectSmall
-name: goldenDagger-blaster
+name: goldChainBlaster
 length: 1.5
-reload: 10
+reload: 20
 alternate: true
 bullet: standardThorium
 }

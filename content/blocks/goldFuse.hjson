@@ -5,7 +5,6 @@ type: ItemTurret
     targetGround: true
     hasPower: false
     hasLiquids: true 
-    shootType: lancerLaser
     shootSound: fuse
     health: 4800
     size: 3
@@ -13,7 +12,7 @@ type: ItemTurret
     reload: 20
 	shots: 4
     recoil: 1
-    rotateSpeed: 30
+    rotatespeed: 30
     range: 130
 coolantMultiplier: 20
 	ammo: {

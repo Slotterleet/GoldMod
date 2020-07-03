@@ -1,4 +1,3 @@
-type: LaserTurret
 	name: Gold Meltdown
 	description: An improved version of the Meltdown.
 	targetAir: true
@@ -8,19 +7,17 @@ coolantMultiplier: 20
 	health: 6000
 	size: 4
 hasPower: true
-	shootType: meltdownLaser
-inaccuracy: 0
-	reload: 1.2
-	shots: 6
-	recoil: 3
-	ammoUseEffect: shellEjectBig
-	shootCone: 24
-	rotateSpeed: 50
-	chargeTime: 26
-	chargeEffects: 5
-	chargeMaxDelay: 10
-	shootDuration: 310
-	range: 210
+shootEffect: shootBigSmoke2
+shootCone: 40
+recoil: 4
+shootShake: 2
+range: 190
+reload: 80
+firingMoveFract: 0.5
+shootDuration: 220
+shootSound: laserbig
+activeSound: beam
+activeSoundVolume: 2
 	requirements: [
 		goldIngot/200
 		copper/300

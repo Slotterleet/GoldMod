@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: AP Shell II Factory
+description: Produces second-tier armor piercing shells. 
+size: 2
+consumes: {
+power: 1.5
+items: {
+items: [
+apShell1/3
+shinyAlloy/1
+]}} 
+outputItem: apShell2/3
+requirements: [
+lead/100
+titanium/100
+graphite/50
+plastanium/75
+goldIngot/100
+shinyAlloy/50
+]
+category: crafting
+research: shinyAlloySmelter
