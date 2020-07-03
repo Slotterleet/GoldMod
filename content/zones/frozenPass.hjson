@@ -37,7 +37,7 @@ block: rocketFactory1
 {
 type: ZoneWave
 zone: cavern-retreat
-wave: 30
+wave: 20
 }
 {
 type: ZoneWave
