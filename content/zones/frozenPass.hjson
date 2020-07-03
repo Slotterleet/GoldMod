@@ -12,7 +12,8 @@ metaglass/250
 titanium/250
 goldIngot/100
 ]
-configureObjective: {
+configureObjective:
+{
 type: Launched
 zone: frozenPass
 } 
