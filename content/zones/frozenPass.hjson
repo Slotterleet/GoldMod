@@ -1,8 +1,6 @@
 name: Frozen Pass
 description: "A place between ice and stone, occupied by our recent enemy. Looks like they actively produce shiny alloy there. You can't go further until you destroy their outpost."
 loadout: frozenpassLoadout
-conditionWave: 10
-launchPeriod: 10
 startingItems: [
 copper/500
 lead/500
@@ -12,8 +10,7 @@ metaglass/250
 titanium/250
 goldIngot/100
 ]
-configureObjective:
-{
+configureObjective: {
 type: Launched
 zone: frozenPass
 } 
