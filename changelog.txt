@@ -30,7 +30,7 @@ New zones:
 Fixes:
     - Dart Mk. II pad now needs power to work
     - Dart Mk. II can now mine and build
-    - Gold Meltdown now shoots 1 laser instead of shooting 5 lasers at once; DPS changed to 2520
+    - Gold Meltdown now shoots 1 laser instead of 5; DPS changed to 2520
 
 v1.0:
 - Added the Eradicator's Lair and Ground One
