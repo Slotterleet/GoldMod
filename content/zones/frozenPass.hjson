@@ -23,6 +23,7 @@ block: shinyAlloySmelter
 type: Unlock
 block: apShellFactory1
 } 
+{
 type: Unlock
 block: heShellFactory1
 } 
