@@ -16,6 +16,16 @@ zone: frozenPass
 } 
 requirements: [
 {
+type: ZoneWave
+zone: cavern-retreat
+wave: 20
+}
+{
+type: ZoneWave
+zone: groundOne
+wave: 30
+}
+{
 type: Unlock
 block: shinyAlloySmelter
 } 
@@ -30,16 +40,6 @@ block: heShellFactory1
 {
 type: Unlock
 block: rocketFactory1
-}
-{
-type: ZoneWave
-zone: cavern-retreat
-wave: 20
-}
-{
-type: ZoneWave
-zone: groundOne
-wave: 30
 }
 ]
 resources: [
