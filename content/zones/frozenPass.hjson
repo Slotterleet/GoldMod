@@ -20,6 +20,17 @@ type: Unlock
 block: shinyAlloySmelter
 } 
 {
+type: Unlock
+block: apShellFactory1
+} 
+type: Unlock
+block: heShellFactory1
+} 
+{
+type: Unlock
+block: rocketFactory1
+}
+{
 type: ZoneWave
 zone: cavern-retreat
 wave: 30
