@@ -9,10 +9,6 @@ type: ZoneWave
 zone: abandonedDesert
 wave: 30
 }
-{
-type: Launched
-zone: saltFlats
-}
 ]
 resources: [
 copper
