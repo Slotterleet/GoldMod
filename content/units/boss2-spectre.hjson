@@ -22,7 +22,7 @@ reload: 6
 width: 22
 inaccuracy: 3
 alternate: true
-ejectEffect: ShellEjectBig
+ejectEffect: shellEjectBig
 velocityRnd: 0.2
 bullet: standardThoriumBig
 shootSound: shootBig
