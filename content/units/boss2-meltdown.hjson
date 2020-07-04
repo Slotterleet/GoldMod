@@ -1,1 +1,30 @@
-
+type: HoverUnit
+name: Lich Bros
+description: "These terryfing units coordinate together to conquer territories.\nThe second boss of the Gold Mod."
+health: 20000
+mass: 25
+hitsize: 40
+speed: 0.01
+maxVelocity: 0.6
+drag: 0.02
+range: 190
+shootCone: 40
+flying: true
+rotateWeapon: true
+engineOffset: 21
+engineSize: 5.3
+rotatespeed: 0.1
+baseRotateSpeed: 0.04
+weapon: {
+name: boss2
+length: 4
+reload: 80
+width: 22
+inaccuracy: 3
+alternate: true
+shootEffect: shootBigSmoke2
+velocityRnd: 0.2
+bullet: meltdownLaser
+shootSound: laserbig
+shootShake: 2
+} 
