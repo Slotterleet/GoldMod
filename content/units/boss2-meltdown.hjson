@@ -1,6 +1,6 @@
 type: HoverUnit
 name: Lich Bros
-description: "These terryfing units coordinate together to conquer territories.\nThe second boss of the Gold Mod."
+description: "These terryfing machines coordinate together to conquer territories.\nThe second boss of the Gold Mod."
 health: 20000
 mass: 25
 hitsize: 40
@@ -23,7 +23,6 @@ width: 22
 inaccuracy: 3
 alternate: true
 shootEffect: shootBigSmoke2
-velocityRnd: 0.2
 bullet: meltdownLaser
 shootSound: laserbig
 shootShake: 2
