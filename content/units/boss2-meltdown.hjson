@@ -21,7 +21,7 @@ length: 4
 reload: 80
 width: 22
 inaccuracy: 3
-alternate: true
+alternate: false
 shootEffect: shootBigSmoke2
 bullet: meltdownLaser
 shootSound: laserbig
