@@ -24,7 +24,7 @@ width: 22
 inaccuracy: 3
 alternate: false
 shootEffect: shootBigSmoke2
-bullet: meltdownLaser
+shootType: meltdownLaser
 shootSound: laserbig
 shootShake: 2
 } 
