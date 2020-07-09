@@ -47,14 +47,16 @@ const boss = extendContent(HoverUnit, "boss2-meltdown", {
     this.super$load();
 
     this.region = Core.atlas.find(this.name);
-    this.weaponRegion = Core.atlas.find("boss2-blaster");
-  },
-
-  draw(tile){
-    Draw.rect(this.weaponRegion, tile.drawx(), tile.drawy())
-    Draw.color();
   }
 });
 
 boss.Weapon.bullet = bosslaser;
+boss.Weapon.name = "boss2";
+boss.Weapon.length = 4;
+boss.Weapon.width = 22;
+boss.Weapon.reload = 80;
+boss.Weapon.inaccuracy = 3;
+boss.Weapon.alternate = true;
+boss.Weapon.shootSound = Sounds.laserbig;
+boss.Weapon.shootShake = 2;
 boss.update = true;
