@@ -15,13 +15,3 @@ engineOffset: 21
 engineSize: 5.3
 rotatespeed: 0.1
 baseRotateSpeed: 0.04
-weapon: {
-name: boss2
-length: 4
-reload: 80
-width: 22
-inaccuracy: 3
-alternate: false
-shootSound: laserbig
-shootShake: 2
-} 
