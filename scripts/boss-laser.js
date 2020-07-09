@@ -56,5 +56,5 @@ const boss = extendContent(HoverUnit, "boss2-meltdown", {
   }
 });
 
-boss.weapon.bullet = bosslaser;
+boss.Weapon.bullet = bosslaser;
 boss.update = true;
