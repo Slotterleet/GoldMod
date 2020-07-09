@@ -1,0 +1,11 @@
+type: DeflectorWall
+name: Large Palladium Wall
+description: A tough wall which deflects most bullets upon contact. Spans multiple tiles. 
+maxDamageDeflect: 50
+health: 8000
+size: 2
+requirements: [
+palladium/24
+]
+category: defense
+research: palladiumWall
