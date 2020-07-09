@@ -27,4 +27,5 @@ shootEffect: shootBigSmoke2
 shootType: meltdownLaser
 shootSound: laserbig
 shootShake: 2
+bullet: meltdownLaser
 } 
