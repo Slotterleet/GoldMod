@@ -57,7 +57,7 @@ bossweapon.alternate = true;
 bossweapon.shootSound = Sounds.laserbig;
 bossweapon.shootShake = 2;
 
-const boss = extendContent(HoverUnit, "boss2-meltdown", {
+const boss = extendContent(UnitType, "boss2-meltdown", {
   load(){
     this.weapon.load();
     this.region = Core.atlas.find(this.name);
