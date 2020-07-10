@@ -1,3 +1,4 @@
+type: HoverUnit
 name: Lich Bros
 description: "These terryfing machines coordinate together to conquer territories.\nThe second boss of the Gold Mod."
 health: 20000
