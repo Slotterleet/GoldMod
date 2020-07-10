@@ -32,32 +32,51 @@ Fixes:
     - Dart Mk. II can now mine and build
     - Gold Meltdown now shoots 1 laser instead of 5; DPS changed to 2520
 
-v1.0:
-- Added the Eradicator's Lair and Ground One
-- Added a new boss, the Golden Eradicator
-- Added the Ghost Miner Drone and their factory (suggested by [hb] Kapzduke) 
-- Added Dart Mk. II and their pad
-- Added two new items: Research Point and Shiny Alloy
-- Added a new branch to the tech tree
-- Added a Shiny Alloy Smelter
-- Added the Gold Spectre
-- Added Shiny Walls
-- Added the Shiny Drill, an improved airblast drill (suggested by [hb] Kapzduke) 
-- Fixed turrets' booster multipliers
-- Updated Crushed Gold sprite (artist: [hb] Kapzduke) 
-- Updated Gold Drill Station sprites (artist: kostyan) 
-- Updated Gold Forge sprite (artist: kostyan) 
-- Removed Gold Crusher's script and updated its sprite
+v1.0 "Release":
+New items:
+    - Research Point
+    - Shiny Alloy
+New units:
+    - Ghost Miner Drone (suggested by [hb] Kapzduke)
+    - Golden Eradicator
+New mechs:
+    - Dart Mk. II
+New blocks:
+    - Gost Mined Drone Factory
+    - Dart Mk. II Ship Pad
+    - Shiny Alloy Smelter
+    - Gold Spectre
+    - Shiny Walls
+    - Shiny Drill (suggested by [hb] Kapzduke)
+New zones:
+    - Eradicator's Lair
+    - Ground One
+Fixes:
+    - New branch to the tech tree
+    - Fixed turrets' booster multipliers
+    - Updated Crushed Gold sprite (artist: [hb] Kapzduke) 
+    - Updated Gold Drill Station sprites (artist: kostyan) 
+    - Updated Gold Forge sprite (artist: kostyan) 
+    - Removed Gold Crusher's script and updated its sprite
 
-v0.6.1:
-- Fixed Gold Duo's range
+v0.6.1 "Small fix":
+Fixes:
+    - Fixed Gold Duo's range
 
-v0.6:
-- Changed some descriptions
-- Added Golden Crawler and their factory
-- Added Crushed Gold (artist: FFirtes) and Gold Crusher
-- Gold Ore and Gold Crucible sprites have been updated (artist: VozDuh)
-- Added Gold Duo and Gold Scatter
-- Added a new survival zone
-- Gold Fuse (Nerf): Lasers per shot decreased to 4
-- A lot of various minor fixes
+v0.6 "I HAVE NO IDEA"
+New items:
+    - Crushed Gold (artist: FFirtes)
+New units:
+    - Golden Crawler
+New blocks:
+    - Golden Crawler Factory
+    - Gold Crusher
+    - Gold Duo
+    - Gold Scatter
+New zones:
+    - I DO NOT KNOW
+Fixes:
+    - Changed some descriptions
+    - Gold Ore and Gold Crucible sprites have been updated (artist: VozDuh)
+    - Gold Fuse nerf: Lasers per shot decreased to 4
+    - A lot of various minor fixes
