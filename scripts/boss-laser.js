@@ -65,3 +65,5 @@ const boss = extendContent(UnitType, "boss2-meltdown", {
 });
 
 boss.weapon = bossweapon;
+
+boss.create(prov(() => extend(HoverUnit, {})));
