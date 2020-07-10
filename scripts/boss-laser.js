@@ -42,22 +42,26 @@ bosslaser.smokeEffect = Fx.none;
 bosslaser.despawnEffect = Fx.none;
 bosslaser.hitEffect = Fx.none;
 
+
+const bossweapon = extendContent(Weapon, "boss2", {
+  load: function(){
+    this.region = Core.atlas.find("goldmod-boss2-equip");
+  }
+});
+bossweapon.bullet = bosslaser;
+bossweapon.length = 4;
+bossweapon.width = 22;
+bossweapon.reload = 80;
+bossweapon.inaccuracy = 3;
+bossweapon.alternate = true;
+bossweapon.shootSound = Sounds.laserbig;
+bossweapon.shootShake = 2;
+
 const boss = extendContent(HoverUnit, "boss2-meltdown", {
   load(){
-    this.super$load();
-
+    this.weapon.load();
     this.region = Core.atlas.find(this.name);
   }
 });
 
-const weapon = extendContent(Weapon, "boss2", {});
-
-weapon.bullet = bosslaser;
-weapon.length = 4;
-weapon.width = 22;
-weapon.reload = 80;
-weapon.inaccuracy = 3;
-weapon.alternate = true;
-weapon.shootSound = Sounds.laserbig;
-weapon.shootShake = 2;
-boss.update = true;
+boss.weapon = bossweapon;
