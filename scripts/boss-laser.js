@@ -50,15 +50,14 @@ const boss = extendContent(HoverUnit, "boss2-meltdown", {
   }
 });
 
-boss.weapon = extend(Weapon, {});
+const weapon = extendContent(Weapon, "boss2", {});
 
-boss.weapon.bullet = bosslaser;
-boss.weapon.name = "boss2";
-boss.weapon.length = 4;
-boss.weapon.width = 22;
-boss.weapon.reload = 80;
-boss.weapon.inaccuracy = 3;
-boss.weapon.alternate = true;
-boss.weapon.shootSound = Sounds.laserbig;
-boss.weapon.shootShake = 2;
+weapon.bullet = bosslaser;
+weapon.length = 4;
+weapon.width = 22;
+weapon.reload = 80;
+weapon.inaccuracy = 3;
+weapon.alternate = true;
+weapon.shootSound = Sounds.laserbig;
+weapon.shootShake = 2;
 boss.update = true;
