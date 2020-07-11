@@ -32,7 +32,7 @@ const bosslaser = extend(BasicBulletType, {
 
 range(){
   return 190;
-}
+};
 
 bosslaser.speed = 0.01;
 bosslaser.lifetime = 16;
@@ -49,7 +49,6 @@ bosslaser.smokeEffect = Fx.none;
 bosslaser.despawnEffect = Fx.none;
 bosslaser.hitEffect = Fx.none;
 bosslaser.range();
-
 
 const bossweapon = extendContent(Weapon, "boss2", {
   load: function(){
