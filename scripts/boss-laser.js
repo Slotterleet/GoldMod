@@ -12,7 +12,7 @@ const bosslaser = extend(BasicBulletType, {
     }
   }, 
 	range: function(){
-		return 190;
+		return 190.0;
 	},
   draw(b){
     var baseLen = length * b.fout();
