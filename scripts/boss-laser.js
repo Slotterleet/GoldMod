@@ -44,6 +44,7 @@ bosslaser.shootEffect = Fx.none;
 bosslaser.smokeEffect = Fx.none;
 bosslaser.despawnEffect = Fx.none;
 bosslaser.hitEffect = Fx.none;
+bosslaser.keepVelocity = false;
 
 const bossweapon = extendContent(Weapon, "boss2", {
   load: function(){
