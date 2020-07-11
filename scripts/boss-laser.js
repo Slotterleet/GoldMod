@@ -44,7 +44,6 @@ bosslaser.shootEffect = Fx.none;
 bosslaser.smokeEffect = Fx.none;
 bosslaser.despawnEffect = Fx.none;
 bosslaser.hitEffect = Fx.none;
-bosslaser.range();
 
 const bossweapon = extendContent(Weapon, "boss2", {
   load: function(){
@@ -55,7 +54,7 @@ bossweapon.bullet = bosslaser;
 bossweapon.length = 4;
 bossweapon.width = 22;
 bossweapon.reload = 80;
-bossweapon.inaccuracy = 3;
+bossweapon.inaccuracy = 0;
 bossweapon.alternate = true;
 bossweapon.shootSound = Sounds.laserbig;
 bossweapon.shootShake = 2;
