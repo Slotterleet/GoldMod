@@ -10,6 +10,9 @@ const bosslaser = extend(BasicBulletType, {
     if(b.timer.get(1, 5)){
       Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x, b.y, b.rot(), length, true);
     }
+	range: function(){
+		return 190.0;
+	}, 
   },
   draw(b){
     var baseLen = length * b.fout();
@@ -27,6 +30,10 @@ const bosslaser = extend(BasicBulletType, {
   }
 });
 
+range(){
+  return 190;
+}
+
 bosslaser.speed = 0.01;
 bosslaser.lifetime = 16;
 bosslaser.pierce = true;
@@ -41,6 +48,7 @@ bosslaser.shootEffect = Fx.none;
 bosslaser.smokeEffect = Fx.none;
 bosslaser.despawnEffect = Fx.none;
 bosslaser.hitEffect = Fx.none;
+bosslaser.range();
 
 
 const bossweapon = extendContent(Weapon, "boss2", {
