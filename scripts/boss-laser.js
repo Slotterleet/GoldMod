@@ -10,10 +10,10 @@ const bosslaser = extend(BasicBulletType, {
     if(b.timer.get(1, 5)){
       Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x, b.y, b.rot(), length, true);
     }
+  }, 
 	range: function(){
 		return 190.0;
-	}, 
-  },
+	},
   draw(b){
     var baseLen = length * b.fout();
 
