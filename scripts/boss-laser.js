@@ -58,6 +58,7 @@ bossweapon.inaccuracy = 0;
 bossweapon.alternate = true;
 bossweapon.shootSound = Sounds.laserbig;
 bossweapon.shootShake = 2;
+bossweapon.ignoreRotation = true;
 
 const boss = extendContent(UnitType, "boss2-meltdown", {
   load(){
