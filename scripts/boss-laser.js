@@ -67,5 +67,18 @@ const boss = extendContent(UnitType, "boss2-meltdown", {
 });
 
 boss.weapon = bossweapon;
+boss.health = 20000;
+boss.mass = 25;
+boss.hitsize = 40;
+boss.speed = 0.01;
+boss.maxVelocity = 0.6;
+boss.drag = 0.02;
+boss.range = 190;
+boss.flying = true;
+boss.rotateWeapon = false;
+boss.engineOffset = 21;
+boss.engineSize = 5.3;
+boss.rotatespeed = 0.1;
+boss.baseRotateSpeed = 0.04;
 
 boss.create(prov(() => extend(HoverUnit, {})));
