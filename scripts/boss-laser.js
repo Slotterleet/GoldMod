@@ -12,7 +12,7 @@ const bosslaser = extend(BasicBulletType, {
     }
   }, 
 	range: function(){
-		return 190.0;
+		return 220.0;
 	},
   draw(b){
     var baseLen = length * b.fout();
@@ -73,7 +73,7 @@ boss.hitsize = 40;
 boss.speed = 0.01;
 boss.maxVelocity = 0.6;
 boss.drag = 0.02;
-boss.range = 190;
+boss.range = 220;
 boss.flying = true;
 boss.rotateWeapon = false;
 boss.engineOffset = 21;
