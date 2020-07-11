@@ -1,35 +1,39 @@
-const tmpColor = new Color();
-const colors = [Color.valueOf("349e0955"), Color.valueOf("349e09aa"), Color.valueOf("349e09"), Color.white];
-const tscales = [1, 0.7, 0.5, 0.2];
-const strokes = [2, 1.5, 1, 0.3];
-const lenscales = [1, 1.12, 1.15, 1.17];
-const length = 220;
-
 const bosslaser = extend(BasicBulletType, {
-  update(b){
+  update: function(b){
+    Effects.shake(1.2, 1.2, b.x, b.y);
     if(b.timer.get(1, 5)){
-      Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x, b.y, b.rot(), length, true);
+      Damage.collideLine(b, b.getTeam(), this.hitEffect, b.x, b.y, b.rot(), this.laserLength * 1.1, true);
+    };
+  },
+  
+  hit: function(b, hitx, hity){
+    if(hitx != null && hity != null){
+      Effects.effect(this.hitEffect, hitx, hity);
     }
-  }, 
-	range: function(){
-		return 190.0;
-	},
-  draw(b){
-    var baseLen = length * b.fout();
+  },
+  
+  draw: function(b, tile){
+    
+    const tmpColor = new Color();
+    const colors = [Color.valueOf("349e0955"), Color.valueOf("349e09aa"), Color.valueOf("349e09"), Color.white];
+    const tscales = [1, 0.7, 0.5, 0.2];
+    const strokes = [2, 1.5, 1, 0.3];
+    const lenscales = [1, 1.12, 1.15, 1.17];
+    const length = 220;
 
-    Lines.lineAngle(b.x, b.y, b.rot(), baseLen);
-      for(var s = 0; s < colors.length; s++){
-        Draw.color(tmpColor.set(colors[s]).mul(1 + Mathf.absin(Time.time(), 1, 0.1)));
-         for(var i = 0; i < tscales.length; i++){
-           Tmp.v1.trns(b.rot() + 180, (lenscales[i] - 1) * 35);
-           Lines.stroke((9 + Mathf.absin(Time.time(), 0.8, 1.5)) * b.fout() * strokes[s] * tscales[i]);
-           Lines.lineAngle(b.x + Tmp.v1.x, b.y + Tmp.v1.y, b.rot(), baseLen * lenscales[i], CapStyle.none);
-         }
+
+    for(var s = 0; s < 4; s++){
+      Draw.color(tmpColor.set(colors[s]).mul(1.0 + Mathf.absin(Time.time(), 1.2, 0.4)));
+      for(var i = 0; i < 4; i++){
+        Tmp.v1.trns(b.rot() + 180.0, (lenscales[i] - 1.1) * 55.0);
+        Lines.stroke((0.8 + Mathf.absin(Time.time(), 1.7, 3.1)) * b.fout() * strokes[s] * tscales[i]);
+        Lines.lineAngle(b.x + Tmp.v1.x, b.y + Tmp.v1.y, b.rot(), this.laserLength * b.fout() * lenscales[i], CapStyle.none);
       }
-    Draw.reset();
+    };
   }
 });
 
+bosslaser.laserLength = 220;
 bosslaser.speed = 0.01;
 bosslaser.lifetime = 16;
 bosslaser.pierce = true;
