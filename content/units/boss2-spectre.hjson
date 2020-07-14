@@ -31,8 +31,8 @@ bulletWidth: 16
 bulletHeight: 23
 shootEffect: shootBig
 damage: 65
-frontColor: ff6868
-backColor: ff0000
+frontColor: ffffff
+backColor: ff6868
 } 
 shootSound: shootBig
 shootShake: 2
