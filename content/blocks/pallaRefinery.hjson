@@ -9,7 +9,7 @@ power: 2
 liquid: {
 liquid: moltenPalla
 amount: 0.05
-}
+}} 
 results: [
 palladium/24
 pallaEnriched/1
