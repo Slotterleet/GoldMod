@@ -1,6 +1,11 @@
 type: Separator
 name: Palladium Refinery
 description: Used to process molten palladium. Has a very small chance of outputting enriched palladium.
+requirements: [
+lead/100
+titanium/50
+palladium/100
+] 
 liquidCapacity: 10
 craftTime: 60
 consumes: {
