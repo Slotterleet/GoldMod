@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Palladium Smelter
+description: Smelts palladium for use in palladium refinery. 
+health: 100
+size: 1
+consumes: {
+power: 1.5
+items: {
+items: [
+palladium/1
+]}}
+outputLiquid: {
+liquid: moltenPalla
+amount: 2.7
+}
+requirements: [
+copper/50
+lead/50
+palladium/25
+]
+category: crafting
+research: branch-t3
