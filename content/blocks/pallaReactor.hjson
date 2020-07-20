@@ -16,3 +16,13 @@ items: {
 items: [
 pallaEnriched/1
 ]}} 
+requirements: [
+copper/1000
+lead/1000
+thorium/500
+plastanium/500
+shinyAlloy/325
+palladium/250
+]
+category: power
+research: pallaRefinery
