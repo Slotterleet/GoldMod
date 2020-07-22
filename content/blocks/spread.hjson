@@ -101,6 +101,20 @@ bulletSprite: shell
 lifetime: 30
 speed: 2
 }}
+apShell3: {
+type: BasicBulletType
+bulletWidth: 9
+bulletHeight: 12
+lifetime: 60
+speed: 3
+damage: 180
+ammoMultiplier: 1
+bulletSprite: goldmod-apShell
+frontColor: 109ee0
+backColor: 1c7fa6
+homingPower: 1
+homingRange: 40
+}
 heShell3: {
 type: BasicBulletType
 bulletWidth: 9
