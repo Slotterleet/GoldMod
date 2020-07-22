@@ -1,4 +1,4 @@
 type: resource
 name: HE Shell III
-description: A third-tier high explosive shell. Deals large damage in a large area. Its fragments deal average damage. Homing. 
+description: A third-tier high explosive shell. Deals large splash damage in a large area. Its fragments deal average damage. Homing. 
 color: 11a7ed
