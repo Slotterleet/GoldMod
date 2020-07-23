@@ -1,0 +1,15 @@
+type: ForceProjector
+name: Shielded Wall
+description: A modified version of the wall which had been used in the past. Has a built-in shield which absorbs enemy bullets.
+health: 1200
+size: 1
+consumes: {
+power: 2
+}
+radius: 8
+breakage: 400
+requirements: [
+palladium/6
+]
+category: defense
+research: pallaWallLarge
