@@ -20,7 +20,7 @@ speedBoostPhase: 0.9
 phaseRangeBoost: 40
 requirements: [
 titanium/200
-silicon/150
+plastanium/150
 palladium/100
 ]
 category: effect
