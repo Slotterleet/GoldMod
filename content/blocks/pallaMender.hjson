@@ -1,5 +1,5 @@
-type: OverdriveProjector
-name: Palladium Overdrive Projector
+type: MendProjector
+name: Palladium Mend Projector
 description: A better mend projector. Optionally uses enriched palladium to boost range and efficiency. 
 health: 900
 size: 3
