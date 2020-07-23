@@ -7,12 +7,8 @@ consumes: {
 power: 5
 items: {
 items: [
-{
-item: pallaEnriched
-amount: 1
-optional: true
-booster: true
-}]}} 
+pallaEnriched/1
+]}} 
 phase: 3dc2ff
 range: 160
 speedBoost: 2.1
