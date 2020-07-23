@@ -4,6 +4,7 @@ description: A modified version of the wall which had been used in the past. Has
 health: 1200
 size: 1
 consumes: {
+power: 1
 items: {
 items: [
 pallaEnriched/1
