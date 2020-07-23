@@ -12,7 +12,7 @@ pallaEnriched/1
 booster: true
 optional: true
 }} 
-phase: 3dc2ff
+phaseColor: 3dc2ff
 range: 160
 speedBoost: 2.1
 speedBoostPhase: 0.9
