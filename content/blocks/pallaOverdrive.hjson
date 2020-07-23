@@ -1,0 +1,27 @@
+type: OverdriveProjector
+name: Palladium Overdrive Projector
+description: A better overdrive projector. Optionally uses enriched palladium to boost range and efficiency. 
+health: 900
+size: 3
+consumes: {
+power: 5
+items: {
+items: [
+{
+item: pallaEnriched
+amount: 1
+optional: true
+booster: true
+}]} 
+phase: 3dc2ff
+range: 160
+speedBoost: 2.1
+speedBoostPhase: 0.9
+phaseRangeBoost: 40
+requirements: [
+titanium/200
+silicon/150
+palladium/100
+]
+category: effect
+research: branch-t3
