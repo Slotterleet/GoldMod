@@ -8,7 +8,10 @@ power: 3
 items: {
 items: [
 pallaEnriched/1
-]}} 
+]
+booster: true
+optional: true
+}} 
 phase: 3dc2ff
 reload: 240
 range: 160
