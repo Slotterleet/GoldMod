@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Rocket IV Factory
-description: Produces fourth-tier high rockets.
+description: Produces fourth-tier rockets.
 size: 2 
 consumes: {
 power: 1.5
