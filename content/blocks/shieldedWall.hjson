@@ -6,7 +6,7 @@ size: 1
 consumes: {
 power: 2
 items: {
-item: [
+items: [
 pallaEnriched/1
 ]
 optional: true
