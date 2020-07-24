@@ -49,7 +49,7 @@ hitEffect: blastExplosion
 status: burning
 lightining: 3
 lightningLength: 20
-}} 
+}
 rocket3: {
 type: MissileBulletType
 speed: 2.7f
