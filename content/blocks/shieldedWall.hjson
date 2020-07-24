@@ -1,6 +1,6 @@
 type: ForceProjector
 name: Shielded Wall
-description: A modified version of the wall which had been used in the past. Has a built-in shield which absorbs enemy bullets. Optionally uses enriched palladium to slightly increase range. Optionally uses coolant to increase damage absorption. 
+description: A modified version of the wall which had been used in the past. Has a built-in shield which absorbs enemy bullets. Optionally uses enriched palladium to slightly increase range. Optionally uses coolant to increase shield durability. 
 health: 1200
 size: 1
 consumes: {
