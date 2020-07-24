@@ -89,5 +89,6 @@ liquid: moltenGold
 amount: 0.2
 booster: true
 optional: true
+}} 
 category: turret
 research: swarmer
