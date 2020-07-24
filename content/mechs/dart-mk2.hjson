@@ -2,7 +2,7 @@ name: Dart Mk. II
 description: A normal Dart ship, but well-armored and well-armed.
 flying: true
 health: 500
-speed: 3
+speed: 1
 maxVelocity: 4
 drag: 0.01
 buildPower: 1.1
