@@ -1,0 +1,27 @@
+type: MendProjector
+name: Palladium Mend Projector
+description: A better mend projector. Optionally uses enriched palladium to boost range and efficiency. 
+health: 900
+size: 3
+consumes: {
+power: 3
+items: {
+items: [
+pallaEnriched/1
+]
+booster: true
+optional: true
+}} 
+phaseColor: 3dc2ff
+reload: 240
+range: 160
+healPercent: 30
+phaseBoost: 20
+phaseRangeBoost: 40
+requirements: [
+titanium/200
+silicon/150
+palladium/100
+]
+category: effect
+research: branch-t3

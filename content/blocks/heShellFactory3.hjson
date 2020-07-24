@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: HE Shell III Factory
+description: Produces third-tier high explosive shells.
+size: 2 
+consumes: {
+power: 1.5
+items: {
+items: [
+heShell2/3
+palladium/1
+]}} 
+outputItem: heShell3/3
+requirements: [
+lead/100
+titanium/100
+graphite/50
+plastanium/75
+goldIngot/150
+shinyAlloy/100
+palladium/50
+]
+category: crafting
+research: branch-t3

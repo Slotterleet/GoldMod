@@ -11,7 +11,7 @@ weapon: {
 ejectEffect: shellEjectSmall
 name: sniperRifle
 length: 1.5
-reload: 120
+reload: 240
 alternate: true
 bullet: {
 type: BasicBulletType
@@ -23,4 +23,5 @@ damage: 120
 bulletSprite: goldmod-apShell
 frontColor: F0E4A8
 backColor: deae66
+shootSound: shoot
 }} 

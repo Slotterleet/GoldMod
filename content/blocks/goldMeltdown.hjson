@@ -1,11 +1,9 @@
-	name: Gold Meltdown
-	description: An improved version of the Meltdown.
-	targetAir: true
-	targetGround: true
+targetAir: true
+targetGround: true
 powerUse: 23
 coolantMultiplier: 20
-	health: 6000
-	size: 4
+health: 6000
+size: 4
 hasPower: true
 shootEffect: shootBigSmoke2
 shootCone: 40

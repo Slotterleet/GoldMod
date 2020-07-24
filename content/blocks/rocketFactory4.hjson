@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Rocket IV Factory
+description: Produces fourth-tier rockets.
+size: 2 
+consumes: {
+power: 1.5
+items: {
+items: [
+rocket3/5
+pallaEnriched/1
+]}} 
+outputItem: rocket4/5
+requirements: [
+lead/100
+titanium/100
+graphite/50
+plastanium/75
+goldIngot/200
+shinyAlloy/150
+palladium/100
+]
+category: crafting
+research: rocketFactory3

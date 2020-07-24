@@ -5,7 +5,7 @@ speed: 0.2
 mass: 5
 maxVelocity: 0.6
 flying: false
-health: 27000
+health: 21000
 range: 200
 weapon: {
 weaponLength: 13
@@ -15,7 +15,7 @@ recoil: 3
 shake: 2
 inaccuracy: 0
 shots: 4
-spacing: 0
+spacing: 4
 shotDelay: 3
 ejectEffect: shellEjectMedium
 name: boss1-blaster

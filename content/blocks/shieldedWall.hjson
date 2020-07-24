@@ -1,0 +1,22 @@
+type: ForceProjector
+name: Shielded Wall
+description: A modified version of the wall which had been used in the past. Has a built-in shield which absorbs enemy bullets. Optionally uses enriched palladium to slightly increase range. Optionally uses coolant to increase shield durability. 
+health: 1200
+size: 1
+consumes: {
+power: 1
+items: {
+items: [
+pallaEnriched/1
+]
+optional: true
+booster: true
+}} 
+phaseRadiusBoost: 8
+radius: 8
+breakage: 400
+requirements: [
+palladium/9
+]
+category: defense
+research: pallaWallLarge

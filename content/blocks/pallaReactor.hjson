@@ -1,0 +1,29 @@
+type: ImpactReactor
+name: Palladium Reactor
+description: Generates insane amounts of power from enriched palladium. Needs much power to kickstart the process. Explodes less violently when destroyed than an impact reactor. 
+health: 4800
+size: 4
+itemCapacity: 5
+itemDuration: 180
+explosionRadius: 25
+explosionDamage: 500
+powerProduction: 420
+plasma1: a6e3ff
+plasma2: 3dc2ff
+consumes: {
+power: 35
+items: {
+items: [
+pallaEnriched/1
+]}} 
+requirements: [
+copper/1000
+lead/1000
+thorium/500
+plastanium/500
+surge-alloy/500
+shinyAlloy/325
+palladium/250
+]
+category: power
+research: pallaRefinery

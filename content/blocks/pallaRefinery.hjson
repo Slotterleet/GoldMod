@@ -1,0 +1,24 @@
+type: Separator
+name: Palladium Refinery
+description: Used to process molten palladium. Has a very small chance of outputting enriched palladium.
+requirements: [
+lead/100
+titanium/50
+palladium/100
+] 
+health: 900
+size: 3
+liquidCapacity: 10
+craftTime: 60
+consumes: {
+power: 2
+liquid: {
+liquid: moltenPalla
+amount: 0.05
+}} 
+results: [
+palladium/24
+pallaEnriched/1
+]
+category: crafting
+research: pallaSmelter

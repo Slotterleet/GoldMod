@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: Rocket III Factory
+description: Produces third-tier rockets.
+size: 2 
+consumes: {
+power: 1.5
+items: {
+items: [
+rocket2/3
+palladium/1
+]}} 
+outputItem: rocket3/3
+requirements: [
+lead/100
+titanium/100
+graphite/50
+plastanium/75
+goldIngot/150
+shinyAlloy/100
+palladium/50
+]
+category: crafting
+research: branch-t3
