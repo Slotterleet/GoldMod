@@ -50,5 +50,44 @@ status: burning
 lightining: 3
 lightningLength: 20
 }}
+rocket3: {
+type: MissileBulletType
+speed: 2.7f
+bulletWidth: 8
+bulletHeight: 8
+bulletShrink: 0
+drag: -0.01
+splashDamageRadius: 64
+splashDamage: 150
+damage: 67.5
+ammoMultiplier: 1
+lifetime: 150
+hitEffect: blastExplosion
+status: burning
+homingPower: 1
+homingRange: 40
+} 
+rocket4: {
+type: MissileBulletType
+speed: 2.7f
+bulletWidth: 8
+bulletHeight: 8
+bulletShrink: 0
+drag: -0.01
+splashDamageRadius: 80
+splashDamage: 180
+damage: 90
+ammoMultiplier: 1
+lifetime: 150
+hitEffect: blastExplosion
+status: burning
+incendAmount: 2
+} 
+consumes: {
+liquid: {
+liquid: moltenGold
+amount: 0.2
+booster: true
+optional: true
 category: turret
 research: swarmer
