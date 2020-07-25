@@ -1,3 +1,6 @@
+v1.2.1:
+- Enriched palladium now has 0.1% (was 0.04%) chance to output from palladium refinery
+
 v1.2:
 - Added a new boss(es?) - Lich Bros and their zone - Derelict Laboratory
 - Added a new zone - Palladium Crags
@@ -11,6 +14,7 @@ v1.2:
 - Fixed Gold Swarmer using coolant instead of molten gold
 - Added palladium walls, shielded wall and palladium mend/overdrive projectors
 - Added a palladium reactor, which uses enriched palladium to generate massive amounts of power
+- Added palladium smelter and palladium refinery, which allows you to do palladium enrichment
 
 v1.1 "Arms Race":
 New items:
