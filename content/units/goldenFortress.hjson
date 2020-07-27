@@ -19,7 +19,7 @@ recoil: 4
 shake: 2
 ejectEffect: shellEjectMedium
 bullet: {
-type: ArtilleryBulletType
+type: BasicBulletType
 speed: 2
 hitEffect: blastExplosion
 knockback: 0.8
