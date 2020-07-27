@@ -26,8 +26,6 @@ knockback: 0.8
 lifetime: 70
 bulletWidth: 14
 bulletHeight: 14
-collides: true
-collidesTiles: true
 splashDamageRadius: 45
 splashDamage: 50
 backColor: deae66
