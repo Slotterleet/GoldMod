@@ -21,7 +21,6 @@ ejectEffect: shellEjectMedium
 bullet: {
 type: ArtilleryBulletType
 speed: 2
-damage: 0
 hitEffect: blastExplosion
 knockback: 0.8
 lifetime: 70
@@ -31,8 +30,8 @@ collides: true
 collidesTiles: true
 splashDamageRadius: 45
 splashDamage: 50
-backColor: bulletYellowBack
-frontColor: bulletYellow
+backColor: deae66
+frontColor: f0e4a8
 bulletSprite: shell
 } 
 shootSound: artillery
