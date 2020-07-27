@@ -18,6 +18,21 @@ alternate: true
 recoil: 4
 shake: 2
 ejectEffect: shellEjectMedium
-bullet: artilleryExplosive
+bullet: {
+type: ArtilleryBulletType
+speed: 2
+damage: 0
+hitEffect: blastExplosion
+knockback: 0.8
+lifetime: 70
+bulletWidth: 14
+bulletHeight: 14
+collidesTiles: true
+splashDamageRadius: 45
+splashDamage: 50
+backColor: missileYellowBack
+frontColor: missileYellow
+bulletSprite: shell
+} 
 shootSound: artillery
 } 
