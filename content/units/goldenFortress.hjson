@@ -19,7 +19,7 @@ recoil: 4
 shake: 2
 ejectEffect: shellEjectMedium
 bullet: {
-type: BasicBulletType
+type: ArtilleryBulletType
 speed: 2
 hitEffect: blastExplosion
 knockback: 0.8
@@ -31,6 +31,8 @@ splashDamage: 50
 backColor: deae66
 frontColor: f0e4a8
 bulletSprite: shell
+collides: true
+collidesTiles: true
 } 
 shootSound: artillery
 } 
