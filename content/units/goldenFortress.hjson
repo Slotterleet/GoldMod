@@ -18,19 +18,6 @@ alternate: true
 recoil: 4
 shake: 2
 ejectEffect: shellEjectMedium
-bullet: {
-type: BasicBulletType
-speed: 2
-hitEffect: blastExplosion
-knockback: 0.8
-lifetime: 70
-bulletWidth: 14
-bulletHeight: 14
-damage: 80
-backColor: deae66
-frontColor: f0e4a8
-bulletSprite: shell
-collidesAir: false
-} 
+bullet: artilleryUnit
 shootSound: artillery
 } 
