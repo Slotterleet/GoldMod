@@ -18,6 +18,6 @@ alternate: true
 recoil: 4
 shake: 2
 ejectEffect: shellEjectMedium
-bullet: artilleryExplosive
+bullet: artilleryUnit
 shootSound: artillery
 } 
