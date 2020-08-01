@@ -1,5 +1,4 @@
-name: Missile Silo
-description: Shoots heavy ballistic missiles at the enemy. Perfect for taking down structures. 
+//just defines build cost and ammo
 requirements: [
 copper/250
 lead/250
