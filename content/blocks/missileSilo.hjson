@@ -1,0 +1,21 @@
+name: Missile Silo
+description: Shoots heavy ballistic missiles at the enemy. Perfect for taking down structures. 
+requirements: [
+copper/250
+lead/250
+silicon/100
+surge-alloy/100
+palladium/150
+]
+ammo: {
+rocket2: {
+type: ArtilleryBulletType
+} 
+rocket3: {
+type: ArtilleryBulletType
+} 
+rocket4: {
+type: ArtilleryBulletType
+}} 
+category: turret
+research: branch-t3
