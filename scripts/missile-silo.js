@@ -6,7 +6,12 @@ const silo = extendContent(ArtilleryTurret, "missileSilo", {
   draw(tile){
   Draw.rect(this.region,tile.drawx(),tile.drawy());
   Draw.rect(this.baseRegion,tile.drawx(),tile.drawy());
-  } 
+  }, 
+  generateIcons(){
+    return [
+      this.region, this.baseRegion
+      ];
+  }
 });
 
 silo.health = 900;
