@@ -1,5 +1,6 @@
 const silo = extendContent(ArtilleryTurret, "missileSilo", {
   load(){
+    this.super$load();
     this.baseRegion = Core.atlas.find(this.name + "-base");
     this.region = Core.atlas.find(this.name);
   }, 
