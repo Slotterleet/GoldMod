@@ -9,12 +9,46 @@ palladium/150
 ammo: {
 rocket2: {
 type: ArtilleryBulletType
+bulletWidth: 50
+bulletHeight: 50
+bulletSprite: goldmod-ballistic
+frontColor: d6d6d6
+damage: 150
+lifetime: 180
+speed: 3
+hitSize: 16
+ammoMultiplier: 1
+reloadMultiplier: 0.75
+splashDamage: 50
+splashDamageRadius: 32
 } 
 rocket3: {
 type: ArtilleryBulletType
+bulletWidth: 50
+bulletHeight: 50
+bulletSprite: goldmod-ballistic
+frontColor: 109ee0
+damage: 300
+lifetime: 180
+speed: 3
+hitSize: 16
+ammoMultiplier: 1
+splashDamage: 150
+splashDamageRadius: 40
 } 
 rocket4: {
 type: ArtilleryBulletType
+bulletWidth: 50
+bulletHeight: 50
+bulletSprite: goldmod-ballistic
+frontColor: a6e3ff
+damage: 400
+lifetime: 180
+speed: 3
+hitSize: 16
+ammoMultiplier: 1
+splashDamage: 200
+splashDamageRadius: 48
 }} 
 category: turret
 research: branch-t3
