@@ -1,4 +1,4 @@
-const silo = extendContent(ItemTurret, "missileSilo", {
+const silo = extendContent(ArtilleryTurret, "missileSilo", {
   load(){
     this.region = Core.atlas.find(this.name);
     this.baseRegion = Core.atlas.find(this.name + "-base");
@@ -11,3 +11,9 @@ const silo = extendContent(ItemTurret, "missileSilo", {
 
 silo.health = 900;
 silo.size = 3;
+silo.inaccuracy = 0;
+silo.reload = 600;
+silo.recoil = 0;
+silo.range = 480;
+silo.targetAir = false;
+silo.targetGround = true;
