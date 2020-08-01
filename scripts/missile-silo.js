@@ -8,3 +8,6 @@ const silo = extendContent(ItemTurret, "missileSilo", {
   Draw.rect(this.baseRegion,tile.drawx(),tile.drawy());
   } 
 });
+
+silo.health = 900;
+silo.size = 3;
