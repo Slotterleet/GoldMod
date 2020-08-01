@@ -9,7 +9,8 @@ const silo = extendContent(ArtilleryTurret, "missileSilo", {
   }, 
   generateIcons(){
     return [
-      this.region, this.baseRegion
+      Core.atlas.find(this.name), 
+      Core.atlas.find(this.name + "-base")
       ];
   }
 });
