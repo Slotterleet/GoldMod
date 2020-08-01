@@ -19,6 +19,6 @@ silo.size = 3;
 silo.inaccuracy = 0;
 silo.reload = 600;
 silo.recoil = 0;
-silo.range = 480;
+silo.range = 540;
 silo.targetAir = false;
 silo.targetGround = true;
