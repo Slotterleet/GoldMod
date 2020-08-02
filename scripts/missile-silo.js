@@ -29,3 +29,4 @@ silo.range = 540;
 silo.targetAir = false;
 silo.targetGround = true;
 silo.outlineIcon = false;
+silo.shootSound = Sounds.missile;
