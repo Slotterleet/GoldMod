@@ -21,6 +21,7 @@ ammoMultiplier: 1
 reloadMultiplier: 1.25
 splashDamage: 150
 splashDamageRadius: 32
+hitEffect: blastExplosion
 } 
 rocket3: {
 type: ArtilleryBulletType
@@ -35,6 +36,7 @@ hitSize: 16
 ammoMultiplier: 1
 splashDamage: 450
 splashDamageRadius: 40
+hitEffect: blastExplosion
 } 
 rocket4: {
 type: ArtilleryBulletType
@@ -49,6 +51,7 @@ hitSize: 16
 ammoMultiplier: 1
 splashDamage: 750
 splashDamageRadius: 48
+hitEffect: blastExplosion
 }} 
 category: turret
 research: branch-t3
