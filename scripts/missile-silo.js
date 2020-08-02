@@ -7,6 +7,7 @@ const silo = extendContent(ArtilleryTurret, "missileSilo", {
   }, 
   draw(tile){
   Draw.rect(this.baseRegion,tile.drawx(),tile.drawy());
+  Draw.rect(this.region,tile.drawx(),tile.drawy());
   Draw.rect(this.topRegion,tile.drawx(),tile.drawy());
   }, 
   generateIcons(){
