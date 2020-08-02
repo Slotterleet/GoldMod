@@ -10,6 +10,7 @@ const silo = extendContent(ArtilleryTurret, "missileSilo", {
   Draw.rect(this.region,tile.drawx(),tile.drawy());
   Draw.rect(this.topRegion,tile.drawx(),tile.drawy());
   }, 
+  drawLayer(tile){}, 
   generateIcons(){
     return [
       Core.atlas.find(this.name + "-base"), 
