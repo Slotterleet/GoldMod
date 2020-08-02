@@ -27,3 +27,4 @@ silo.recoil = 0;
 silo.range = 540;
 silo.targetAir = false;
 silo.targetGround = true;
+silo.outlineIcon = false;
