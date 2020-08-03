@@ -1,4 +1,4 @@
-//just defines build cost and ammo
+//just defines build cost, ammo, category and place in tech tree
 requirements: [
 copper/250
 lead/250
@@ -13,7 +13,7 @@ bulletWidth: 46
 bulletHeight: 46
 bulletSprite: goldmod-ballistic
 frontColor: d6d6d6
-damage: 0
+damage: 75
 lifetime: 180
 speed: 3
 hitSize: 16
@@ -29,7 +29,7 @@ bulletWidth: 46
 bulletHeight: 46
 bulletSprite: goldmod-ballistic
 frontColor: 109ee0
-damage: 0
+damage: 225
 lifetime: 180
 speed: 3
 hitSize: 16
@@ -44,7 +44,7 @@ bulletWidth: 46
 bulletHeight: 46
 bulletSprite: goldmod-ballistic
 frontColor: a6e3ff
-damage: 0
+damage: 375
 lifetime: 180
 speed: 3
 hitSize: 16
