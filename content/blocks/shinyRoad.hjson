@@ -1,0 +1,13 @@
+type: DoubleOverlayFloor
+name: Shiny Road
+description: "Boosts ground units walking on it.\nWalking speed: 200%"
+requirements: [
+shinyAlloy/6
+]
+variants: 1
+speedMultiplier: 2
+breakable: true
+destructible: true
+health: 300
+category: effect
+research: shinyWall
