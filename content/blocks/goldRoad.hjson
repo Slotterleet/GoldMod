@@ -1,0 +1,12 @@
+type: DoubleOverlayFloor
+name: Golden Road
+description: "Boosts ground units walking on it.\nWalking speed: 150%"
+requirements: [
+goldIngot/6
+]
+speedMultiplier: 1.5
+breakable: true
+destructible: true
+health: 200
+category: effect
+research: goldWall
