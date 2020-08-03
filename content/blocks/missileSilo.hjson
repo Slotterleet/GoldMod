@@ -22,7 +22,18 @@ reloadMultiplier: 1.25
 splashDamage: 150
 splashDamageRadius: 32
 hitEffect: blastExplosion
-} 
+fragBullets: 9
+fragBullet: {
+//for visual effects only
+type: ArtilleryBulletType
+speed: 10
+lifetime: 4
+hitEffect: blastExplosion
+damage: 0
+splashDamageRadius: -1
+bulletWidth: 1
+bulletHeight: 1
+}} 
 rocket3: {
 type: ArtilleryBulletType
 bulletWidth: 46
@@ -37,7 +48,18 @@ ammoMultiplier: 1
 splashDamage: 450
 splashDamageRadius: 40
 hitEffect: blastExplosion
-} 
+fragBullets: 9
+fragBullet: {
+//see desc above
+type: ArtilleryBulletType
+speed: 10
+lifetime: 4
+hitEffect: blastExplosion
+damage: 0
+splashDamageRadius: -1
+bulletWidth: 1
+bulletHeight: 1
+}} 
 rocket4: {
 type: ArtilleryBulletType
 bulletWidth: 46
@@ -52,6 +74,16 @@ ammoMultiplier: 1
 splashDamage: 750
 splashDamageRadius: 48
 hitEffect: blastExplosion
-}} 
+fragBullets: 9
+fragBullet: {
+type: ArtilleryBulletType
+speed: 10
+lifetime: 4
+hitEffect: blastExplosion
+damage: 0
+splashDamageRadius: -1
+bulletWidth: 1
+bulletHeight: 1
+}}} 
 category: turret
 research: branch-t3
