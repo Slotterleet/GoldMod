@@ -1,4 +1,4 @@
-type: DoubleOverlayFloor
+type: Floor
 name: Shiny Road
 description: "Boosts ground units walking on it.\nWalking speed: 200%"
 requirements: [
