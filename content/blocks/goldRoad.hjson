@@ -1,11 +1,7 @@
-type: Floor
-name: Golden Road
-description: "Boosts ground units walking on it.\nWalking speed: 150%"
 requirements: [
 goldIngot/6
 ]
 variants: 1
-speedMultiplier: 1.5
 breakable: true
 destructible: true
 health: 200
