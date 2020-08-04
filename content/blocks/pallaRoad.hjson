@@ -1,11 +1,7 @@
-type: Floor
-name: Palladium Road
-description: "Boosts ground units walking on it.\nWalking speed: 250%"
 requirements: [
 palladium/6
 ]
 variants: 1
-speedMultiplier: 2.5
 breakable: true
 destructible: true
 health: 400
