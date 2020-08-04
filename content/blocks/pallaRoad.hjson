@@ -1,4 +1,4 @@
-type: DoubleOverlayFloor
+type: Floor
 name: Palladium Road
 description: "Boosts ground units walking on it.\nWalking speed: 250%"
 requirements: [
