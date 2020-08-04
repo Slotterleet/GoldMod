@@ -15,12 +15,17 @@ const road1 = extendContent(Floor, "goldRoad", {
     return [
       Core.atlas.find(this.name)
       ];
+  }, 
+unitOn(tile,unit){
+    unit.applyEffect(boost1,5);
+  },
+  update(tile){
+    this.super$update(tile);
+    Units.nearby(tile.worldx(),tile.worldy(),blocksize,blocksize,cons(e => {
+      this.unitOn(tile,e);
+    }));
   }
 });
-if(unit instanceof GroundUnit || unit == Vars.player){
-  if (isFlying = false){
-    unit.applyEffect(boost1,10);
-  }};
 //endregion gold road
 //region shiny road
 const boost2 = extendContent(StatusEffect, "boost2", {});
@@ -39,12 +44,17 @@ const road2 = extendContent(Floor, "shinyRoad", {
     return [
       Core.atlas.find(this.name)
       ];
+  }, 
+unitOn(tile,unit){
+    unit.applyEffect(boost2,5);
+  },
+  update(tile){
+    this.super$update(tile);
+    Units.nearby(tile.worldx(),tile.worldy(),blocksize,blocksize,cons(e => {
+      this.unitOn(tile,e);
+    }));
   }
 });
-if(unit instanceof GroundUnit || unit == Vars.player){
-if (isFlying = false){
-    unit.applyEffect(boost2,10);
-  }};
 //endregion shiny road
 //region palla road
 const boost3 = extendContent(StatusEffect, "boost3", {});
@@ -63,10 +73,15 @@ const road3 = extendContent(Floor, "pallaRoad", {
     return [
       Core.atlas.find(this.name)
       ];
-  }
+  }, 
+unitOn(tile,unit){
+    unit.applyEffect(boost3,5);
+  },
+  update(tile){
+    this.super$update(tile);
+    Units.nearby(tile.worldx(),tile.worldy(),blocksize,blocksize,cons(e => {
+      this.unitOn(tile,e);
+    }));
+  },
 });
-if(unit instanceof GroundUnit || unit == Vars.player){
-  if (isFlying = false){
-    unit.applyEffect(boost1,10);
-  }};
 //endregion palla road
