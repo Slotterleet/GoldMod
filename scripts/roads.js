@@ -19,7 +19,7 @@ const road1 = extendContent(Floor, "goldRoad", {
 });
 if(unit instanceof GroundUnit || unit == Vars.player){
   isFlying() ? return : 
-  unit.applyEffect(boost3, 10);
+  unit.applyEffect(boost3, 10)};
 road1.statusDuration = 10;
 //endregion gold road
 //region shiny road
@@ -43,7 +43,7 @@ const road2 = extendContent(Floor, "shinyRoad", {
 });
 if(unit instanceof GroundUnit || unit == Vars.player){
   isFlying() ? return : 
-  unit.applyEffect(boost2, 10);
+  unit.applyEffect(boost2, 10)};
 road2.statusDuration = 10;
 //endregion shiny road
 //region palla road
@@ -67,6 +67,6 @@ const road3 = extendContent(Floor, "pallaRoad", {
 });
 if(unit instanceof GroundUnit || unit == Vars.player){
   isFlying() ? return : 
-  unit.applyEffect(boost3, 10);
+  unit.applyEffect(boost3, 10)};
 road3.statusDuration = 10;
 //endregion palla road
