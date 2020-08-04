@@ -1,4 +1,4 @@
-type: DoubleOverlayFloor
+type: Floor
 name: Golden Road
 description: "Boosts ground units walking on it.\nWalking speed: 150%"
 requirements: [
