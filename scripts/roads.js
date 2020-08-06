@@ -2,10 +2,10 @@
 const boost1 = extendContent(StatusEffect, "boost1", {});
 boost1.speedMultiplier = 1.5;
 
-const road1 = extendContent(Floor, "goldRoad", {
+const road1 = extendContent(DoubleOverlayFloor, "goldRoad", {
   load(){
     this.super$load();
-    this.region = Core.atlas.find(this.name + "1");
+    this.region = Core.atlas.find(this.name);
   },
   draw(tile){
     Draw.rect(this.region,tile.drawx(),tile.drawy());
@@ -31,10 +31,10 @@ unitOn(tile,unit){
 const boost2 = extendContent(StatusEffect, "boost2", {});
 boost2.speedMultiplier = 2;
 
-const road2 = extendContent(Floor, "shinyRoad", {
+const road2 = extendContent(DoubleOverlayFloor, "shinyRoad", {
   load(){
     this.super$load();
-    this.region = Core.atlas.find(this.name + "1");
+    this.region = Core.atlas.find(this.name);
   },
   draw(tile){
     Draw.rect(this.region,tile.drawx(),tile.drawy());
@@ -60,10 +60,10 @@ unitOn(tile,unit){
 const boost3 = extendContent(StatusEffect, "boost3", {});
 boost3.speedMultiplier = 2.5;
 
-const road3 = extendContent(Floor, "pallaRoad", {
+const road3 = extendContent(DoubleOverlayFloor, "pallaRoad", {
   load(){
     this.super$load();
-    this.region = Core.atlas.find(this.name + "1");
+    this.region = Core.atlas.find(this.name);
   },
   draw(tile){
     Draw.rect(this.region,tile.drawx(),tile.drawy());
