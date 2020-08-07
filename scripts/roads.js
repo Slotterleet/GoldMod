@@ -1,6 +1,6 @@
 //region gold road
 const boost1 = extendContent(StatusEffect, "boost1", {});
-boost1.speedMultiplier = 1.5;
+boost1.speedMultiplier = 1.25;
 
 const road1 = extendContent(DoubleOverlayFloor, "goldRoad", {
   load(){
@@ -17,7 +17,7 @@ const road1 = extendContent(DoubleOverlayFloor, "goldRoad", {
       ];
   }, 
 unitOn(tile,unit){
-    unit.applyEffect(boost1,5);
+    unit.applyEffect(boost1,1);
   },
   update(tile){
     this.super$update(tile);
@@ -29,7 +29,7 @@ unitOn(tile,unit){
 //endregion gold road
 //region shiny road
 const boost2 = extendContent(StatusEffect, "boost2", {});
-boost2.speedMultiplier = 2;
+boost2.speedMultiplier = 1.50;
 
 const road2 = extendContent(DoubleOverlayFloor, "shinyRoad", {
   load(){
@@ -46,7 +46,7 @@ const road2 = extendContent(DoubleOverlayFloor, "shinyRoad", {
       ];
   }, 
 unitOn(tile,unit){
-    unit.applyEffect(boost2,5);
+    unit.applyEffect(boost2,1);
   },
   update(tile){
     this.super$update(tile);
@@ -58,7 +58,7 @@ unitOn(tile,unit){
 //endregion shiny road
 //region palla road
 const boost3 = extendContent(StatusEffect, "boost3", {});
-boost3.speedMultiplier = 2.5;
+boost3.speedMultiplier = 1.75;
 
 const road3 = extendContent(DoubleOverlayFloor, "pallaRoad", {
   load(){
@@ -75,7 +75,7 @@ const road3 = extendContent(DoubleOverlayFloor, "pallaRoad", {
       ];
   }, 
 unitOn(tile,unit){
-    unit.applyEffect(boost3,5);
+    unit.applyEffect(boost3,1);
   },
   update(tile){
     this.super$update(tile);
