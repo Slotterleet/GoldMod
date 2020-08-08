@@ -7,8 +7,10 @@ const silo = extendContent(ArtilleryTurret, "missileSilo", {
   }, 
   draw(tile){
   Draw.rect(this.baseRegion,tile.drawx(),tile.drawy());
-  Draw.rect(this.region,tile.drawx(),tile.drawy());
-  Draw.rect(this.topRegion,tile.drawx(),tile.drawy());
+  if (this.hasAmmo(tile) = true){
+    Draw.rect(this.region,tile.drawx(),tile.drawy());
+    Draw.rect(this.topRegion,tile.drawx(),tile.drawy());
+  } 
   }, 
   drawLayer(tile){}, 
   generateIcons(){
@@ -30,3 +32,4 @@ silo.targetAir = false;
 silo.targetGround = true;
 silo.outlineIcon = false;
 silo.shootSound = Sounds.missile;
+silo.update = true;
