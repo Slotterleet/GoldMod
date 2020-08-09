@@ -1,3 +1,6 @@
+v1.2.3:
+- Added Ukrainian translation by Prosta4ok_ua#6336
+
 v1.2.2:
 - Fixed G. Fortress's shells not shooting at targets
 - Extended Russian bundle
