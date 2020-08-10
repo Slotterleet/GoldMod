@@ -1,5 +1,5 @@
 type: resource
 name: Gold Ore
-description: A rare and valuable resource. Can be molten or used as ammo.
+description: A rare and valuable resource.
 color: DEAE66
 hardness: 4
