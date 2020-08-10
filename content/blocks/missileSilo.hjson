@@ -79,7 +79,7 @@ splashDamage: 750
 splashDamageRadius: 48
 hitEffect: blastExplosion
 fragBullets: 9
-incendAmount: 1
+incendAmount: 2
 fragBullet: {
 type: ArtilleryBulletType
 speed: 10
