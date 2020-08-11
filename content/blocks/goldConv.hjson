@@ -1,0 +1,13 @@
+type: Conveyor
+name: Gold Conveyor
+description: Faster than titanium conveyor.\nIf speed display goes wrong, don't mind it.
+health: 105
+speed: 0.12f
+displayedSpeed: 15f
+requirements: [
+copper/3
+lead/3
+goldIngot/1
+]
+category: distribution
+research: titanium-conveyor
