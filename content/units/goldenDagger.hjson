@@ -13,5 +13,13 @@ name: goldChainBlaster
 length: 1.5
 reload: 20
 alternate: true
-bullet: standardThorium
-}
+bullet: {
+lifetime: 60
+speed: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 20
+bulletWidth: 9
+bulletHeight: 12
+} 
+} 
