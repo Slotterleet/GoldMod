@@ -1,0 +1,18 @@
+type: MechPad
+name: Hammer Mech Pad
+description: Provides transformation into a small but fast builder mech. 
+mech: hammer
+health: 1200
+size: 2
+requirements: [
+lead/250
+graphite/250
+silicon/300
+plastanium/100
+shinyAlloy/150
+]
+consumes: {
+power: 1.5
+}
+category: upgrade
+research: dart-mk2-pad

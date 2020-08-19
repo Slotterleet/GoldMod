@@ -33,3 +33,4 @@ silo.targetGround = true;
 silo.outlineIcon = false;
 silo.shootSound = Sounds.missile;
 silo.update = true;
+silo.maxAmmo = 1;

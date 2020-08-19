@@ -1,0 +1,22 @@
+name: Small Defence
+description: "Defend. Die. Try again.\n\nCreated by _LEYN ~ Rias#1092"
+conditionWave: 20
+launchPeriod: 5
+requirements: [{
+type: ZoneWave
+zone: pallaCrags
+wave: 30
+}{
+type: Unlock
+block: branch-t3
+}]
+resources: [
+copper
+lead
+coal
+sand
+titanium
+thorium
+goldOre
+palladium
+] 

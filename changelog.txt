@@ -1,3 +1,13 @@
+v1.3:
+- Added Roads, which boost ground units walking on them
+- Added the Missile Silo, which launches heavy missiles at enemy
+- Added Core: Shine and its respective loadout
+- New zones: Scrap Wasteland (by GlitchyShipBoi) and Small Defence (by _LEYN ~ Rias) 
+- Added the Hammer mech and its respective pad
+- Balance changes:
+  > Nerfed g. Dagger's bullet
+  > Buffed g. Crawler's damage
+
 v1.2.3:
 - Added Ukrainian translation by Prosta4ok_ua#6336
 

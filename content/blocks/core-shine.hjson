@@ -1,0 +1,10 @@
+type: CoreBlock
+name: "Core: Shine" 
+description: The strongest core block.
+health: 6000
+itemCapacity: 20000
+size: 6
+mech: dart-mk2
+requirements: [] 
+category: effect
+buildVisibility: debugOnly

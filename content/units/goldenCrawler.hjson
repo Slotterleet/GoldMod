@@ -13,8 +13,9 @@ damage: 200
 ammoMultiplier: 1
 killShooter: true
 instantDisappear: true
-splashDamage: 100
-splashDamageRadius: 40
+splashDamage: 150
+splashDamageRadius: 60
+shootEffect: blastExplosion
 }
 shake: 1
 shootSound: boom
