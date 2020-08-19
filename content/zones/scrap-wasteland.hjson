@@ -1,5 +1,6 @@
 name: Scrap Wasteland
 description: "Beyond the caves lies an exit towards an open desert area, we discovered that these were long abandoned Palladium mining shaft, we could reactivate the drills in the area and reused them to our advantage, the area is small and the enemy still chasing us, prepare for the onslaught!\n\nCreated by GlitchyShipBoi#0648"
+loadout: basicShine
 conditionWave: 10
 launchPeriod: 10
 startingItems: [
