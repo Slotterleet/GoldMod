@@ -84,4 +84,7 @@ boss.engineSize = 5.3;
 boss.rotatespeed = 0.1;
 boss.baseRotateSpeed = 0.04;
 
-boss.create(prov(() => extend(HoverUnit, {})));
+boss.constructor = () => {
+    const unit = extend(UnitEntity, {});
+    return unit;
+};

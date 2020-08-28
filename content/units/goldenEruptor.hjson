@@ -1,6 +1,4 @@
-type: GroundUnit
-name: Golden Eruptor
-description: An upgraded version of the Eruptor. 
+type: LegsUnit
 maxVelocity: 0.8
 speed: 0.16
 drag: 0.4

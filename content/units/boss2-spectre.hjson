@@ -1,4 +1,4 @@
-type: HoverUnit
+type: UnitEntity
 health: 20000
 mass: 25
 hitsize: 40

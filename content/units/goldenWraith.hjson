@@ -1,4 +1,4 @@
-type: FlyingUnit
+type: UnitEntity
 speed: 0.3
 maxVelocity: 2
 drag: 0.01

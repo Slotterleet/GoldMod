@@ -1,4 +1,4 @@
-type: groundUnit
+type: MechUnit
 speed: 0.2
 mass: 5
 maxVelocity: 0.6

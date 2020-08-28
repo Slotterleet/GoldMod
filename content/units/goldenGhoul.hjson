@@ -1,4 +1,4 @@
-type: FlyingUnit
+type: UnitEntity
 health: 660
 speed: 0.2
 maxVelocity: 1.4

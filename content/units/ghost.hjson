@@ -1,4 +1,4 @@
-type: MinerDrone
+type: MinerUnit
 health: 400
 flying: true
 range: 50

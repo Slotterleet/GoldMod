@@ -1,4 +1,4 @@
-type: GroundUnit
+type: MechUnit
 maxVelocity: 0.75
 speed: 0.15
 drag: 0.4

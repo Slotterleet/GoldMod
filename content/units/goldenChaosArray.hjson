@@ -1,4 +1,4 @@
-type: GroundUnit
+type: MechUnit
 maxVelocity: 0.68
 health: 9000
 speed: 0.12
