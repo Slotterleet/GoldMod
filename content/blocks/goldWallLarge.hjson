@@ -1,10 +1,8 @@
-name: Large Gold Wall
-	description: A very tough wall, tougher than the surge wall. Spans multiple tiles.
-	type: Wall
-	health: 4800
-	size: 2
-	requirements: [
-goldIngot/24 
-	]
-	category: defense
-	research: goldWall
+type: Wall
+health: 4800
+size: 2
+requirements: [
+  goldIngot/24 
+]
+category: defense
+research: goldWall

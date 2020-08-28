@@ -1,6 +1,4 @@
 type: GroundUnit
-name: Golden Fortress
-description: An upgraded version of the Fortress. 
 maxVelocity: 0.75
 speed: 0.15
 drag: 0.4

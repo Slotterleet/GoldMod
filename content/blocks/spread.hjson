@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Spread
-description: An opposite of Scatter-type turrets. Targets ground units. 
 health: 2400
 coolantMultiplier: 40
 size: 2

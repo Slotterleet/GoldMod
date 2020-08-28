@@ -1,5 +1,3 @@
-name: Golden Dagger Factory
-description: Produces Golden Daggers.
 type: UnitFactory
 unitType: goldenDagger
 size: 2

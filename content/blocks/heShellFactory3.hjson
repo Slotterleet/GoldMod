@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: HE Shell III Factory
-description: Produces third-tier high explosive shells.
 size: 2 
 consumes: {
 power: 1.5

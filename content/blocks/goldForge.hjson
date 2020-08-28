@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Gold Forge
-description: Casts molten gold ore to produce gold ingots.
 liquidCapacity: 10
 health: 240
 size: 2

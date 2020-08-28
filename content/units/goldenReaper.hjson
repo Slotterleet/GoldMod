@@ -1,6 +1,4 @@
 type: HoverUnit
-name: Golden Reaper
-description: "" 
 health: 33000
 mass: 30
 hitsize: 56

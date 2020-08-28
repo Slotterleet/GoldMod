@@ -1,6 +1,4 @@
 type: ArtilleryTurret
-name: Gold Hail
-description: An improved version of the Hail. 
 requirements: [
 copper/40
 graphite/20

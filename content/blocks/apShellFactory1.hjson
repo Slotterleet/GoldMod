@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: AP Shell I Factory
-description: Produces first-tier armor piercing shells. 
 size: 2
 consumes: {
 power: 1.5

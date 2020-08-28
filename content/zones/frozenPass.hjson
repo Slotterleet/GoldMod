@@ -1,5 +1,3 @@
-name: Frozen Pass
-description: "A place between ice and stone, occupied by our recent enemy. Looks like they actively produce shiny alloy there. You can't go further until you destroy their outpost."
 loadout: frozenpassLoadout
 startingItems: [
 copper/500

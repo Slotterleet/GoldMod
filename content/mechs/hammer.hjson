@@ -1,6 +1,4 @@
 type: Mech
-name: Hammer
-description: A builder mech with a weak weapon. Builds faster than Trident. 
 health: 400
 drillPower: 3
 speed: 0.15

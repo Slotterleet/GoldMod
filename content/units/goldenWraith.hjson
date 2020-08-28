@@ -1,6 +1,4 @@
 type: FlyingUnit
-name: Golden Wraith
-description: An upgraded version of the Wraith. 
 speed: 0.3
 maxVelocity: 2
 drag: 0.01

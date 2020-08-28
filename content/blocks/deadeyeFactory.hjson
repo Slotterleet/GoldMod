@@ -1,5 +1,3 @@
-name: Deadeye Factory
-description: Produces powerful sniper units.
 type: UnitFactory
 unitType: deadeye
 size: 2

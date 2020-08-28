@@ -1,5 +1,3 @@
-name: Eradicator's Lair
-description: "[red][ WARNING: BOSS LEVEL ][]\n\nAn unknown signal: 'Do you know who are you dealing with? I guess you don't. Why are you bothering me? Oh nevermind, I'm sending the Golden Eradicator for you.'"
 conditionWave: 10
 launchPeriod: 1
 startingItems: [

@@ -1,6 +1,4 @@
 type: DoubleTurret
-name: Gold Spectre
-description: An improved version of the Spectre.
 health: 4800
 size: 4
 range: 240

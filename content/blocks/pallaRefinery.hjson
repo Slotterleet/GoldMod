@@ -1,6 +1,4 @@
 type: Separator
-name: Palladium Refinery
-description: Used to process molten palladium. Has a very small chance of outputting enriched palladium.
 requirements: [
 lead/100
 titanium/50

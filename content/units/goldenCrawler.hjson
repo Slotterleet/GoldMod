@@ -1,6 +1,4 @@
 type: GroundUnit
-name: Golden Crawler
-description: An upgraded version of the Crawler unit.
 health: 200
 speed: 0.27
 mass: 2

@@ -1,5 +1,3 @@
-name: Golden Revenant Factory
-description: Produces Golden Revenants.
 type: UnitFactory
 unitType: goldenRevenant
 size: 4
@@ -9,7 +7,7 @@ consumes: {
   items: {
     items: [
       silicon/30
-titanium/20
+      titanium/20
       goldIngot/25
     ]
   }
@@ -20,6 +18,6 @@ requirements: [
   goldIngot/100
   silicon/150
   lead/200
-titanium/200
-plastanium/100
+  titanium/200
+  plastanium/100
 ]

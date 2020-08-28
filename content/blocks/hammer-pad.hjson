@@ -1,6 +1,4 @@
 type: MechPad
-name: Hammer Mech Pad
-description: Provides transformation into a small but fast builder mech. 
 mech: hammer
 health: 1200
 size: 2

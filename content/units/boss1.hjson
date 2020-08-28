@@ -1,6 +1,4 @@
 type: groundUnit
-name: Golden Eradicator
-description: "The world's most dangerous Eradicator.\nThe first boss of the Gold Mod."
 speed: 0.2
 mass: 5
 maxVelocity: 0.6
