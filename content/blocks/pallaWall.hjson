@@ -1,6 +1,4 @@
 type: DeflectorWall
-name: Palladium Wall
-description: A tough wall which deflects most bullets upon contact. 
 maxDamageDeflect: 50
 health: 2000
 size: 1

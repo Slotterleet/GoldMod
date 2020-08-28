@@ -1,5 +1,3 @@
-name: Derelict Laboratory
-description: "[red][ WARNING: BOSS LEVEL ][]\n\nA long ago, some empire had a unit research facility here. But something went wrong. Two powerful robots were released, and you have to defeat them."
 startingItems: [
 copper/500
 lead/500

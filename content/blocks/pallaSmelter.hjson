@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Palladium Smelter
-description: Smelts palladium for use in palladium refinery. 
 health: 100
 size: 1
 hasItems: true

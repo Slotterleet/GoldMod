@@ -1,6 +1,4 @@
 type: groundUnit
-name: Deadeye
-description: A sniper unit. Deals much damage, but vulnerable to most attacks. 
 speed: 0.2
 mass: 2
 maxVelocity: 1

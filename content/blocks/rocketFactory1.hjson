@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Rocket I Factory
-description: Produces first-tier rockets. 
 size: 2
 consumes: {
 power: 1.5

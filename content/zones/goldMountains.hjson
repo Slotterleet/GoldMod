@@ -1,5 +1,3 @@
-name: Gold Mountains
-description: Behind the Stained Mountains lie gold ore veins. Get as many gold ingots as possible.
 loadout: basicShard
 startingItems: [
   copper/100
@@ -20,17 +18,18 @@ requirements: [
     type: Unlock
     block: goldForge
   }
-{
-type: Unlock
-block: laser-drill
-}
+  {
+    type: Unlock
+    block: laser-drill
+  }
 ]
 resources: [
   copper
   lead
   coal
-titanium
-thorium
+  titanium
+  thorium
   sand
-goldOre
+  goldOre
 ]
+ 

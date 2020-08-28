@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Longshot
-description: A sniper turret. Very large damage, but low fire rate. 
 health: 3600
 size: 3
 hasItems: true

@@ -1,6 +1,4 @@
 type: FlyingUnit
-name: Golden Ghoul
-description: An upgraded version of the Ghoul. Its bombs are incendiary. 
 health: 660
 speed: 0.2
 maxVelocity: 1.4

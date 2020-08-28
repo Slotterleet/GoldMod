@@ -1,6 +1,4 @@
 type: BurstTurret
-name: Gold Salvo
-description: An improved version of the Salvo.
 requirements: [
 copper/105
 graphite/95

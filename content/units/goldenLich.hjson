@@ -1,6 +1,4 @@
 type: HoverUnit
-name: Golden Lich
-description: "" 
 health: 18000
 mass: 20
 hitsize: 40

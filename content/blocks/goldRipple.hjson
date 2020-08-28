@@ -1,6 +1,4 @@
 type: ArtilleryTurret
-name: Gold Ripple
-description: An improved version of the Ripple. 
 requirements: [
 copper/150
 graphite/135

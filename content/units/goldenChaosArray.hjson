@@ -1,6 +1,4 @@
 type: GroundUnit
-name: Golden Chaos Array
-description: "" 
 maxVelocity: 0.68
 health: 9000
 speed: 0.12

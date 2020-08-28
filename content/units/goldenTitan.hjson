@@ -1,6 +1,4 @@
 type: GroundUnit
-name: Golden Titan
-description: An upgraded version of the Titan. 
 maxVelocity: 1
 speed: 0.22
 drag: 0.4

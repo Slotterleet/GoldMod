@@ -1,5 +1,3 @@
-name: Ghost Miner Drone Factory
-description: Produces the Ghost drone.
 type: UnitFactory
 unitType: ghost
 size: 2

@@ -1,23 +1,22 @@
 type: GenericSmelter
-name: Shiny Alloy Smelter
-description: Produces shiny alloy out of valuable resources.
 health: 2400
 size: 3
 consumes: {
-power: 2
-items: {
-items: [
-lead/6
-titanium/5
-silicon/3
-goldIngot/2
-]}
+  power: 2
+  items: {
+    items: [
+      lead/6
+      titanium/5
+      silicon/3
+      goldIngot/2
+    ]
+  }
 }
 outputItem: shinyAlloy/1
 requirements: [
-lead/200
-titanium/150
-goldIngot/100
+  lead/200
+  titanium/150
+  goldIngot/100
 ]
 category: crafting
 research: branch-t2

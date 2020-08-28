@@ -1,5 +1,3 @@
-name: Golden Ghoul Factory
-description: Produces Golden Ghouls.
 type: UnitFactory
 unitType: goldenGhoul
 size: 3

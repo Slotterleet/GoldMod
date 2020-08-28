@@ -1,11 +1,9 @@
 type: SurgeWall
-name: Large Shiny Wall
-description: A very tough wall, which builds up charge on bullet contact. Has a better chance of striking an enemy. Spans multiple tiles.
 health: 8000
 size: 2
 lightningChance: 0.1
 requirements: [
-shinyAlloy/24
+ shinyAlloy/24
 ]
 category: defense
 research: shinyWall

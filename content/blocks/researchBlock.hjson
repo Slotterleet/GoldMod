@@ -1,6 +1,4 @@
 type: MessageBlock
-name: Research Point Block
-description: Deconstruct this to get research points. Cannot be built. Only located in few zones.
 requirements: [
 researchPoint/81
 ]

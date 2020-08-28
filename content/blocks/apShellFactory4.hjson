@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: AP Shell IV Factory
-description: Produces fourth-tier armor piercing shells.
 size: 2 
 consumes: {
 power: 1.5

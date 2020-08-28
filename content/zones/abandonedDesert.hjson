@@ -1,5 +1,3 @@
-name: Abandoned Desert
-description: The unknown group had the gold processing facility here. Now it's your time to extract the plenty of gold here. Beware of the remaining forces here, they are quite strong.
 loadout: advancedShard
 conditionWave: 10
 launchPeriod: 10

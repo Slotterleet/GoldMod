@@ -1,5 +1,3 @@
-name: Golden Titan Factory
-description: Produces Golden Titans.
 type: UnitFactory
 unitType: goldenTitan
 size: 3

@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: "Gold Crucible"
-description: "Melts gold ore for further processing."
 liquidCapacity: 10
 outputLiquid: {
   liquid: moltenGold

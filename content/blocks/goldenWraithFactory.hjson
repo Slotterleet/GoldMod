@@ -1,5 +1,3 @@
-name: Golden Wraith Factory
-description: Produces Golden Wraithes.
 type: UnitFactory
 unitType: goldenWraith
 size: 2
@@ -9,7 +7,7 @@ consumes: {
   items: {
     items: [
       silicon/6
-titanium/5
+      titanium/5
       goldIngot/3
     ]
   }
@@ -20,5 +18,5 @@ requirements: [
   goldIngot/15
   silicon/35
   lead/50
-titanium/50
+  titanium/50
 ]

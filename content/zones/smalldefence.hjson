@@ -1,5 +1,3 @@
-name: Small Defence
-description: "Defend. Die. Try again.\n\nCreated by _LEYN ~ Rias#1092"
 conditionWave: 20
 launchPeriod: 5
 requirements: [{

@@ -1,6 +1,4 @@
 type: groundUnit
-name: Golden Dagger
-description: An upgraded version of the Dagger unit.
 speed: 0.2
 mass: 2
 maxVelocity: 1
