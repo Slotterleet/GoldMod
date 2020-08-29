@@ -1,0 +1,11 @@
+type: LogicProcessor
+hasLiquids: true
+consumes: {
+  liquid: {
+    liquid: moltenGold
+    amount: 0.04
+  }
+}
+instructionsPerTick: 40
+range: 400
+size: 3
