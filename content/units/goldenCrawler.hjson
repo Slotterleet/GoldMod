@@ -1,4 +1,4 @@
-type: LegsUnit
+type: MechUnit
 health: 200
 speed: 0.27
 mass: 2
