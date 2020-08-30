@@ -11,7 +11,7 @@ copper/75
 lead/50
 shinyAlloy/50
 ]
-ammo: {
+ammoTypes: {
 scrap: flakScrap
 lead: flakLead
 metaglass: flakGlass

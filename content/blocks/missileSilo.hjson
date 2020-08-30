@@ -1,4 +1,16 @@
-//just defines build cost, ammo, category and place in tech tree
+health: 900
+size: 3
+inaccuracy: 0
+reload: 600
+recoil: 0
+range: 540
+targetAir: false
+targetGround: true
+outlineIcon: false
+shootSound: missile
+update: true
+rotate: false
+maxAmmo: 1
 requirements: [
 copper/250
 lead/250
@@ -6,7 +18,7 @@ silicon/100
 surge-alloy/100
 palladium/150
 ]
-ammo: {
+ammoTypes: {
 rocket2: {
 type: ArtilleryBulletType
 bulletWidth: 46

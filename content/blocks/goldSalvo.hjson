@@ -1,4 +1,4 @@
-type: BurstTurret
+type: ItemTurret
 requirements: [
 copper/105
 graphite/95
@@ -19,7 +19,7 @@ burstSpacing: 3
 shots: 4
 ammoUseEffect: shellEjectBig
 shootSound: shootBig
-ammo: {
+ammoTypes: {
 goldCrushed: {
 lifetime: 60
 speed: 3

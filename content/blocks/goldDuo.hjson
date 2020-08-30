@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: ItemTurret
 health: 1200
 size: 1
 hasItems: true
@@ -10,8 +10,9 @@ reload: 20
 inaccuracy: 2
 shots: 2
 coolantMultiplier: 40
-ammo: {
-goldCrushed: {
+ammoTypes: {
+goldCrushed:
+{
   lifetime: 60
   speed: 3
   ammoMultiplier: 2
@@ -20,8 +21,9 @@ goldCrushed: {
   damage: 20
   bulletWidth: 9
   bulletHeight: 12
-} 
-apShell1: {
+}
+apShell1:
+{
   type: BasicBulletType 
   bulletWidth: 9
   bulletHeight: 12
@@ -32,8 +34,9 @@ apShell1: {
   bulletSprite: goldmod-apShell
   frontColor: F0E4A8
   backColor: deae66
-} 
-heShell1: {
+}
+heShell1:
+{
   type: BasicBulletType
   bulletWidth: 9
   bulletHeight: 12
@@ -55,8 +58,9 @@ heShell1: {
     bulletSprite: shell
     lifetime: 30
     speed: 2
-}} 
-apShell2: {
+}}
+apShell2:
+{
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
@@ -70,7 +74,8 @@ backColor: d6d6d6
 lightining: 3
 lightningLength: 20
 }
-heShell2: {
+heShell2:
+{
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
@@ -95,7 +100,8 @@ bulletSprite: shell
 lifetime: 30
 speed: 2
 }}
-apShell3: {
+apShell3:
+{
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
@@ -109,7 +115,8 @@ backColor: 1c7fa6
 homingPower: 1
 homingRange: 40
 }
-heShell3: {
+heShell3:
+{
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
@@ -134,7 +141,8 @@ bulletSprite: shell
 lifetime: 30
 speed: 2
 }}
-apShell4: {
+apShell4:
+{
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
@@ -146,8 +154,9 @@ bulletSprite: goldmod-apShell
 frontColor: a6e3ff
 backColor: 3dc2ff
 incendAmount: 2
-} 
-heShell4: {
+}
+heShell4:
+{
 type: BasicBulletType
 bulletWidth: 9
 bulletHeight: 12
@@ -170,7 +179,7 @@ damage: 32
 bulletSprite: shell
 lifetime: 30
 speed: 2
-}}} 
+}}}
 requirements: [
 copper/20
 goldIngot/20

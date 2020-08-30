@@ -10,7 +10,7 @@ reload: 120
 inaccuracy: 0
 shots: 1
 coolantMultiplier: 40
-ammo: {
+ammoTypes: {
 goldCrushed: {
 lifetime: 30
 speed: 12

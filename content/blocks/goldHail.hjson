@@ -1,4 +1,4 @@
-type: ArtilleryTurret
+type: ItemTurret
 requirements: [
 copper/40
 graphite/20
@@ -12,7 +12,7 @@ shootCone: 10
 health: 780
 shootSound: artillery
 coolantMultiplier: 40
-ammo: {
+ammoTypes: {
 goldCrushed: {
 lifetime: 80
 speed: 3

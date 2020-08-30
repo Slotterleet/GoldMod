@@ -1,4 +1,4 @@
-type: BurstTurret
+type: ItemTurret
 requirements: [
 graphite/35
 titanium/35
@@ -15,7 +15,7 @@ xRand: 6
 size: 2
 health: 3600
 shootSound: missile
-ammo: {
+ammoTypes: {
 rocket1: {
 type: MissileBulletType
 speed: 2.7f

@@ -11,7 +11,7 @@ copper/75
 lead/50
 goldIngot/50
 ]
-ammo: {
+ammoTypes: {
 goldCrushed: {
 lifetime: 60
 speed: 3

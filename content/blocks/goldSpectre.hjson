@@ -1,11 +1,11 @@
-type: DoubleTurret
+type: ItemTurret
 health: 4800
 size: 4
 range: 240
 coolantMultiplier: 5
 shootShake: 1
 shootSound: shootBig
-ammo: {
+ammoTypes: {
 goldIngot: {
 type: BasicBulletType
 bulletWidth: 15

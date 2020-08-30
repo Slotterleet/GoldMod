@@ -1,9 +1,11 @@
+type: LaserTurret
 targetAir: true
 targetGround: true
 powerUse: 23
 coolantMultiplier: 20
 health: 6000
 size: 4
+update: true
 hasPower: true
 shootEffect: shootBigSmoke2
 shootCone: 40
@@ -14,6 +16,16 @@ reload: 80
 firingMoveFract: 0.5
 shootDuration: 220
 shootSound: laserbig
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 210
+  length: 220
+  hitEffect: hitMeltdown
+  drawSize: 420
+  incendChance: 0.5
+  incendSpread: 7
+  incendAmount: 1
+}
 activeSound: beam
 activeSoundVolume: 2
 	requirements: [
@@ -28,9 +40,10 @@ activeSoundVolume: 2
 	research: meltdown
 	shootSound: laserbig
 consumes: {
-liquid: {
-liquid: moltenGold
-amount: 0.5
-optional: false
-booster: true
-}}
+  liquid: {
+    liquid: moltenGold
+    amount: 0.5
+    optional: false
+    booster: true
+  }
+}

@@ -13,8 +13,13 @@ recoil: 1
 rotatespeed: 30
 range: 130
 coolantMultiplier: 20
-ammo: {
-	goldIngot: lancerLaser
+ammoTypes: {
+	goldIngot: {
+	  type: ShrapnelBulletType
+	  length: 140
+	  damage: 140
+	  ammoMultiplier: 2
+	  }
 	}
 requirements: [
 	goldIngot/200
