@@ -1,24 +1,23 @@
 type: MechUnit
-speed: 0.2
-mass: 5
-maxVelocity: 0.6
+speed: 0.6
 flying: false
 health: 21000
 range: 200
-weapon: {
-weaponLength: 13
-width: 22
-alternate: true
-recoil: 3
-shake: 2
-inaccuracy: 0
-shots: 4
-spacing: 4
-shotDelay: 3
-ejectEffect: shellEjectMedium
-name: boss1-blaster
-reload: 15
-alternate: true
-bullet: standardThoriumBig
-shootSound: shootBig
-}
+weapons: [
+  {
+  name: boss1-blaster
+  x: -22
+  y: 0
+  alternate: true
+  recoil: 3
+  shake: 2
+  inaccuracy: 0
+  shots: 4
+  spacing: 4
+  shotDelay: 3
+  reload: 15
+  ejectEffect: shellEjectMedium
+  bullet: standardThoriumBig
+  shootSound: shootBig
+  }
+]

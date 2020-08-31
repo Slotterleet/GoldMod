@@ -1,13 +1,15 @@
 type: BuilderMinerUnit
 flying: true
 health: 500
-speed: 0.4
+speed: 1
 drag: 0.1
 buildPower: 1.1
-drillPower: 3
-weapon: {
-  name: dart-mk2
+mineTier: 3
+weapons: [{
+  name: dart-mk2-equip
+  x: 0
+  y: 0
   reload: 20
   alternate: true
   bullet: standardThorium
-}
+}]

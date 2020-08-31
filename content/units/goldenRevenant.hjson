@@ -1,9 +1,7 @@
 type: UnitEntity
 health: 3000
-mass: 5
 hitsize: 20
-speed: 0.2
-maxVelocity: 1
+speed: 1
 drag: 0.01
 range: 80
 shootCone: 60
@@ -14,17 +12,33 @@ engineSize: 3
 rotatespeed: 0.01
 attackLength: 90
 baseRotateSpeed: 0.06
-weapon: {
-name: goldenRevenant
-length: 3
-reload: 70
-width: 10
-shots: 6
-inaccuracy: 2
-alternate: true
-ejectEffect: none
-velocityRnd: 0.2
-spacing: 1
-shootSound: missile
-bullet: missileRevenant
-} 
+weapons: [{
+  name: goldenRevenant
+  x: -10
+  y: 0
+  reload: 70
+  shots: 6
+  inaccuracy: 2
+  alternate: true
+  ejectEffect: none
+  velocityRnd: 0.2
+  spacing: 1
+  shootSound: missile
+  bullet: {
+    type: MissileBulletType
+    width: 8
+    height: 8
+    damage: 30
+    speed: 3
+    shrinkY: 0
+    drag: -0.01
+    splashDamageRadius: 30
+    splashDamage: 60
+    ammoMultiplier: 4
+    lifetime: 50
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    status: blasted
+    statusDuration: 60
+  } 
+}]

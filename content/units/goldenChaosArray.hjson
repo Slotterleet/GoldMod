@@ -1,23 +1,30 @@
 type: MechUnit
-maxVelocity: 0.68
 health: 9000
-speed: 0.12
+speed: 0.68
 drag: 0.4
-mass: 5
 hitsize: 20
 rotatespeed: 0.06
-weapon: {
+weapons: [{
 name: goldChaos
-length: 8
-reload: 16
-width: 17
-alternate: true
-recoil: 3
-shake: 2
-shots: 4
-spacing: 4
-shotDelay: 5
-ejectEffect: shellEjectMedium
-bullet: flakSurge
-shootSound: shootBig
-} 
+  x: -17
+  y: 0
+  reload: 16
+  alternate: true
+  recoil: 3
+  shake: 2
+  shots: 4
+  spacing: 4
+  shotDelay: 5
+  ejectEffect: shellEjectMedium
+  bullet: {
+    type: BasicBulletType
+    width: 7
+    height: 12
+    speed: 3
+    lifetime: 40
+    damage: 32
+    lightning: 2
+    lightningLength: 7
+  }
+  shootSound: shootBig
+}]
