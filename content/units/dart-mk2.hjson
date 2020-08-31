@@ -1,7 +1,7 @@
 type: BuilderMinerUnit
 flying: true
 health: 500
-speed: 1
+speed: 4
 drag: 0.1
 buildPower: 1.1
 mineTier: 3
