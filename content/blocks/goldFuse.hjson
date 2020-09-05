@@ -7,7 +7,8 @@ shootSound: fuse
 health: 4800
 size: 3
 inaccuracy: 0
-reload: 20
+spread: 20
+reloadTime: 20
 shots: 4
 recoil: 1
 rotatespeed: 30
