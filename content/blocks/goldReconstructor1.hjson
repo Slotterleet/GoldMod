@@ -19,10 +19,13 @@ requirements: [
 ]
 upgrades: [
   [
-    goldenDagger, goldenTitan
+    goldenDagger, goldenMace
   ]
   [
-    goldenWraith, goldenGhoul
+    goldenFlare, goldenHorizon
+  ]
+  [
+    goldenCrawler, goldenAtrax
   ]
 ]
 category: units

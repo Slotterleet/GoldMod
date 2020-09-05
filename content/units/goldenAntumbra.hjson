@@ -13,7 +13,7 @@ rotatespeed: 0.1
 attackLength: 90
 baseRotateSpeed: 0.04
 weapons: [{
-  name: goldLichMissile
+  name: goldAntumbraMissile
   x: -22
   y: 0
   reload: 60

@@ -28,10 +28,10 @@ requirements: [
 ]
 upgrades: [
   [
-    goldenChaosArray, boss1
+    goldenScepter, boss1
   ]
   [
-    goldenLich, goldenReaper
+    goldenAntumbra, goldenEclipse
   ]
 ]
 category: units

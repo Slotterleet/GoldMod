@@ -13,7 +13,7 @@ rotatespeed: 0.01
 attackLength: 90
 baseRotateSpeed: 0.06
 weapons: [{
-  name: goldenRevenant
+  name: goldenZenith-equip
   x: -10
   y: 0
   reload: 70

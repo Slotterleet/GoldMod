@@ -6,7 +6,7 @@ drag: 0.1
 buildPower: 1.1
 mineTier: 3
 weapons: [{
-  name: dart-mk2-equip
+  name: delta-equip
   x: 0
   y: 0
   reload: 20

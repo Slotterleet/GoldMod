@@ -28,10 +28,10 @@ requirements: [
 ]
 upgrades: [
   [
-    goldenFortress, goldenChaosArray
+    goldenFortress, goldenScepter
   ]
   [
-    goldenRevenant, goldenLich
+    goldenZenith, goldenAntumbra
   ]
 ]
 category: units

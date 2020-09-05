@@ -4,7 +4,7 @@ description: The strongest core block.
 health: 6000
 itemCapacity: 20000
 size: 6
-unitType: dart-mk2
+unitType: delta
 requirements: [
   copper/12000
   lead/12000

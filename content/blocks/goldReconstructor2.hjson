@@ -21,10 +21,10 @@ requirements: [
 ]
 upgrades: [
   [
-    goldenTitan, goldenFortress
+    goldenMace, goldenFortress
   ]
   [
-    goldenGhoul, goldenRevenant
+    goldenHorizon, goldenZenith
   ]
 ]
 category: units

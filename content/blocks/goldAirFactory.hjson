@@ -5,7 +5,7 @@ consumes: {
 }
 plans: [
   {
-  unit: goldenWraith
+  unit: goldenFlare
   requirements: [
     silicon/12
     titanium/6
