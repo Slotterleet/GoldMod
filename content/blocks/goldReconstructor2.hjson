@@ -26,6 +26,9 @@ upgrades: [
   [
     goldenHorizon, goldenZenith
   ]
+  [
+    goldenAtrax, goldenSpiroct
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

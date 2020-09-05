@@ -1,4 +1,4 @@
-type: SurgeWall
+type: Wall
 health: 8000
 size: 2
 lightningChance: 0.1

@@ -1,5 +1,7 @@
-type: DeflectorWall
+type: Wall
 maxDamageDeflect: 50
+flashWhite: true
+deflect: true
 health: 2000
 size: 1
 requirements: [
