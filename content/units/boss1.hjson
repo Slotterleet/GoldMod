@@ -1,23 +1,53 @@
 type: MechUnit
-speed: 0.6
+speed: 0.35
+hitsize: 26
+rotateSpeed: 1.65
 flying: false
-health: 21000
-range: 200
+health: 72000
+armor: 14
+mechLegMoveScl: 1.75
+targetAir: false
 weapons: [
   {
   name: boss1-blaster
-  x: -22
+  x: -21.5
   y: 0
+  shootY: 11
   alternate: true
-  recoil: 3
-  shake: 2
-  inaccuracy: 0
-  shots: 4
-  spacing: 4
+  recoil: 5
+  shake: 4
   shotDelay: 3
-  reload: 15
-  ejectEffect: shellEjectMedium
-  bullet: standardThoriumBig
-  shootSound: shootBig
+  reload: 9
+  ejectEffect: shellEjectBig
+  bullet: {
+    type: BasicBulletType
+    speed: 13
+    damage: 135
+    pierce: true
+    width: 14
+    height: 32
+    lifetime: 15
+    shootEffect: shootBig
+    fragVelocityMin: 0.4
+    hitEffect: blastExplosion
+    splashDamage: 54
+    splashDamageRadius: 40
+    fragBullets: 2
+    fragLifeMin: 0
+    fragCone: 30
+    fragBullet: {
+      type: BasicBulletType
+      speed: 9
+      damage: 15
+      width: 10
+      height: 10
+      pierce: true
+      lifetime: 20
+      hitEffect: blastExplosion
+      splashDamage: 45
+      splashDamageRadius: 20
+    }
+  }
+  shootSound: artillery
   }
 ]
