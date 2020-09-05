@@ -18,7 +18,8 @@ armor: 5
 buildSpeed: 0.8
 allowLegStep: true
 visualElevation: 0.4
-weapons: [{
+weapons: [
+{
   name: gSpiroct-equip
   x: 8.5
   y: -1.5
@@ -30,9 +31,9 @@ weapons: [{
   shootSound: flame
   bullet: {
     type: SapBulletType
-    sapStrength: 0.6
+    sapStrength: 0.3
     length: 85
-    damage: 30
+    damage: 45
     shootEffect: shootSmall
     hitColor: f0e4a8
     color: f0e4a8
@@ -41,4 +42,25 @@ weapons: [{
     lifetime: 35
     knockback: -1.24
   }
-}]
+}
+{
+  name: gSpiroct-mount
+  reload: 20
+  rotate: true
+  x: 4
+  y: 3
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.65
+    length: 75
+    damage: 39
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.4
+    lifetime: 25
+    knockback: -0.65
+  }
+}
+]

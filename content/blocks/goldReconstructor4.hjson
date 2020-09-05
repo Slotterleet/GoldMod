@@ -33,6 +33,9 @@ upgrades: [
   [
     goldenAntumbra, goldenEclipse
   ]
+  [
+    goldenArkyid, goldenToxopid
+  ]
 ]
 category: units
 research: tetrative-reconstructor
