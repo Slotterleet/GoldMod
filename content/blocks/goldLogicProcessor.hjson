@@ -1,5 +1,4 @@
-//work in progress, doesn't work for now
-type: LogicProcessor
+type: LogicBlock
 hasLiquids: true
 consumes: {
   liquid: {
@@ -10,3 +9,12 @@ consumes: {
 instructionsPerTick: 40
 range: 400
 size: 3
+requirements: [
+  lead/500
+  silicon/150
+  thorium/100
+  surge-alloy/50
+  goldIngot/100
+]
+category: logic
+research: hyper-processor
