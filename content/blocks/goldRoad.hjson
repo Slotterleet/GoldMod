@@ -1,9 +1,11 @@
+type: Floor
 requirements: [
 goldIngot/6
 ]
-variants: 1
 breakable: true
 destructible: true
 health: 200
+speedMultiplier: 1.25
+dragMultiplier: 1
 category: effect
 research: goldWall

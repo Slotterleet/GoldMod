@@ -1,9 +1,11 @@
+type: Floor
 requirements: [
 shinyAlloy/6
 ]
-variants: 1
 breakable: true
 destructible: true
 health: 300
+speedMultiplier: 1.5
+dragMultiplier: 1
 category: effect
 research: shinyWall

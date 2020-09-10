@@ -1,9 +1,11 @@
+type: Floor
 requirements: [
 palladium/6
 ]
-variants: 1
 breakable: true
 destructible: true
 health: 400
+speedMultiplier: 1.75
+dragMultiplier: 1
 category: effect
 research: pallaWall
