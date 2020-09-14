@@ -45,5 +45,7 @@ const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 3, 1.5);
 
 zuila.generator = zuilagen;
 zuila.startSector = 27;
-zuila.atmosphereColor = Color.valueOf("deae66");
-zuila.meshLoader = () => new HexMesh(zuila, 6);
+zuila.hasAtmosphere = true;
+zuila.atmosphereColor = Color.valueOf("f0e4a8");
+zuila.meshLoader = () => new HexMesh(zuila, 8);
+zuila.sectorSize = 4;
