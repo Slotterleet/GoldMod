@@ -1,3 +1,4 @@
+//planet Zuila
 const zuilagen = extend(SerpuloPlanetGenerator, {});
 zuilagen.arr = [
   [Blocks.water, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.sandWater, Blocks.stone, Blocks.stone],
@@ -41,11 +42,17 @@ zuilagen.tars = [
   Blocks.dirt, Blocks.shale
   ];
 
-const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 3, 1.5);
+const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 3, 1.1);
 
 zuila.generator = zuilagen;
-zuila.startSector = 27;
+zuila.startSector = 1;
 zuila.hasAtmosphere = true;
 zuila.atmosphereColor = Color.valueOf("f0e4a8");
 zuila.meshLoader = () => new HexMesh(zuila, 8);
 zuila.sectorSize = 4;
+//end planet Zuila
+//Zuila sector presets
+const pl_zuila = Vars.content.getByName(ContentType.planet, "goldmod-zuila");
+const gr1 = new JavaAdapter(SectorPreset, {}, "groundOne", pl_zuila, 1);
+gr1.alwaysUnlocked = true;
+gr1.captureWave = 2;
