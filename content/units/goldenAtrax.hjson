@@ -5,6 +5,9 @@ hitsize: 9
 rotatespeed: 0.05
 targetAir: false
 health: 1800
+immunities: [
+burning, melting
+]
 weapons: [{
 name: goldEruption
 x: -3

@@ -2,19 +2,24 @@ type: MechUnit
 health: 200
 speed: 1.1
 range: 0
+mechSideSway: 0.25
 weapons: [{
   name: clear
   x: 0
   y: 0
   bullet: {
+  type: BombBulletType
     damage: 0
     ammoMultiplier: 1
     killShooter: true
-    instantDisappear: true
+    lifetime: 10
+    speed: 1
     splashDamage: 150
     splashDamageRadius: 60
-    shootEffect: blastExplosion
+    hitEffect: pulverize
+    hittable: false
+    collidesAir: true
   }
   shake: 1
-  shootSound: boom
+  shootSound: explosion
 }]
