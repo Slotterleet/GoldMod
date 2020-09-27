@@ -1,4 +1,3 @@
-/*
 //planet Zuila
 const zuilagen = extend(PlanetGenerator, {
   getColor(position){
@@ -49,8 +48,8 @@ zuilagen.tars = [
   Blocks.stone, Blocks.shale
   ];
 
-const rid = Packages.arc.util.noise.RidgedPerlin(1, 2);
-const noise = Packages.arc.util.noise.Simplex();
+const rid = new Packages.arc.util.noise.RidgedPerlin(1, 2);
+const noise = new Packages.arc.util.noise.Simplex();
 
 const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 3, 1.1);
 
@@ -62,16 +61,15 @@ zuila.meshLoader = function(){
   return new HexMesh(zuila, 8);
 };
 zuila.sectorSize = 4;
+
 //end planet Zuila
 //Zuila sector presets
 const pl_zuila = Vars.content.getByName(ContentType.planet, "goldmod-zuila");
 const gr1 = new JavaAdapter(SectorPreset, {}, "groundOne", pl_zuila, 1);
 gr1.alwaysUnlocked = true;
 gr1.captureWave = 2;
-*/
 //end Zuila sector presets
 //functions
-/*
 function getBlock(pos){
   let height = rawHeight(pos);
   Tmp.v31.set(pos);
@@ -83,11 +81,11 @@ function getBlock(pos){
   height = height * 1.2;
   height = Mathf.clamp(height);
   let tar = noise.octaveNoise3D(4, 0.55, 0.5, pos.x, pos.y + 999, pos.z) * 0.3 + Tmp.v31.dst(0, 0, 1) * 0.2;
-  res = [
-    Mathf.clamp(temp * res[0].length, 0, res[0].length - 1)][Mathf.clamp(height * res[0].length, 0, res[0].length - 1)
+  let res = [
+    Mathf.clamp(temp * zuilagen.arr.length, 0, zuilagen.arr[0].length - 1)][Mathf.clamp(height * zuilagen.arr[0].length, 0, zuilagen.arr[0].length - 1)
     ];
   if (tar > 0.5){
-    return tars.get(res, res);
+    return zuilagen.tars.get(res, res);
   } else {
     return res;
   };
@@ -97,16 +95,4 @@ pos = Tmp.v33.set(pos);
 pos.scl(zuilagen.scl);
   return (Mathf.pow(noise.octaveNoise3D(7, 0.5, 1 / 3, pos.x, pos.y, pos.z), 2.3) + zuilagen.waterOffset) / (1 + zuilagen.waterOffset);
 };
-*/
-//serpulo presets
-
-const goldMountains = new JavaAdapter(SectorPreset, {}, "goldMountains", Planets.serpulo, 33);
-goldMountains.captureWave = 30;
-
-const goldMines = new JavaAdapter(SectorPreset, {}, "goldMines", Planets.serpulo, 34);
-
-const abandonedDesert = new JavaAdapter(SectorPreset, {}, "abandonedDesert", Planets.serpulo, 103);
-abandonedDesert.captureWave = 20;
-
-const reignLair = new JavaAdapter(SectorPreset, {}, "eradLair", Planets.serpulo, 67);
-reignLair.captureWave = 10;
+//end functions

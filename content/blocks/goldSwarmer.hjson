@@ -6,7 +6,7 @@ plastanium/45
 silicon/30
 goldIngot/50
 ]
-reload: 40
+reloadTime: 40
 shots: 4
 burstSpacing: 5
 inaccuracy: 10
@@ -19,8 +19,8 @@ ammoTypes: {
 rocket1: {
 type: MissileBulletType
 speed: 2.7f
-bulletWidth: 8
-bulletHeight: 8
+width: 8
+height: 8
 bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 32
@@ -34,8 +34,8 @@ status: burning
 rocket2: {
 type: MissileBulletType
 speed: 2.7f
-bulletWidth: 8
-bulletHeight: 8
+width: 8
+height: 8
 bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 48
@@ -45,14 +45,14 @@ ammoMultiplier: 1
 lifetime: 150
 hitEffect: blastExplosion
 status: burning
-lightining: 3
+lightning: 3
 lightningLength: 20
 }
 rocket3: {
 type: MissileBulletType
 speed: 2.7f
-bulletWidth: 8
-bulletHeight: 8
+width: 8
+height: 8
 bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 64
@@ -68,8 +68,8 @@ homingRange: 40
 rocket4: {
 type: MissileBulletType
 speed: 2.7f
-bulletWidth: 8
-bulletHeight: 8
+width: 8
+height: 8
 bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 80

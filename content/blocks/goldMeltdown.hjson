@@ -12,7 +12,7 @@ shootCone: 40
 recoil: 4
 shootShake: 2
 range: 190
-reload: 80
+reloadTime: 80
 firingMoveFract: 0.5
 shootDuration: 220
 shootSound: laserbig
@@ -36,9 +36,9 @@ activeSoundVolume: 2
 		silicon/325
 		surge-alloy/325
 	]
-	category: turret
-	research: meltdown
-	shootSound: laserbig
+category: turret
+research: meltdown
+shootSound: laserbig
 consumes: {
   liquid: {
     liquid: moltenGold
