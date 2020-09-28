@@ -1,4 +1,5 @@
 //planet Zuila
+/*
 const zuilagen = extend(PlanetGenerator, {
   getColor(position){
     let block = getBlock(position);
@@ -50,17 +51,17 @@ zuilagen.tars = [
 
 const rid = new Packages.arc.util.noise.RidgedPerlin(1, 2);
 const noise = new Packages.arc.util.noise.Simplex();
+*/
 
 const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 3, 1.1);
 
-zuila.generator = zuilagen;
+zuila.generator = new SerpuloPlanetGenerator(); //currently it has serpulo's gen until a custom one is ready
 zuila.startSector = 1;
 zuila.hasAtmosphere = true;
 zuila.atmosphereColor = Color.valueOf("f0e4a8");
 zuila.meshLoader = function(){
   return new HexMesh(zuila, 8);
 };
-zuila.sectorSize = 4;
 
 //end planet Zuila
 //Zuila sector presets
