@@ -28,7 +28,7 @@ upgrades: [
     goldenCrawler, goldenAtrax
   ]
   [
-    ghost, tele
+    ghost, teleBlue
   ]
 ]
 category: units
