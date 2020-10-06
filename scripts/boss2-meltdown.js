@@ -74,7 +74,7 @@ boss.engineSize = 5.3;
 boss.rotatespeed = 0.1;
 boss.baseRotateSpeed = 0.04;
 
-boss.constructor = () => {
+boss.constructor = function(){
     const unit = extend(UnitEntity, {});
     return unit;
 };

@@ -24,6 +24,7 @@ splashDamageRadius: 12
 width: 9
 height: 9
 sprite: shell
+fragBullet: null
 } 
 heShell1: {
 type: BasicBulletType

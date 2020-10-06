@@ -27,6 +27,9 @@ upgrades: [
   [
     goldenCrawler, goldenAtrax
   ]
+  [
+    ghost, tele
+  ]
 ]
 category: units
 research: additive-reconstructor

@@ -21,6 +21,7 @@ smokeEffect: shootSmallSmoke
 damage: 20
 width: 9
 height: 12
+fragBullet: null
 } 
 apShell1: {
 type: BasicBulletType
@@ -33,6 +34,7 @@ ammoMultiplier: 1
 sprite: goldmod-apShell
 frontColor: F0E4A8
 backColor: deae66
+fragBullet: null
 } 
 heShell1: {
 type: BasicBulletType
@@ -70,6 +72,7 @@ frontColor: ffffff
 backColor: d6d6d6
 lightning: 3
 lightningLength: 20
+fragBullet: null
 }
 heShell2: {
 type: BasicBulletType
@@ -109,6 +112,7 @@ frontColor: 109ee0
 backColor: 1c7fa6
 homingPower: 1
 homingRange: 40
+fragBullet: null
 }
 heShell3: {
 type: BasicBulletType
@@ -147,6 +151,7 @@ sprite: goldmod-apShell
 frontColor: a6e3ff
 backColor: 3dc2ff
 incendAmount: 2
+fragBullet: null
 } 
 heShell4: {
 type: BasicBulletType
