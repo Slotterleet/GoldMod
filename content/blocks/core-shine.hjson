@@ -2,7 +2,7 @@ type: CoreBlock
 health: 6000
 itemCapacity: 20000
 size: 6
-unitType: delta
+unitType: sigma
 requirements: [
   copper/12000
   lead/12000

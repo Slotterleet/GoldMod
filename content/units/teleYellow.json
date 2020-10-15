@@ -2,11 +2,10 @@
   "type": "UnitEntity",
   "flying": true,
   "health": 200,
-  "itemCapacity": 60,
+  "itemCapacity": 110,
   "isCounted": false,
   "engineSize": 1.5,
   "engineOffset": 5,
-  //"ammoType": "powerLow",
   "speed": 2.4,
   "drag": 0.06,
   "commandLimit": 5
