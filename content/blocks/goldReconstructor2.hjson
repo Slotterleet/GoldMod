@@ -29,6 +29,18 @@ upgrades: [
   [
     goldenAtrax, goldenSpiroct
   ]
+  [
+    teleBlue, hammer
+  ]
+  [
+    teleRed, hammer
+  ]
+  [
+    teleGreen, hammer
+  ] 
+  [
+    teleYellow, hammer
+  ]
 ]
 category: units
 research: multiplicative-reconstructor

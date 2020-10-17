@@ -20,15 +20,6 @@ plans: [
   ]
   time: 1200
   }
-  {
-  unit: hammer
-  requirements: [
-    silicon/30
-    titanium/20
-    shinyAlloy/10
-    ]
-  time: 900
-  }
 ]
 requirements: [
   copper/60

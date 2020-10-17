@@ -11,8 +11,8 @@ weapons: [
   x: 4
   y: 4
   reload: 30
-  alternate: false
-  bullet: standardThorium
+  alternate: true
+  bullet: standardDense
 }
 {
   name: clear

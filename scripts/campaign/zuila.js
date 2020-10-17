@@ -1,5 +1,4 @@
 //planet Zuila
-/*
 const zuilagen = extend(PlanetGenerator, {
   getColor(position){
     let block = getBlock(position);
@@ -49,16 +48,15 @@ zuilagen.tars = [
   Blocks.stone, Blocks.shale
   ];
 
-const rid = new Packages.arc.util.noise.RidgedPerlin(1, 2);
-const noise = new Packages.arc.util.noise.Simplex();
-*/
+//const rid = new Packages.arc.util.noise.RidgedPerlin(1, 2);
+const noisez = new Packages.arc.util.noise.Simplex();
 
 const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 3, 1.1);
 
 zuila.generator = new SerpuloPlanetGenerator(); //currently it has serpulo's gen until a custom one is ready
 zuila.startSector = 1;
 zuila.hasAtmosphere = true;
-zuila.atmosphereColor = Color.valueOf("f0e4a8");
+zuila.atmosphereColor = Color.valueOf("f0e4a890");
 zuila.meshLoader = function(){
   return new HexMesh(zuila, 8);
 };
@@ -77,11 +75,11 @@ function getBlock(pos){
   pos = Tmp.v33.set(pos).scl(zuilagen.scl);
   let rad = zuilagen.scl;
   let temp = Mathf.clamp(Math.abs(pos.y * 2) / rad);
-  let tnoise = noise.octaveNoise3D(7, 0.56, 1 / 3, pos.x, pos.y + 999, pos.z);
+  let tnoise = noisez.octaveNoise3D(7, 0.56, 1 / 3, pos.x, pos.y + 999, pos.z);
   temp = Mathf.lerp(temp, tnoise, 0.5);
   height = height * 1.2;
   height = Mathf.clamp(height);
-  let tar = noise.octaveNoise3D(4, 0.55, 0.5, pos.x, pos.y + 999, pos.z) * 0.3 + Tmp.v31.dst(0, 0, 1) * 0.2;
+  let tar = noisez.octaveNoise3D(4, 0.55, 0.5, pos.x, pos.y + 999, pos.z) * 0.3 + Tmp.v31.dst(0, 0, 1) * 0.2;
   let res = [
     Mathf.clamp(temp * zuilagen.arr.length, 0, zuilagen.arr[0].length - 1)][Mathf.clamp(height * zuilagen.arr[0].length, 0, zuilagen.arr[0].length - 1)
     ];
@@ -94,6 +92,6 @@ function getBlock(pos){
 function rawHeight(pos){
 pos = Tmp.v33.set(pos);
 pos.scl(zuilagen.scl);
-  return (Mathf.pow(noise.octaveNoise3D(7, 0.5, 1 / 3, pos.x, pos.y, pos.z), 2.3) + zuilagen.waterOffset) / (1 + zuilagen.waterOffset);
+  return (Mathf.pow(noisez.octaveNoise3D(7, 0.5, 1 / 3, pos.x, pos.y, pos.z), 2.3) + zuilagen.waterOffset) / (1 + zuilagen.waterOffset);
 };
 //end functions
