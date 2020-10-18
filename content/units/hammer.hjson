@@ -1,7 +1,7 @@
 type: BuilderMinerUnit
 health: 400
 mineTier: 3
-speed: 0.8
+speed: 1.3
 drag: 0.034
 range: 60
 flying: true
@@ -10,8 +10,8 @@ engineColor: 84f591
 buildPower: 3.2
 weapons: [{
   name: shellLauncher
-  x: 0
-  y: 0
+  x: -6
+  y: 8
   reload: 20
   shots: 2
   shotDelay: 10
