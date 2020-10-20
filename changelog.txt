@@ -1,3 +1,6 @@
+v1.3.1:
+- Added Portuguese (BR) translation by @RayanZ22
+
 v1.3:
 - Added Roads, which boost ground units walking on them
 - Added the Missile Silo, which launches heavy missiles at enemy
