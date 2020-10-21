@@ -16,6 +16,6 @@ requirements: [
   goldIngot/50
 ]
 category: crafting
-research: pulverizer
+research: goldCrushed
 idleSound: respawning
 idleSoundVolume: 0.5

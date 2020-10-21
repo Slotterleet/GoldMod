@@ -65,7 +65,6 @@ zuila.meshLoader = function(){
 //Zuila sector presets
 const pl_zuila = Vars.content.getByName(ContentType.planet, "goldmod-zuila");
 const gr1 = new JavaAdapter(SectorPreset, {}, "groundOne", pl_zuila, 1);
-gr1.alwaysUnlocked = true;
 gr1.captureWave = 2;
 //end Zuila sector presets
 //functions

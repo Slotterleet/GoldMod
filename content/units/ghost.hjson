@@ -1,4 +1,3 @@
-type: MinerUnit
 health: 400
 flying: true
 range: 50
@@ -9,3 +8,4 @@ accel: 0.12
 itemCapacity: 30
 speed: 1.5
 weapons: []
+research: goldAirFactory

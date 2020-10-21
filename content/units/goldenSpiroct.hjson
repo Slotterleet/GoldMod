@@ -1,4 +1,3 @@
-type: LegsUnit
 itemCapacity: 200
 speed: 0.4
 drag: 0.4
@@ -64,3 +63,4 @@ weapons: [
   }
 }
 ]
+research: goldenAtrax

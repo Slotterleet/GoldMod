@@ -1,4 +1,3 @@
-type: UnitEntity
 health: 660
 speed: 1.4
 drag: 0.01
@@ -28,3 +27,4 @@ bullet: {
 }
 shootSound: none
 }]
+research: goldenFlare

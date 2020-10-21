@@ -16,7 +16,7 @@ plans: [
   {
   unit: ghost
   requirements: [
-    shinyAlloy/4
+    shinyAlloy/12
   ]
   time: 1200
   }

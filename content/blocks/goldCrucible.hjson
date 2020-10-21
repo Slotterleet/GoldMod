@@ -19,6 +19,6 @@ requirements: [
   thorium/50
 ]
 category: crafting
-research: melter
+research: moltenGold
 idleSound: respawning
 idleSoundVolume: 0.5

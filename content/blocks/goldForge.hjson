@@ -21,7 +21,7 @@ requirements: [
   titanium/50
 ]
 category: crafting
-research: separator
+research: goldIngot
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: goldIngot/1

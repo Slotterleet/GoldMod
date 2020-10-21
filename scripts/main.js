@@ -6,3 +6,4 @@ require('gForeshadow');
 require('campaign/zuila');
 require('campaign/serpulo');
 require('campaign/cori');
+require('campaign/techtree');
