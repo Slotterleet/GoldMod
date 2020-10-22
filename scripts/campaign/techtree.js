@@ -1,3 +1,11 @@
+if((Version.type == "bleeding-edge") && (Version.build >= 10672)){
+  var phase = Items.phaseFabric;
+  var surge = Items.surgeAlloy;
+} else {
+  var phase = Items.phasefabric;
+  var surge = Items.surgealloy;
+}
+
 const palladium = extendContent(Item, "palladium", {
   researchRequirements(){
     return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-palladium"), 500, Vars.content.getByName(ContentType.item, "goldmod-researchPoint"), 40)
@@ -147,7 +155,7 @@ gScepter.constructor = function(){
 
 const gReign = extendContent(UnitType, "boss1", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 15000, Items.surgealloy, 15000, Items.phasefabric, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
+    return ItemStack.with(Items.silicon, 15000, surge, 15000, phase, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
   }
 });
 gReign.constructor = function(){
@@ -192,7 +200,7 @@ gArkyid.constructor = function(){
 
 const gToxopid = extendContent(UnitType, "goldenToxopid", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 15000, Items.surgealloy, 15000, Items.phasefabric, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
+    return ItemStack.with(Items.silicon, 15000, surge, 15000, phase, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
   }
 });
 gToxopid.constructor = function(){
@@ -237,7 +245,7 @@ gAntumbra.constructor = function(){
 
 const gEclipse = extendContent(UnitType, "goldenEclipse", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 15000, Items.surgealloy, 15000, Items.phasefabric, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
+    return ItemStack.with(Items.silicon, 15000, surge, 15000, phase, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
   }
 });
 gEclipse.constructor = function(){
