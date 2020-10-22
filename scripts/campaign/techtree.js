@@ -109,7 +109,7 @@ const goldCrushed = extendContent(Item, "goldCrushed", {
 
 const moltenGold = extendContent(Liquid, "moltenGold", {
   researchRequirements(){
-    return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-goldOre"), 500)
+    return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-goldOre"), 4000)
   }
 });
 
