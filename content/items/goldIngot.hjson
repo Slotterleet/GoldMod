@@ -1,7 +1,3 @@
-type: material
 color: DEAE66
 cost: 7
 research: goldCrucible
-researchRequirements: [
-goldOre/4000
-]
