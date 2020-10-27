@@ -21,10 +21,10 @@ weapons: [{
   bullet: {
     type: BasicBulletType
     lifetime: 60
-    speed: 0.5
-    width: 4
-    height: 4
-    damage: 5
+    speed: 0.75
+    width: 8
+    height: 8
+    damage: 8
   }
 }]
 research: teleBlue
