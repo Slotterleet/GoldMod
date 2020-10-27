@@ -18,6 +18,13 @@ weapons: [{
   ejectEffect: none
   velocityRnd: 1
   inaccuracy: 2
-  bullet: frag
+  bullet: {
+    type: BasicBulletType
+    lifetime: 60
+    speed: 0.5
+    width: 4
+    height: 4
+    damage: 5
+  }
 }]
 research: teleBlue
