@@ -5,11 +5,11 @@ const silo = extendContent(ItemTurret, "missileSilo", {
     this.region = Core.atlas.find(this.name);
     this.topRegion = Core.atlas.find(this.name + "-light");
   }, 
-  draw(tile){
-    Draw.rect(Core.atlas.find(this.name + "-base"), tile.drawx(), tiledrawy());
-    if (this.hasAmmo(tile)){
-      Draw.rect(Core.atlas.find(this.name), tile.drawx(), tile.drawy());
-      Draw.rect(Core.atlas.find(this.name + "-light"), tile.drawx(), tile.drawy());
+  draw(){
+    Draw.rect(Core.atlas.find(this.name + "-base"), x, y);
+    if (this.hasAmmo()){
+      Draw.rect(Core.atlas.find(this.name), x, y);
+      Draw.rect(Core.atlas.find(this.name + "-light"), x, y);
     };
   },
   icons(){

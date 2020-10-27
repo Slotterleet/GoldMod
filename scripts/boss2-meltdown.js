@@ -1,10 +1,3 @@
-const tmpColor = new Color();
-const colors = [Color.valueOf("349e0955"), Color.valueOf("349e09aa"), Color.valueOf("349e09"), Color.white];
-const tscales = [1, 0.7, 0.5, 0.2];
-const strokes = [2, 1.5, 1, 0.3];
-const lenscales = [1, 1.12, 1.15, 1.17];
-const length = 220;
-
 const bosslaser = extend(ContinuousLaserBulletType, {
 	range: function(){
 		return 220.0;
@@ -28,40 +21,22 @@ bosslaser.hitEffect = Fx.none;
 bosslaser.keepVelocity = false;
 bosslaser.incendAmount = 2;
 
-const weapon1 = extendContent(Weapon, "boss2", {
-  load: function(){
-    this.region = Core.atlas.find("goldmod-boss2");
-  }
-});
-weapon1.bullet = bosslaser;
-weapon1.x = -22;
-weapon1.y = 0;
-weapon1.reload = 80;
-weapon1.inaccuracy = 0;
-weapon1.alternate = true;
-weapon1.shootSound = Sounds.laserbig;
-weapon1.shootShake = 2;
-weapon1.ignoreRotation = true;
 
-const weapon2 = extendContent(Weapon, "boss2", {
-  load: function(){
-    this.region = Core.atlas.find("goldmod-boss2");
-  }
-});
-weapon2.bullet = bosslaser;
-weapon2.x = 22;
-weapon2.y = 0;
-weapon2.mirror = true;
-weapon2.reload = 80;
-weapon2.inaccuracy = 0;
-weapon2.alternate = true;
-weapon2.shootSound = Sounds.laserbig;
-weapon2.shootShake = 2;
-weapon2.ignoreRotation = true;
+const weapon = extendContent(Weapon, "boss2", {});
+weapon.bullet = bosslaser;
+weapon.x = 22;
+weapon.y = 0;
+weapon.mirror = true;
+weapon.reload = 80;
+weapon.inaccuracy = 0;
+weapon.alternate = true;
+weapon.shootSound = Sounds.laserbig;
+weapon.shootShake = 2;
+weapon.ignoreRotation = true;
 
 const boss = extendContent(UnitType, "boss2-meltdown", {});
 
-boss.weapons.add(weapon1, weapon2);
+boss.weapons.add(weapon);
 boss.health = 20000;
 boss.hitsize = 40;
 boss.speed = 0.6;
@@ -74,7 +49,4 @@ boss.engineSize = 5.3;
 boss.rotatespeed = 0.1;
 boss.baseRotateSpeed = 0.04;
 
-boss.constructor = function(){
-    const unit = extend(UnitEntity, {});
-    return unit;
-};
+boss.constructor = () => extend(UnitEntity, {});

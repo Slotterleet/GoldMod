@@ -18,6 +18,7 @@ weapons: [{
     hitEffect: pulverize
     hittable: false
     collidesAir: true
+    instantDisappear: true
   }
   shake: 1
   shootSound: explosion

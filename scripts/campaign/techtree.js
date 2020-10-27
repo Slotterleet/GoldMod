@@ -246,8 +246,7 @@ const ghost = extendContent(UnitType, "ghost", {
   }
 });
 ghost.constructor = function(){
-  const i = extend(MinerUnit, {});
-  return i;
+  return extend(MinerUnit, {});
 };
 
 const teleBlue = extendContent(UnitType, "teleBlue", {
