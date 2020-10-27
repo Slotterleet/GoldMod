@@ -1,11 +1,3 @@
-if((Version.type == "bleeding-edge") && (Version.build >= 10672)){
-  var phase = Items.phaseFabric;
-  var surge = Items.surgeAlloy;
-} else {
-  var phase = Items.phasefabric;
-  var surge = Items.surgealloy;
-}
-
 const palladium = extendContent(Item, "palladium", {
   researchRequirements(){
     return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-palladium"), 500, Vars.content.getByName(ContentType.item, "goldmod-researchPoint"), 40)
@@ -113,17 +105,13 @@ const moltenGold = extendContent(Liquid, "moltenGold", {
   }
 });
 
-const mech_const = extend(MechUnit, {});
-const legs_const = extend(LegsUnit, {});
-const flying_const = extend(UnitEntity, {});
-
 const gDagger = extendContent(UnitType, "goldenDagger", {
   researchRequirements(){
     return ItemStack.with(Items.silicon, 600, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 300)
   }
 });
 gDagger.constructor = function(){
-  return mech_const;
+  return extend(MechUnit, {});
 };
 
 const gMace = extendContent(UnitType, "goldenMace", {
@@ -132,7 +120,7 @@ const gMace = extendContent(UnitType, "goldenMace", {
   }
 });
 gMace.constructor = function(){
-  return mech_const;
+  return extend(MechUnit, {});
 };
 
 const gFortress = extendContent(UnitType, "goldenFortress", {
@@ -141,7 +129,7 @@ const gFortress = extendContent(UnitType, "goldenFortress", {
   }
 });
 gFortress.constructor = function(){
-  return mech_const;
+  return extend(MechUnit, {});
 };
 
 const gScepter = extendContent(UnitType, "goldenScepter", {
@@ -150,16 +138,16 @@ const gScepter = extendContent(UnitType, "goldenScepter", {
   }
 });
 gScepter.constructor = function(){
-  return mech_const;
+  return extend(MechUnit, {});
 };
 
 const gReign = extendContent(UnitType, "boss1", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 15000, surge, 15000, phase, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
+    return ItemStack.with(Items.silicon, 15000, Items.surgeAlloy, 15000, Items.phaseFabric, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
   }
 });
 gReign.constructor = function(){
-  return mech_const;
+  return extend(MechUnit, {});
 };
 
 const gCrawler = extendContent(UnitType, "goldenCrawler", {
@@ -168,7 +156,7 @@ const gCrawler = extendContent(UnitType, "goldenCrawler", {
   }
 });
 gCrawler.constructor = function(){
-  return mech_const;
+  return extend(MechUnit, {});
 };
 
 const gAtrax = extendContent(UnitType, "goldenAtrax", {
@@ -177,7 +165,7 @@ const gAtrax = extendContent(UnitType, "goldenAtrax", {
   }
 });
 gAtrax.constructor = function(){
-  return legs_const;
+  return extend(LegsUnit, {});
 };
 
 const gSpiroct = extendContent(UnitType, "goldenSpiroct", {
@@ -186,7 +174,7 @@ const gSpiroct = extendContent(UnitType, "goldenSpiroct", {
   }
 });
 gSpiroct.constructor = function(){
-  return legs_const;
+  return extend(LegsUnit, {});
 };
 
 const gArkyid = extendContent(UnitType, "goldenArkyid", {
@@ -195,16 +183,16 @@ const gArkyid = extendContent(UnitType, "goldenArkyid", {
   }
 });
 gArkyid.constructor = function(){
-  return legs_const;
+  return extend(LegsUnit, {});
 };
 
 const gToxopid = extendContent(UnitType, "goldenToxopid", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 15000, surge, 15000, phase, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
+    return ItemStack.with(Items.silicon, 15000, Items.surgeAlloy, 15000, Items.phaseFabric, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
   }
 });
 gToxopid.constructor = function(){
-  return legs_const;
+  return extend(LegsUnit, {});
 };
 
 const gFlare = extendContent(UnitType, "goldenFlare", {
@@ -213,7 +201,7 @@ const gFlare = extendContent(UnitType, "goldenFlare", {
   }
 });
 gFlare.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const gHorizon = extendContent(UnitType, "goldenHorizon", {
@@ -222,7 +210,7 @@ const gHorizon = extendContent(UnitType, "goldenHorizon", {
   }
 });
 gHorizon.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const gZenith = extendContent(UnitType, "goldenZenith", {
@@ -231,7 +219,7 @@ const gZenith = extendContent(UnitType, "goldenZenith", {
   }
 });
 gZenith.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const gAntumbra = extendContent(UnitType, "goldenAntumbra", {
@@ -240,16 +228,16 @@ const gAntumbra = extendContent(UnitType, "goldenAntumbra", {
   }
 });
 gAntumbra.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const gEclipse = extendContent(UnitType, "goldenEclipse", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 15000, surge, 15000, phase, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
+    return ItemStack.with(Items.silicon, 15000, Items.surgeAlloy, 15000, Items.phaseFabric, 7500, Items.plastanium, 20000, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 20000, Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 1500)
   }
 });
 gEclipse.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const ghost = extendContent(UnitType, "ghost", {
@@ -268,7 +256,7 @@ const teleBlue = extendContent(UnitType, "teleBlue", {
   }
 });
 teleBlue.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 function tele(name){
@@ -281,17 +269,17 @@ function tele(name){
 
 const teleRed = tele("teleRed");
 teleRed.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const teleGreen = tele("teleGreen");
 teleGreen.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const teleYellow = tele("teleYellow");
 teleYellow.constructor = function(){
-  return flying_const;
+  return extend(UnitEntity, {});
 };
 
 const hammer = extendContent(UnitType, "hammer", {
@@ -300,6 +288,5 @@ const hammer = extendContent(UnitType, "hammer", {
   }
 });
 hammer.constructor = function(){
-  const j = extend(BuilderMinerUnit, {});
-  return j;
+  return extend(BuilderMinerUnit, {});
 };
