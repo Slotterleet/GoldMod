@@ -245,6 +245,8 @@ const ghost = extendContent(UnitType, "ghost", {
     return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 600)
   }
 });
+
+ghost.defaultController = () => extend(MinerAI, {});
 ghost.constructor = function(){
   return extend(MinerUnit, {});
 };
