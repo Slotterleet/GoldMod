@@ -2,5 +2,5 @@ name: "goldmod"
 displayName: "[gold]Gold[] Mod"
 author: "[#a00000]The [red]Slaylord[][]"
 description: "This mod adds new items, blocks, turrets, units and zones to the game. Includes a custom expanding lore!\n\n> [royal]Discord:[] [gray]https://discord.gg/kCvJKyb[]\n> GitHub: [gray]https://github.com/TheSlaylord/GoldMod[]"
-version: "2.0 alpha"
+version: "2.0 alpha b1"
 minGameVersion: 109
