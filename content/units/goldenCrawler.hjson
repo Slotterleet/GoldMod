@@ -7,7 +7,7 @@ weapons: [{
   x: 0
   y: 0
   bullet: {
-  type: BombBulletType
+    type: BombBulletType
     damage: 0
     ammoMultiplier: 1
     killShooter: true

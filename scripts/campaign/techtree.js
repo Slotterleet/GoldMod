@@ -155,6 +155,7 @@ const gCrawler = extendContent(UnitType, "goldenCrawler", {
     return ItemStack.with(Items.blastCompound, 100, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 150)
   }
 });
+gCrawler.defaultController = () => extend(SuicideAI, {});
 gCrawler.constructor = function(){
   return extend(MechUnit, {});
 };

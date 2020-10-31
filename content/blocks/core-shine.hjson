@@ -3,6 +3,7 @@ health: 6000
 itemCapacity: 20000
 size: 6
 unitType: sigma
+unitCapModifier: 28
 requirements: [
   copper/12000
   lead/12000
