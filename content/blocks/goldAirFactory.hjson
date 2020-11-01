@@ -7,8 +7,7 @@ plans: [
   {
   unit: goldenFlare
   requirements: [
-    silicon/12
-    titanium/6
+    silicon/15
     goldIngot/6
   ]
   time: 600

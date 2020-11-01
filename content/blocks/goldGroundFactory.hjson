@@ -7,18 +7,37 @@ plans: [
   {
     unit: goldenDagger
     requirements: [
-      silicon/6
-      goldIngot/3
+      silicon/30
+      lead/15
+      goldIngot/15
     ]
     time: 900
   }
   {
     unit: goldenCrawler
     requirements: [
-      blast-compound/2
-      goldIngot/3
+      blast-compound/10
+      goldIngot/8
     ] 
     time: 360
+  }
+  {
+    unit: deadeye
+    requirements: [
+      silicon/30
+      shinyAlloy/15
+    ]
+    time: 1200
+  }
+  {
+    unit: goldenNova
+    requirements: [
+      silicon/30
+      lead/15
+      titanium/45
+      goldIngot/30
+    ]
+    time: 1800
   }
 ]
 requirements: [

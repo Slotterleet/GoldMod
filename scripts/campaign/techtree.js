@@ -107,7 +107,7 @@ const moltenGold = extendContent(Liquid, "moltenGold", {
 
 const gDagger = extendContent(UnitType, "goldenDagger", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 600, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 300)
+    return ItemStack.with(Items.silicon, 1200, Items.lead, 1500, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 600)
   }
 });
 gDagger.constructor = function(){
@@ -152,7 +152,7 @@ gReign.constructor = function(){
 
 const gCrawler = extendContent(UnitType, "goldenCrawler", {
   researchRequirements(){
-    return ItemStack.with(Items.blastCompound, 100, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 150)
+    return ItemStack.with(Items.blastCompound, 600, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 800)
   }
 });
 gCrawler.defaultController = () => extend(SuicideAI, {});
@@ -198,7 +198,7 @@ gToxopid.constructor = function(){
 
 const gFlare = extendContent(UnitType, "goldenFlare", {
   researchRequirements(){
-    return ItemStack.with(Items.silicon, 600, Items.titanium, 300, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 300)
+    return ItemStack.with(Items.silicon, 1200, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 600)
   }
 });
 gFlare.constructor = function(){
@@ -264,7 +264,7 @@ teleBlue.constructor = function(){
 function tele(name){
   return extendContent(UnitType, name, {
     researchRequirements(){
-      return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 300)
+      return ItemStack.with(Vars.content.getByName(ContentType.item, "goldmod-shinyAlloy"), 600)
     }
   });
 };
@@ -292,3 +292,12 @@ const hammer = extendContent(UnitType, "hammer", {
 hammer.constructor = function(){
   return extend(BuilderMinerUnit, {});
 };
+
+const gNova = extendContent(UnitType, "goldenNova", {
+  researchRequirements(){
+    return ItemStack.with(Items.silicon, 1200, Items.lead, 600, Items.titanium, 1500, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 1200);
+  }
+});
+gNova.constructor = () => extend(BuilderMechMinerUnit, {});
+const nova_abil = new JavaAdapter(RepairFieldAbility, {}, 5, 180, 60);
+gNova.abilities.add(nova_abil);
