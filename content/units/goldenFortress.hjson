@@ -12,7 +12,7 @@ weapons: [{
   alternate: true
   recoil: 4
   shake: 2
-  ejectEffect: shellEjectMedium
+  ejectEffect: casing2
   bullet: {
     type: ArtilleryBulletType
     speed: 2

@@ -7,7 +7,7 @@ weapons: [{
   name: sniperRifle
   x: -4
   y: 0
-  ejectEffect: shellEjectSmall
+  ejectEffect: casing1
   reload: 240
   alternate: true
   bullet: {

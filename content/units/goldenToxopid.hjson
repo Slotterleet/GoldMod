@@ -28,7 +28,7 @@ weapons: [
   reload: 30
   shake: 4
   rotateSpeed: 2
-  ejectEffect: shellEjectSmall
+  ejectEffect: casing1
   shootSound: shootBig
   rotate: true
   occlusion: 12
@@ -61,7 +61,7 @@ weapons: [
   shake: 10
   recoil: 10
   rotateSpeed: 1
-  ejectEffect: shellEjectBig
+  ejectEffect: casing4
   shootSound: shootBig
   rotate: true
   occlusion: 30

@@ -14,7 +14,7 @@ name: goldChaos
   shots: 4
   spacing: 4
   shotDelay: 5
-  ejectEffect: shellEjectMedium
+  ejectEffect: casing2
   bullet: {
     type: BasicBulletType
     width: 7

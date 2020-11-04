@@ -28,7 +28,7 @@ ammoTypes: {
 rotateSpeed: 2.5
 reloadTime: 230
 restitution: 0.2
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing4
 recoilAmount: 0.5
 cooldown: 0.009
 shootShake: 4

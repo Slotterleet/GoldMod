@@ -19,7 +19,7 @@ weapons: [
   reload: 6
   inaccuracy: 3
   alternate: true
-  ejectEffect: shellEjectBig
+  ejectEffect: casing4
   velocityRnd: 0.2
   bullet: {
     type: BasicBulletType

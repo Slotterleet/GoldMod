@@ -10,7 +10,7 @@ shots: 4
 inaccuracy: 12
 reloadTime: 60
 ammoEjectBack: 5
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing4
 cooldown: 0.03
 velocityInaccuracy: 0.2
 restitution: 0.02

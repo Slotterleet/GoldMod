@@ -17,7 +17,7 @@ recoil: 3
 shootShake: 2
 burstSpacing: 3
 shots: 4
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing4
 shootSound: shootBig
 ammoTypes: {
 goldCrushed: {

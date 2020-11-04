@@ -9,7 +9,7 @@ weapons: [
   y: 0
   reload: 20
   alternate: true
-  ejectEffect: shellEjectSmall
+  ejectEffect: casing1
   bullet: {
     lifetime: 60
     speed: 2

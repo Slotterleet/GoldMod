@@ -8,7 +8,7 @@ weapons: [{
   length: 1.5
   reload: 21
   alternate: true
-  ejectEffect: shellEjectSmall
+  ejectEffect: casing1
   bullet: standardThorium
   shootSound: shoot
 }]

@@ -17,7 +17,7 @@ weapons: [
   shake: 4
   shotDelay: 3
   reload: 9
-  ejectEffect: shellEjectBig
+  ejectEffect: casing4
   bullet: {
     type: BasicBulletType
     speed: 13
