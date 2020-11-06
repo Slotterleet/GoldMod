@@ -2,7 +2,7 @@ canBoost: true
 boostMultiplier: 1.5
 speed: 0.5
 hitSize: 8
-health: 110
+health: 330
 buildSpeed: 0.8
 armor: 1
 weapons: [

@@ -28,6 +28,9 @@ upgrades: [
     goldenCrawler, goldenAtrax
   ]
   [
+    goldenNova, goldenPulsar
+  ]
+  [
     ghost, teleBlue
   ]
 ]
