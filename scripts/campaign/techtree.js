@@ -249,7 +249,7 @@ const ghost = extendContent(UnitType, "ghost", {
 
 ghost.defaultController = () => extend(MinerAI, {});
 ghost.constructor = function(){
-  return extend(MinerUnit, {});
+  return extend(UnitEntityLegacyMono, {});
 };
 
 const teleBlue = extendContent(UnitType, "teleBlue", {
@@ -290,7 +290,7 @@ const hammer = extendContent(UnitType, "hammer", {
   }
 });
 hammer.constructor = function(){
-  return extend(BuilderMinerUnit, {});
+  return extend(BuilderUnit, {});
 };
 
 const gNova = extendContent(UnitType, "goldenNova", {
@@ -298,7 +298,7 @@ const gNova = extendContent(UnitType, "goldenNova", {
     return ItemStack.with(Items.silicon, 1200, Items.lead, 600, Items.titanium, 1500, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 1200);
   }
 });
-gNova.constructor = () => extend(BuilderMechMinerUnit, {});
+gNova.constructor = () => extend(BuilderMechUnit, {});
 const nova_abil = new JavaAdapter(RepairFieldAbility, {
   load(){
     this.localizedName = Core.bundle.get("ability.repairfield");
@@ -311,7 +311,7 @@ const gPulsar = extendContent(UnitType, "goldenPulsar", {
     return ItemStack.with(Items.silicon, 1500, Items.graphite, 1500, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 750)
   }
 });
-gPulsar.constructor = () => extend(BuilderMechMinerUnit, {});
+gPulsar.constructor = () => extend(BuilderMechUnit, {});
 const pulsar_abil = new JavaAdapter(ShieldRegenFieldAbility, {
   load(){
     this.localizedName = Core.bundle.get("ability.shieldregenfield");
