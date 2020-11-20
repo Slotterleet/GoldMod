@@ -175,7 +175,7 @@ const gSpiroct = extendContent(UnitType, "goldenSpiroct", {
   }
 });
 gSpiroct.constructor = function(){
-  return extend(LegsUnit, {});
+  return extend(LegsUnitLegacySpiroct, {});
 };
 
 const gArkyid = extendContent(UnitType, "goldenArkyid", {
@@ -184,7 +184,7 @@ const gArkyid = extendContent(UnitType, "goldenArkyid", {
   }
 });
 gArkyid.constructor = function(){
-  return extend(LegsUnit, {});
+  return extend(LegsUnitLegacyArkyid, {});
 };
 
 const gToxopid = extendContent(UnitType, "goldenToxopid", {
@@ -193,7 +193,7 @@ const gToxopid = extendContent(UnitType, "goldenToxopid", {
   }
 });
 gToxopid.constructor = function(){
-  return extend(LegsUnit, {});
+  return extend(LegsUnitLegacyToxopid, {});
 };
 
 const gFlare = extendContent(UnitType, "goldenFlare", {
@@ -290,7 +290,7 @@ const hammer = extendContent(UnitType, "hammer", {
   }
 });
 hammer.constructor = function(){
-  return extend(BuilderUnit, {});
+  return extend(UnitEntityLegacyPoly, {});
 };
 
 const gNova = extendContent(UnitType, "goldenNova", {
@@ -298,7 +298,7 @@ const gNova = extendContent(UnitType, "goldenNova", {
     return ItemStack.with(Items.silicon, 1200, Items.lead, 600, Items.titanium, 1500, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 1200);
   }
 });
-gNova.constructor = () => extend(BuilderMechUnit, {});
+gNova.constructor = () => extend(MechUnitLegacyNova, {});
 const nova_abil = new JavaAdapter(RepairFieldAbility, {
   load(){
     this.localizedName = Core.bundle.get("ability.repairfield");
@@ -311,7 +311,7 @@ const gPulsar = extendContent(UnitType, "goldenPulsar", {
     return ItemStack.with(Items.silicon, 1500, Items.graphite, 1500, Vars.content.getByName(ContentType.item, "goldmod-goldIngot"), 750)
   }
 });
-gPulsar.constructor = () => extend(BuilderMechUnit, {});
+gPulsar.constructor = () => extend(MechUnitLegacyPulsar, {});
 const pulsar_abil = new JavaAdapter(ShieldRegenFieldAbility, {
   load(){
     this.localizedName = Core.bundle.get("ability.shieldregenfield");
