@@ -39,6 +39,11 @@ gp_weapon.bullet = gp_bullet;
 
 gPulsar.weapons.add(gp_weapon);
 
+const gQuasar = extendContent(UnitType, "goldenQuasar", {});
+gQuasar.constructor = () => extend(MechUnit, {});
+const quasar_abil = new JavaAdapter(ForceFieldAbility, {}, 60, 0.3, 400, 360);
+gQuasar.abilities.add(quasar_abil);
+
 const gCrawler = extendContent(UnitType, "goldenCrawler", {});
 gCrawler.constructor = () => extend(MechUnit, {});
 gCrawler.defaultController = () => extend(SuicideAI, {});

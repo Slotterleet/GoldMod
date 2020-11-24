@@ -22,22 +22,25 @@ requirements: [
 upgrades: [
   [
     goldenMace, goldenFortress
-  ]
+  ],
+  [
+    goldenPulsar, goldenQuasar
+  ],
   [
     goldenHorizon, goldenZenith
-  ]
+  ],
   [
     goldenAtrax, goldenSpiroct
-  ]
+  ],
   [
     teleBlue, hammer
-  ]
+  ],
   [
     teleRed, hammer
-  ]
+  ],
   [
     teleGreen, hammer
-  ] 
+  ],
   [
     teleYellow, hammer
   ]
