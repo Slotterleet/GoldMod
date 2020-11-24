@@ -1,3 +1,4 @@
+type: mech
 canBoost: true
 boostMultiplier: 1.6
 speed: 0.6
@@ -7,3 +8,4 @@ buildSpeed: 1
 armor: 4
 mineTier: 2
 mineSpeed: 5
+research: goldenNova

@@ -1,3 +1,4 @@
+type: legs
 speed: 0.8
 drag: 0.4
 hitsize: 9

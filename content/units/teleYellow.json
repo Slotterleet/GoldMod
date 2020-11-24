@@ -1,4 +1,5 @@
 {
+  "type": "flying",
   "flying": true,
   "health": 200,
   "itemCapacity": 110,

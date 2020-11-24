@@ -1,3 +1,4 @@
+type: flying
 health: 18000
 hitsize: 40
 speed: 0.6

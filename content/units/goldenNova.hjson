@@ -1,3 +1,4 @@
+type: mech
 canBoost: true
 boostMultiplier: 1.5
 speed: 0.5
@@ -27,3 +28,4 @@ weapons: [
   shootSound: pew
 }
 ]
+research: goldGroundFactory

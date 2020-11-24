@@ -1,3 +1,4 @@
+type: mech
 speed: 0.75
 drag: 0.4
 hitsize: 10

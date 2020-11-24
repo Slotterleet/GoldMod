@@ -1,3 +1,4 @@
+type: legs
 itemCapacity: 200
 speed: 0.4
 drag: 0.4

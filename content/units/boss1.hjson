@@ -1,3 +1,4 @@
+type: mech
 speed: 0.35
 hitsize: 26
 rotateSpeed: 1.65

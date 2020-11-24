@@ -1,3 +1,4 @@
+type: flying
 health: 660
 speed: 1.4
 drag: 0.01

@@ -1,4 +1,4 @@
-type: UnitEntityLegacyGamma
+type: flying
 flying: true
 health: 500
 speed: 4

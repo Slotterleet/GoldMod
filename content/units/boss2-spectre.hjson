@@ -1,4 +1,4 @@
-type: UnitEntity
+type: flying
 health: 20000
 hitsize: 40
 speed: 0.6
