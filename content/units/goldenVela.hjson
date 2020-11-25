@@ -1,0 +1,60 @@
+type: mech
+hitSize: 23
+rotateSpeed: 1.6
+canDrown: false
+mechFrontSway: 1
+mechStepParticles: true
+mechStepShake: 0.2
+speed: 0.3
+boostMultiplier: 2.1
+engineOffset: 12
+engineSize: 6
+lowAltitude: true
+health: 21000
+armor: 10
+canBoost: true
+landShake: 5
+immunities: [
+  burning
+]
+commandLimit: 8
+weapons: [
+{
+  name: goldenVela-weapon
+  x: 0
+  y: 0
+  mirror: false
+  top: false
+  shake: 4
+  shootY: 13
+  reload: 160
+  recoil: 0
+  chargeSound: lasercharge2
+  shootSound: beam
+  continuous: true
+  cooldownTime: 200
+  firstShotDelay: 39
+  bullet: {
+    type: ContinuousLaserBulletType
+    damage: 69
+    length: 170
+    hitEffect: hitMeltHeal
+    drawSize: 420
+    lifetime: 160
+    shake: 1
+    despawnEffect: smokeCloud
+    smokeEffect: none
+    shootEffect: greenLaserChargeSmall
+    incendChance: 0.15
+    incendSpread: 5
+    incendAmount: 1
+    healPercent: 2
+    collidesTeam: true
+    colors: [
+      f0e4a832, f0e4a888, f0e4a8, ffffff
+    ]
+    shootStatus: slow
+    shootStatusDuration: 199
+  }
+ }]
+ research: goldenQuasar
