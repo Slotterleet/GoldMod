@@ -9,7 +9,7 @@ commandLimit: 8
 legCount: 4
 legLength: 14
 legBaseOffset: 11
-legMiveSpace: 1.5
+legMoveSpace: 1.5
 legTrns: 0.58
 hovering: true
 visualElevation: 0.2
@@ -44,7 +44,7 @@ weapons: [
     lightningSpacing: 35
     lightningLength: 7
     lightningDelay: 1.1
-    lightnjngLengthRand: 20
+    lightningLengthRand: 20
     lightningDamage: 100
     lightningAngleRand: 40
     largeHit: true

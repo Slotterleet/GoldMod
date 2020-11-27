@@ -1,11 +1,10 @@
 health: 3000
-hitsize: 20
+hitSize: 20
 speed: 1
 drag: 0.01
 range: 80
-shootCone: 60
 flying: true
-rotateWeapon: true
+
 engineOffset: 12
 engineSize: 3
 rotatespeed: 0.01
@@ -19,9 +18,11 @@ weapons: [{
   shots: 6
   inaccuracy: 2
   alternate: true
+  rotate: true
   ejectEffect: none
   velocityRnd: 0.2
   spacing: 1
+  shootCone: 60
   shootSound: missile
   bullet: {
     type: MissileBulletType

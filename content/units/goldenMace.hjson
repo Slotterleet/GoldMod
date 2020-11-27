@@ -1,9 +1,9 @@
 type: mech
 speed: 1
 drag: 0.4
-hitsize: 14
+hitSize: 14
 range: 15
-rotatespeed: 0.1
+rotateSpeed: 0.1
 health: 1000
 weapons: [{
   name: goldFlamethrower

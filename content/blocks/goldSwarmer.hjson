@@ -18,10 +18,9 @@ shootSound: missile
 ammoTypes: {
 rocket1: {
 type: MissileBulletType
-speed: 2.7f
+speed: 2.7
 width: 8
 height: 8
-bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 32
 splashDamage: 90
@@ -33,10 +32,9 @@ status: burning
 } 
 rocket2: {
 type: MissileBulletType
-speed: 2.7f
+speed: 2.7
 width: 8
 height: 8
-bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 48
 splashDamage: 120
@@ -50,10 +48,9 @@ lightningLength: 20
 }
 rocket3: {
 type: MissileBulletType
-speed: 2.7f
+speed: 2.7
 width: 8
 height: 8
-bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 64
 splashDamage: 150
@@ -67,10 +64,9 @@ homingRange: 40
 } 
 rocket4: {
 type: MissileBulletType
-speed: 2.7f
+speed: 2.7
 width: 8
 height: 8
-bulletShrink: 0
 drag: -0.01
 splashDamageRadius: 80
 splashDamage: 180

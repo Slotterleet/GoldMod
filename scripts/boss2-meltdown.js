@@ -31,8 +31,9 @@ weapon.reload = 80;
 weapon.inaccuracy = 0;
 weapon.alternate = true;
 weapon.shootSound = Sounds.laserbig;
-weapon.shootShake = 2;
+weapon.shake = 2;
 weapon.ignoreRotation = true;
+weapon.continuous = true;
 
 const boss = extendContent(UnitType, "boss2-meltdown", {});
 

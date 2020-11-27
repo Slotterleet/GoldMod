@@ -12,7 +12,6 @@ booster: true
 }} 
 phaseRadiusBoost: 8
 radius: 8
-breakage: 400
 requirements: [
 palladium/9
 ]

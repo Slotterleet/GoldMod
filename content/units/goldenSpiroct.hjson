@@ -2,7 +2,7 @@ type: legs
 itemCapacity: 200
 speed: 0.4
 drag: 0.4
-hitsize: 12
+hitSize: 12
 rotateSpeed: 3
 health: 2250
 immunities: [

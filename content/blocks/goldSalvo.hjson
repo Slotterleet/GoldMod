@@ -13,7 +13,6 @@ restitution: 0.03
 coolantMultiplier: 20
 ammoEjectBack: 3
 cooldown: 0.03
-recoil: 3
 shootShake: 2
 burstSpacing: 3
 shots: 4

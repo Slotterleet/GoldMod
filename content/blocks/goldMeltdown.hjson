@@ -9,7 +9,6 @@ update: true
 hasPower: true
 shootEffect: shootBigSmoke2
 shootCone: 40
-recoil: 4
 shootShake: 2
 range: 190
 reloadTime: 80
@@ -26,8 +25,6 @@ shootType: {
   incendSpread: 7
   incendAmount: 1
 }
-activeSound: beam
-activeSoundVolume: 2
 	requirements: [
 		goldIngot/200
 		copper/300
@@ -38,7 +35,6 @@ activeSoundVolume: 2
 	]
 category: turret
 research: meltdown
-shootSound: laserbig
 consumes: {
   liquid: {
     liquid: moltenGold

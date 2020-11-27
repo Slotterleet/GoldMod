@@ -14,7 +14,6 @@ ammoUseEffect: casing4
 cooldown: 0.03
 velocityInaccuracy: 0.2
 restitution: 0.02
-recoil: 6
 shootShake: 2
 range: 290
 health: 2500

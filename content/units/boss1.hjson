@@ -5,7 +5,6 @@ rotateSpeed: 1.65
 flying: false
 health: 72000
 armor: 14
-mechLegMoveScl: 1.75
 mechFrontSway: 1.9
 mechSideSway: 0.6
 weapons: [

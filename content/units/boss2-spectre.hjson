@@ -1,15 +1,12 @@
 type: flying
 health: 20000
-hitsize: 40
+hitSize: 40
 speed: 0.6
 drag: 0.02
 range: 200
-shootCone: 20
-flying: true
-rotateWeapon: true
 engineOffset: 21
 engineSize: 5.3
-rotatespeed: 0.1
+rotateSpeed: 0.1
 baseRotateSpeed: 0.04
 weapons: [
   {
@@ -21,6 +18,8 @@ weapons: [
   alternate: true
   ejectEffect: casing4
   velocityRnd: 0.2
+  rotate: true
+  shootCone: 20
   bullet: {
     type: BasicBulletType
     speed: 8

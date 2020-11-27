@@ -6,8 +6,7 @@ drag: 0.034
 range: 60
 flying: true
 itemCapacity: 40
-engineColor: 84f591
-buildPower: 3.2
+buildSpeed: 3.2
 weapons: [{
   name: shellLauncher
   x: -6

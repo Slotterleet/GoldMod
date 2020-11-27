@@ -1,16 +1,13 @@
 type: flying
 health: 18000
-hitsize: 40
+hitSize: 40
 speed: 0.6
 drag: 0.02
 range: 80
-shootCone: 20
 flying: true
-rotateWeapon: true
 engineOffset: 21
 engineSize: 5.3
 rotatespeed: 0.1
-attackLength: 90
 baseRotateSpeed: 0.04
 weapons: [{
   name: goldAntumbraMissile
@@ -21,9 +18,11 @@ weapons: [{
   shotDelay: 2
   inaccuracy: 10
   alternate: true
+  rotate: true
   ejectEffect: none
   velocityRnd: 0.2
   spacing: 1
+  shootCone: 20
   bullet: {
     type: MissileBulletType
     width: 8

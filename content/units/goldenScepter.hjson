@@ -2,8 +2,8 @@ type: mech
 health: 9000
 speed: 0.68
 drag: 0.4
-hitsize: 20
-rotatespeed: 0.06
+hitSize: 20
+rotateSpeed: 0.06
 weapons: [
 {
   name: goldChaos

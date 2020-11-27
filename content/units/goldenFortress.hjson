@@ -1,8 +1,8 @@
 type: mech
 speed: 0.75
 drag: 0.4
-hitsize: 10
-rotatespeed: 0.06
+hitSize: 10
+rotateSpeed: 0.06
 targetAir: false
 health: 2250
 weapons: [{
