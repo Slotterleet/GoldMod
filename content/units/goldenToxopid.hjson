@@ -1,8 +1,9 @@
 drag: 0.1
 speed: 0.5
-hitsize: 21
+hitSize: 21
 health: 69000
 armor: 14
+buildSpeed: 1
 rotateSpeed: 1.9
 legCount: 8
 legMoveSpace: 0.8

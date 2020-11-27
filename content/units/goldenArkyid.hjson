@@ -1,10 +1,11 @@
 type: legs
 drag: 0.1
 speed: 0.5
-hitsize: 21
+hitSize: 21
 health: 20000
 armor: 6
-rotatespeed: 2.7
+buildSpeed: 1
+rotateSpeed: 2.7
 legCount: 6
 legMoveSpace: 1
 legPairOffset: 3

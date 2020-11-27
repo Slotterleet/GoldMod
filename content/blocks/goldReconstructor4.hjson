@@ -31,6 +31,9 @@ upgrades: [
     goldenScepter, boss1
   ]
   [
+    goldenVela, goldenCorvus
+  ]
+  [
     goldenAntumbra, goldenEclipse
   ]
   [

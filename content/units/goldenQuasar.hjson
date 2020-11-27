@@ -10,7 +10,6 @@ landShake: 2
 commandLimit: 10
 mechFrontSway: 0.55
 speed: 0.4
-htiSize: 10
 mineSpeed: 6
 drawShields: false
 weapons: [

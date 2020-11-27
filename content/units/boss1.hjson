@@ -1,12 +1,13 @@
 type: mech
 speed: 0.35
-hitsize: 26
+hitSize: 26
 rotateSpeed: 1.65
 flying: false
 health: 72000
 armor: 14
 mechLegMoveScl: 1.75
-targetAir: false
+mechFrontSway: 1.9
+mechSideSway: 0.6
 weapons: [
   {
   name: boss1-blaster
@@ -24,6 +25,7 @@ weapons: [
     speed: 13
     damage: 135
     pierce: true
+    pierceCap: 12
     width: 14
     height: 32
     lifetime: 15

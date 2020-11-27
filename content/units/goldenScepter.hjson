@@ -4,8 +4,9 @@ speed: 0.68
 drag: 0.4
 hitsize: 20
 rotatespeed: 0.06
-weapons: [{
-name: goldChaos
+weapons: [
+{
+  name: goldChaos
   x: -17
   y: 0
   reload: 16
@@ -18,14 +19,35 @@ name: goldChaos
   ejectEffect: casing2
   bullet: {
     type: BasicBulletType
-    width: 7
-    height: 12
-    speed: 3
-    lifetime: 40
-    damage: 32
+    width: 12
+    height: 20
+    speed: 7
+    shootEffect: shootBig
+    lifetime: 25
+    damage: 150
     lightning: 2
     lightningLength: 7
+    lightningDamage: 60
   }
   shootSound: shootBig
-}]
+}
+{
+  name: gMountWeapon
+  x: 8.5
+  y: 6
+  reload: 13
+  rotate: true
+  ejectEffect: casing1
+  bullet: standardCopper
+}
+{
+  name: gMountWeapon
+  x: 8.5
+  y: -7
+  reload: 16
+  rotate: true
+  ejectEffect: casing1
+  bullet: standardCopper
+}
+]
 research: goldenFortress
