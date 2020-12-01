@@ -2,7 +2,15 @@ type: CoreBlock
 health: 6000
 itemCapacity: 20000
 size: 6
-mech: dart-mk2
-requirements: [] 
+unitType: sigma
+unitCapModifier: 28
+requirements: [
+  copper/12000
+  lead/12000
+  silicon/8000
+  thorium/5000
+  goldIngot/2000
+  shinyAlloy/1000
+] 
 category: effect
-buildVisibility: debugOnly
+research: core-nucleus

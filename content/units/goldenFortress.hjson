@@ -1,21 +1,36 @@
-type: GroundUnit
-maxVelocity: 0.75
-speed: 0.15
+type: mech
+speed: 0.75
 drag: 0.4
-mass: 5
-hitsize: 10
-rotatespeed: 0.06
+hitSize: 10
+rotateSpeed: 0.06
 targetAir: false
 health: 2250
-weapon: {
-name: goldArtillery
-length: 1
-reload: 40
-width: 10
-alternate: true
-recoil: 4
-shake: 2
-ejectEffect: shellEjectMedium
-bullet: artilleryUnit
-shootSound: artillery
-} 
+weapons: [{
+  name: goldArtillery
+  x: -10
+  y: 0
+  reload: 60
+  alternate: true
+  recoil: 4
+  shake: 2
+  ejectEffect: casing2
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 2
+    damage: 16
+    sprite: shell
+    hitEffect: blastExplosion
+    knockback: 0.8
+    lifetime: 110
+    width: 14
+    height: 14
+    collides: true
+    collidesTiles: true
+    splashDamageRadius: 32
+    splashDamage: 76
+    backColor: bulletYellowBack
+    frontColor: bulletYellow
+  }
+  shootSound: artillery
+}]
+research: goldenMace

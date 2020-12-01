@@ -1,4 +1,4 @@
-type: ArtilleryTurret
+type: ItemTurret
 requirements: [
 copper/150
 graphite/135
@@ -8,18 +8,17 @@ goldIngot/75
 size: 3
 shots: 4
 inaccuracy: 12
-reload: 60
+reloadTime: 60
 ammoEjectBack: 5
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing4
 cooldown: 0.03
 velocityInaccuracy: 0.2
 restitution: 0.02
-recoil: 6
 shootShake: 2
 range: 290
 health: 2500
 shootSound: artillery
-ammo: {
+ammoTypes: {
 goldCrushed: {
 lifetime: 100
 speed: 3
@@ -28,14 +27,14 @@ shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
 splashDamage: 20
 splashDamageRadius: 12
-bulletWidth: 9
-bulletHeight: 9
-bulletSprite: shell
+width: 9
+height: 9
+sprite: shell
 } 
 heShell1: {
 type: BasicBulletType
-bulletWidth: 9
-bulletHeight: 12
+width: 9
+height: 12
 lifetime: 100
 speed: 3
 damage: 45
@@ -45,20 +44,20 @@ fragBullets: 6
 ammoMultiplier: 1
 frontColor: F0E4A8
 backColor: deae66
-bulletSprite: goldmod-heShell
+sprite: goldmod-heShell
 fragBullet: {
 type: BasicBulletType
-bulletWidth: 3
-bulletHeight: 4
+width: 3
+height: 4
 damage:12
-bulletSprite: shell
+sprite: shell
 lifetime: 30
 speed: 2
 }} 
 heShell2: {
 type: BasicBulletType
-bulletWidth: 9
-bulletHeight: 12
+width: 9
+height: 12
 lifetime: 100
 speed: 3
 damage: 67.5
@@ -68,22 +67,22 @@ fragBullets: 6
 ammoMultiplier: 1
 frontColor: ffffff
 backColor: d6d6d6
-bulletSprite: goldmod-heShell
-lightining: 3
+sprite: goldmod-heShell
+lightning: 3
 lightningLength: 20
 fragBullet: {
 type: BasicBulletType
-bulletWidth: 3
-bulletHeight: 4
+width: 3
+height: 4
 damage: 18
-bulletSprite: shell
+sprite: shell
 lifetime: 30
 speed: 2
 }}
 heShell3: {
 type: BasicBulletType
-bulletWidth: 9
-bulletHeight: 12
+width: 9
+height: 12
 lifetime: 60
 speed: 3
 damage: 90
@@ -93,22 +92,22 @@ fragBullets: 6
 ammoMultiplier: 1
 frontColor: 109ee0
 backColor: 1c7fa6
-bulletSprite: goldmod-heShell
+sprite: goldmod-heShell
 homingPower: 1
 homingRange: 40
 fragBullet: {
 type: BasicBulletType
-bulletWidth: 3
-bulletHeight: 4
+width: 3
+height: 4
 damage: 24
-bulletSprite: shell
+sprite: shell
 lifetime: 30
 speed: 2
 }}
 heShell4: {
 type: BasicBulletType
-bulletWidth: 9
-bulletHeight: 12
+width: 9
+height: 12
 lifetime: 60
 speed: 3
 damage: 120
@@ -118,14 +117,14 @@ fragBullets: 6
 ammoMultiplier: 1
 frontColor: a6e3ff
 backColor: 3dc2ff
-bulletSprite: goldmod-heShell
+sprite: goldmod-heShell
 incendAmount: 2
 fragBullet: {
 type: BasicBulletType
-bulletWidth: 3
-bulletHeight: 4
+width: 3
+height: 4
 damage: 32
-bulletSprite: shell
+sprite: shell
 lifetime: 30
 speed: 2
 }}} 

@@ -1,7 +1,0 @@
-requirements: [
-researchPoint/1
-palladium/50
-]
-category: effect
-buildVisibility: debugOnly
-research: core-shard

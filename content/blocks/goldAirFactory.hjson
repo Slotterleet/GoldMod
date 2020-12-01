@@ -1,0 +1,29 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+  unit: goldenFlare
+  requirements: [
+    silicon/15
+    goldIngot/6
+  ]
+  time: 600
+  }
+  {
+  unit: ghost
+  requirements: [
+    shinyAlloy/12
+  ]
+  time: 1200
+  }
+]
+requirements: [
+  copper/60
+  lead/70
+  goldIngot/50
+]
+category: units
+research: air-factory

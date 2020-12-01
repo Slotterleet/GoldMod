@@ -1,0 +1,31 @@
+type: flying
+health: 660
+speed: 1.4
+drag: 0.01
+flying: true
+targetAir: false
+engineOffset: 7.8
+range: 180
+weapons: [{
+name: clear
+x: -2
+y: 0
+reload: 6
+alternate: true
+ejectEffect: none
+velocityRnd: 1
+inaccuracy: 40
+ignoreRotation: true
+bullet: {
+  type: BombBulletType
+  damage: 60
+  width: 10
+  height: 14
+  lifetime: 28
+  hitEffect: flakExplosion
+  status: blasted
+  statusDurarion: 60
+}
+shootSound: none
+}]
+research: goldenFlare

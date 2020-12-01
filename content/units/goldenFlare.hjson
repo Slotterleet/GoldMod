@@ -1,0 +1,16 @@
+type: flying
+speed: 2
+drag: 0.01
+flying: true
+health: 225
+engineOffset: 5.5
+range: 140
+weapons: [{
+  length: 1.5
+  reload: 21
+  alternate: true
+  ejectEffect: casing1
+  bullet: standardThorium
+  shootSound: shoot
+}]
+research: goldAirFactory

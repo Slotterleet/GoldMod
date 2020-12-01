@@ -19,6 +19,4 @@ requirements: [
   thorium/50
 ]
 category: crafting
-research: melter
-idleSound: respawning
-idleSoundVolume: 0.5
+research: laser-drill

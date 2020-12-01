@@ -1,20 +1,27 @@
-type: GroundUnit
+type: mech
 health: 200
-speed: 0.27
-mass: 2
+speed: 1.1
 range: 0
-maxVelocity: 1.1
-weapon: {
-bullet:
-{
-damage: 200
-ammoMultiplier: 1
-killShooter: true
-instantDisappear: true
-splashDamage: 150
-splashDamageRadius: 60
-shootEffect: blastExplosion
-}
-shake: 1
-shootSound: boom
-}
+mechSideSway: 0.25
+weapons: [{
+  name: clear
+  x: 0
+  y: 0
+  bullet: {
+    type: BombBulletType
+    damage: 0
+    ammoMultiplier: 1
+    killShooter: true
+    lifetime: 10
+    speed: 1
+    splashDamage: 150
+    splashDamageRadius: 60
+    hitEffect: pulverize
+    hittable: false
+    collidesAir: true
+    instantDisappear: true
+  }
+  shake: 1
+  shootSound: explosion
+}]
+research: goldGroundFactory

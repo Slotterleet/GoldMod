@@ -1,0 +1,31 @@
+type: mech
+canBoost: true
+boostMultiplier: 1.5
+speed: 0.5
+hitSize: 8
+health: 330
+buildSpeed: 0.8
+armor: 1
+weapons: [
+{
+  name: gHealWeapon
+  top: false
+  shootY: 2
+  reload: 24
+  x: 4.5
+  alternate: false
+  ejectEffect: none
+  recoil: 2
+  bullet: {
+    type: LaserBoltBulletType
+    speed: 5.2
+    lifetime: 13
+    healPercent: 9
+    collidesTeam: true
+    backColor: 98ffa9
+    frontColor: f0e4a8
+  }
+  shootSound: pew
+}
+]
+research: goldGroundFactory

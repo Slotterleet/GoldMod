@@ -16,6 +16,4 @@ requirements: [
   goldIngot/50
 ]
 category: crafting
-research: pulverizer
-idleSound: respawning
-idleSoundVolume: 0.5
+research: goldForge

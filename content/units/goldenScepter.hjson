@@ -1,0 +1,53 @@
+type: mech
+health: 9000
+speed: 0.68
+drag: 0.4
+hitSize: 20
+rotateSpeed: 0.06
+weapons: [
+{
+  name: goldChaos
+  x: -17
+  y: 0
+  reload: 16
+  alternate: true
+  recoil: 3
+  shake: 2
+  shots: 4
+  spacing: 4
+  shotDelay: 5
+  ejectEffect: casing2
+  bullet: {
+    type: BasicBulletType
+    width: 12
+    height: 20
+    speed: 7
+    shootEffect: shootBig
+    lifetime: 25
+    damage: 150
+    lightning: 2
+    lightningLength: 7
+    lightningDamage: 60
+  }
+  shootSound: shootBig
+}
+{
+  name: gMountWeapon
+  x: 8.5
+  y: 6
+  reload: 13
+  rotate: true
+  ejectEffect: casing1
+  bullet: standardCopper
+}
+{
+  name: gMountWeapon
+  x: 8.5
+  y: -7
+  reload: 16
+  rotate: true
+  ejectEffect: casing1
+  bullet: standardCopper
+}
+]
+research: goldenFortress

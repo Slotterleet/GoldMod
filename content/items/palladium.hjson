@@ -1,4 +1,4 @@
-type: material
-hardness: 6
 color: 11a7ed
-cost: 3f
+cost: 10
+hardness: 6
+research: shinyAlloy

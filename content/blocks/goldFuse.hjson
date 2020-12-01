@@ -7,14 +7,19 @@ shootSound: fuse
 health: 4800
 size: 3
 inaccuracy: 0
-reload: 20
+spread: 20
+reloadTime: 20
 shots: 4
-recoil: 1
-rotatespeed: 30
+rotateSpeed: 30
 range: 130
 coolantMultiplier: 20
-ammo: {
-	goldIngot: lancerLaser
+ammoTypes: {
+	goldIngot: {
+	  type: ShrapnelBulletType
+	  length: 140
+	  damage: 140
+	  ammoMultiplier: 2
+	  }
 	}
 requirements: [
 	goldIngot/200

@@ -1,4 +1,16 @@
-//just defines build cost, ammo, category and place in tech tree
+health: 900
+size: 3
+inaccuracy: 0
+reloadTime: 600
+recoil: 0
+range: 540
+targetAir: false
+targetGround: true
+outlineIcon: false
+shootSound: missile
+update: true
+rotate: false
+maxAmmo: 1
 requirements: [
 copper/250
 lead/250
@@ -6,12 +18,12 @@ silicon/100
 surge-alloy/100
 palladium/150
 ]
-ammo: {
+ammoTypes: {
 rocket2: {
 type: ArtilleryBulletType
-bulletWidth: 46
-bulletHeight: 46
-bulletSprite: goldmod-ballistic
+width: 46
+height: 46
+sprite: goldmod-ballistic
 frontColor: d6d6d6
 damage: 75
 lifetime: 180
@@ -23,7 +35,7 @@ splashDamage: 150
 splashDamageRadius: 32
 hitEffect: blastExplosion
 fragBullets: 9
-lightining: 3
+lightning: 3
 lightningLength: 20
 fragBullet: {
 //for visual effects only
@@ -33,14 +45,14 @@ lifetime: 4
 hitEffect: blastExplosion
 damage: 0
 splashDamageRadius: -1
-bulletWidth: 1
-bulletHeight: 1
+width: 1
+height: 1
 }} 
 rocket3: {
 type: ArtilleryBulletType
-bulletWidth: 46
-bulletHeight: 46
-bulletSprite: goldmod-ballistic
+width: 46
+height: 46
+sprite: goldmod-ballistic
 frontColor: 109ee0
 damage: 225
 lifetime: 180
@@ -61,14 +73,14 @@ lifetime: 4
 hitEffect: blastExplosion
 damage: 0
 splashDamageRadius: -1
-bulletWidth: 1
-bulletHeight: 1
+width: 1
+height: 1
 }} 
 rocket4: {
 type: ArtilleryBulletType
-bulletWidth: 46
-bulletHeight: 46
-bulletSprite: goldmod-ballistic
+width: 46
+height: 46
+sprite: goldmod-ballistic
 frontColor: a6e3ff
 damage: 375
 lifetime: 180
@@ -87,8 +99,8 @@ lifetime: 4
 hitEffect: blastExplosion
 damage: 0
 splashDamageRadius: -1
-bulletWidth: 1
-bulletHeight: 1
+width: 1
+height: 1
 }}} 
 category: turret
-research: branch-t3
+research: ripple

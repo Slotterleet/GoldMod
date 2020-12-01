@@ -1,0 +1,40 @@
+type: mech
+mineTier: 3
+hitSize: 12
+boostMultiplier: 2
+health: 1950
+buildSpeed: 2
+canBoost: true
+armor: 9
+landShake: 2
+commandLimit: 10
+mechFrontSway: 0.55
+speed: 0.4
+mineSpeed: 6
+drawShields: false
+weapons: [
+{
+  name: gBeamWeapon
+  x: 6.5
+  y: 0
+  top: false
+  shake: 2
+  shootY: 4
+  reload: 50
+  recoil: 4
+  shootSound: laser
+  bullet: {
+    type: LaserBulletType
+    damage: 135
+    recoil: 1
+    sideAngle: 45
+    sideWidth: 1
+    sideLength: 70
+    healPercent: 15
+    collidesTeam: true
+    colors: [
+      f0e4a864, f0e4a8, ffffff
+    ]
+  }
+}]
+research: goldenPulsar

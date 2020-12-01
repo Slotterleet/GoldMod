@@ -1,0 +1,20 @@
+type: LogicBlock
+hasLiquids: true
+consumes: {
+  liquid: {
+    liquid: moltenGold
+    amount: 0.04
+  }
+}
+instructionsPerTick: 40
+range: 400
+size: 3
+requirements: [
+  lead/500
+  silicon/150
+  thorium/100
+  surge-alloy/50
+  goldIngot/100
+]
+category: logic
+research: hyper-processor

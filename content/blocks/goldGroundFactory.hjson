@@ -1,0 +1,50 @@
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: goldenDagger
+    requirements: [
+      silicon/30
+      lead/15
+      goldIngot/15
+    ]
+    time: 900
+  }
+  {
+    unit: goldenCrawler
+    requirements: [
+      blast-compound/10
+      goldIngot/8
+    ] 
+    time: 360
+  }
+  {
+    unit: deadeye
+    requirements: [
+      silicon/30
+      shinyAlloy/15
+    ]
+    time: 1200
+  }
+  {
+    unit: goldenNova
+    requirements: [
+      silicon/30
+      lead/15
+      titanium/45
+      goldIngot/30
+    ]
+    time: 1800
+  }
+]
+requirements: [
+  copper/50
+  lead/120
+  silicon/80
+  goldIngot/50
+]
+category: units
+research: ground-factory

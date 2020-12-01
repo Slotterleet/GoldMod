@@ -1,0 +1,9 @@
+- At least make it work for 6.0 (V)
+- Gold Logic Processor
+- Gold unit factories (ground V, air V, naval X)
+- Gold unit reconstructors
+- Campaign (planet, sectors,..)
+- Unit AI
+- Tech tree change
+- Fix A LOT OF bugs
+... and a lot more

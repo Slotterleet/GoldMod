@@ -1,25 +1,26 @@
-type: groundUnit
-speed: 0.2
-mass: 2
-maxVelocity: 1
+type: mech
+speed: 1
 flying: false
 health: 350
 range: 320
-weapon: {
-ejectEffect: shellEjectSmall
-name: sniperRifle
-length: 1.5
-reload: 240
-alternate: true
-bullet: {
-type: BasicBulletType
-bulletWidth: 9
-bulletHeight: 12
-lifetime: 30
-speed: 12
-damage: 120
-bulletSprite: goldmod-apShell
-frontColor: F0E4A8
-backColor: deae66
-shootSound: shoot
-}} 
+weapons: [{
+  name: sniperRifle
+  x: -4
+  y: 0
+  ejectEffect: casing1
+  reload: 240
+  alternate: true
+  bullet: {
+    type: BasicBulletType
+    width: 9
+    height: 12
+    lifetime: 30
+    speed: 12
+    damage: 120
+    sprite: goldmod-apShell
+    frontColor: F0E4A8
+    backColor: deae66
+  }
+  shootSound: shoot
+}]
+research: goldGroundFactory

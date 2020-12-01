@@ -1,0 +1,119 @@
+drag: 0.1
+speed: 0.5
+hitSize: 21
+health: 69000
+armor: 14
+buildSpeed: 1
+rotateSpeed: 1.9
+legCount: 8
+legMoveSpace: 0.8
+legPairOffset: 3
+legLength: 75
+legExtension: -20
+legBaseOffset: 8
+landShake: 1
+legSpeed: 0.19
+legLengthScl: 0.93
+rippleScale: 3
+legSplashDamage: 160
+legSplashRange: 80
+hovering: true
+allowLegStep: true
+visualElevation: 0.95
+weapons: [
+{
+  name: large-purple-mount-gold
+  x: 11
+  y: -5
+  shootY: 7
+  reload: 30
+  shake: 4
+  rotateSpeed: 2
+  ejectEffect: casing1
+  shootSound: shootBig
+  rotate: true
+  occlusion: 12
+  recoil: 3
+  shots: 2
+  spacing: 17
+  bullet: {
+    type: ShrapnelBulletType
+    length: 90
+    damage: 280
+    width: 25
+    serrationLenScl: 7
+    serrationSpaceOffset: 60
+    serrationFadeOffset: 0
+    serrations: 10
+    serrationWidth: 6
+    fromColor: f0e4a8
+    toColor: ffffff
+    shootEffect: sparkShoot
+    smokeEffect: sparkShoot
+  }
+}
+{
+  name: gToxopid-equip
+  x: 0
+  y: -14
+  shootY: 22
+  mirror: false
+  reload: 180
+  shake: 10
+  recoil: 10
+  rotateSpeed: 1
+  ejectEffect: casing4
+  shootSound: shootBig
+  rotate: true
+  occlusion: 30
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 3
+    damage: 210
+    hitEffect: sapExplosion
+    knockback: 0.8
+    lifetime: 80
+    width: 25
+    height: 25
+    collides: true
+    collidesTiles: true
+    ammoMultiplier: 4
+    splashDamageRadius: 100
+    splashDamage: 250
+    backColor: ffffff
+    frontColor: f0e4a8
+    lightningColor: f0e4a8
+    lightning: 5
+    lightningLength: 20
+    smokeEffect: shootBigSmoke2
+    hitShake: 10
+    status: sapped
+    statusDuration: 10
+    fragLifeMin: 0.3
+    fragBullets: 12
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2.3
+      damage: 90
+      hitEffect: sapExplosion
+      knockback: 0.8
+      lifetime: 90
+      width: 20
+      height: 20
+      collidesTiles: false
+      splashDamageRadius: 90
+      splashDamage: 165
+      backColor: ffffff
+      frontColor: f0e4a8
+      lightningColor: f0e4a8
+      lightning: 2
+      lightningLength: 7
+      smokeEffect: shootBigSmoke2
+      hitShake: 5
+      status: sapped
+      statusDuration: 600
+    }
+  }
+}
+]
+research: goldenArkyid

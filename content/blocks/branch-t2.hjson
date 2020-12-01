@@ -1,6 +1,0 @@
-requirements: [
-researchPoint/1
-]
-category: effect
-buildVisibility: debugOnly
-research: core-shard

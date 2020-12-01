@@ -1,0 +1,63 @@
+type: legs
+hitSize: 29
+health: 54000
+armor: 9
+speed: 0.3
+landShake: 2
+rotateSpeed: 1.5
+commandLimit: 8
+legCount: 4
+legLength: 14
+legBaseOffset: 11
+legMoveSpace: 1.5
+legTrns: 0.58
+hovering: true
+visualElevation: 0.2
+allowLegStep: true
+mineTier: 2
+mineSpeed: 7
+drawShields: false
+weapons: [
+{
+  name: goldenCorvus-weapon
+  x: 0
+  y: 0
+  shootSound: laserblast
+  chargeSound: lasercharge
+  soundPitchMin: 1
+  top: false
+  mirror: false
+  shake: 18
+  shootY: 5
+  reload: 350
+  recoil: 0
+  cooldownTime: 350
+  shootStatusDuration: 120
+  shootStatus: unmoving
+  firstShotDelay: 70
+  bullet: {
+    type: LaserBulletType
+    length: 460
+    damage: 1600
+    width: 75
+    lifetime: 65
+    lightningSpacing: 35
+    lightningLength: 7
+    lightningDelay: 1.1
+    lightningLengthRand: 20
+    lightningDamage: 100
+    lightningAngleRand: 40
+    largeHit: true
+    lightColor: f0e4a8
+    lightningColor: f0e4a8
+    shootEffect: greenLaserCharge
+    healPercent: 50
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [
+      f0e4a848, f0e4a8, ffffff
+    ]
+  }
+}]

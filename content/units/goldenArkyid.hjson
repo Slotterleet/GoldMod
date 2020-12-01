@@ -1,0 +1,121 @@
+type: legs
+drag: 0.1
+speed: 0.5
+hitSize: 21
+health: 20000
+armor: 6
+buildSpeed: 1
+rotateSpeed: 2.7
+legCount: 6
+legMoveSpace: 1
+legPairOffset: 3
+legLength: 30
+legExtension: -15
+legBaseOffset: 10
+landShake: 1
+legSpeed: 0.2
+legLengthScl: 0.96
+rippleScale: 2
+legSplashDamage: 32
+legSplashRange: 30
+hovering: true
+allowLegStep: true
+visualElevation: 0.65
+weapons: [
+{
+  name: gSpiroct-weapon
+  reload: 9
+  x: 4
+  y: 8
+  rotate: true
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.83
+    length: 55
+    damage: 105
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+  }
+}
+{
+  name: gSpiroct-weapon
+  x: 9
+  y: 6
+  rotate: true
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.83
+    length: 55
+    damage: 105
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+  }
+}
+{
+  name: gSpiroct-weapon
+  x: 14
+  y: 0
+  rotate: true
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.83
+    length: 55
+    damage: 105
+    shootEffect: shootSmall
+    hitColor: f0e4a8
+    color: f0e4a8
+    despawnEffect: none
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+  }
+}
+{
+  name: large-purple-mount-gold
+  x: -7
+  y: 9
+  shootY: 7
+  reload: 45
+  shake: 3
+  rotateSpeed: 2
+  ejectEffect: casing1
+  shootSound: shootBig
+  rotate: true
+  occlusion: 8
+  recoil: 3
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 2
+    damage: 36
+    hitEffect: sapExplosion
+    knockback: 0.8
+    lifetime: 70
+    width: 19
+    height: 19
+    collidesTiles: true
+    ammoMultiplier: 4
+    splashDamageRadius: 100
+    splashDamage: 195
+    backColor: ffffff
+    frontColor: f0e4a8
+    lightningColor: f0e4a8
+    lightning: 3
+    lightningLength: 15
+    smokeEffect: shootBigSmoke2
+    shake: 5
+    status: sapped
+    statusDuraion: 600
+  }
+}
+]
+research: goldenSpiroct

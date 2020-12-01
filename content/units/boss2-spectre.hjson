@@ -1,37 +1,35 @@
-type: HoverUnit
+type: flying
 health: 20000
-mass: 25
-hitsize: 40
-speed: 0.01
-maxVelocity: 0.6
+hitSize: 40
+speed: 0.6
 drag: 0.02
 range: 200
-shootCone: 20
-flying: true
-rotateWeapon: true
 engineOffset: 21
 engineSize: 5.3
-rotatespeed: 0.1
+rotateSpeed: 0.1
 baseRotateSpeed: 0.04
-weapon: {
-name: boss2
-length: 4
-reload: 6
-width: 22
-inaccuracy: 3
-alternate: true
-ejectEffect: shellEjectBig
-velocityRnd: 0.2
-bullet: {
-type: BasicBulletType
-speed: 8
-bulletWidth: 16
-bulletHeight: 23
-shootEffect: shootBig
-damage: 65
-frontColor: ffffff
-backColor: ff6868
-} 
-shootSound: shootBig
-shootShake: 2
-} 
+weapons: [
+  {
+  name: boss2
+  x: -22
+  y: 0
+  reload: 6
+  inaccuracy: 3
+  alternate: true
+  ejectEffect: casing4
+  velocityRnd: 0.2
+  rotate: true
+  shootCone: 20
+  bullet: {
+    type: BasicBulletType
+    speed: 8
+    width: 16
+    height: 23
+    shootEffect: shootBig
+    damage: 65
+    frontColor: ffffff
+    backColor: ff6868
+  } 
+  shootSound: shootBig
+  shootShake: 2
+}]

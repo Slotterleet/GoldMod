@@ -1,0 +1,44 @@
+type: Reconstructor
+size: 9
+consumes: {
+  power: 9
+  items: {
+    items: [
+    silicon/300
+    surge-alloy/300
+    phase-fabric/150
+    plastanium/400
+    goldIngot/500
+    ]
+  }
+  liquid: {
+    liquid: moltenGold
+    amount: 0.3
+  }
+}
+constructTime: 3000
+requirements: [
+  lead/4000
+  surge-alloy/500
+  thorium/500
+  plastanium/400
+  phase-fabric/600
+  silicon/1500
+  goldIngot/1000
+]
+upgrades: [
+  [
+    goldenScepter, boss1
+  ]
+  [
+    goldenVela, goldenCorvus
+  ]
+  [
+    goldenAntumbra, goldenEclipse
+  ]
+  [
+    goldenArkyid, goldenToxopid
+  ]
+]
+category: units
+research: tetrative-reconstructor

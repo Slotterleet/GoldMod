@@ -1,23 +1,24 @@
-type: DoubleTurret
+type: ItemTurret
 health: 4800
 size: 4
 range: 240
 coolantMultiplier: 5
 shootShake: 1
 shootSound: shootBig
-ammo: {
-goldIngot: {
-type: BasicBulletType
-bulletWidth: 15
-bulletHeight: 21
-lifetime: 60
-speed: 7
-damage: 100
-pierce: false
-ammoMultiplier: 4
-frontColor: F0E4A8
-backColor: deae66
-}} 
+ammoTypes: {
+  goldIngot: {
+    type: BasicBulletType
+    width: 15
+    height: 21
+    lifetime: 60
+    speed: 7
+    damage: 100
+    pierce: false
+    ammoMultiplier: 4
+    frontColor: F0E4A8
+    backColor: deae66
+  }
+} 
 requirements: [
 copper/500
 lead/500
@@ -26,11 +27,12 @@ surge-alloy/250
 goldIngot/250
 ] 
 consumes: {
-liquid: {
-liquid: moltenGold
-amount: 1
-optional: true
-booster: true
-}} 
+  liquid: {
+    liquid: moltenGold
+    amount: 1
+    optional: true
+    booster: true
+  }
+} 
 category: turret
 research: spectre

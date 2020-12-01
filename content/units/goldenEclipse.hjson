@@ -1,0 +1,35 @@
+type: flying
+health: 33000
+hitsize: 56
+speed: 0.6
+drag: 0.02
+range: 80
+shootCone: 30
+flying: true
+rotateWeapon: true
+engineOffset: 40
+engineSize: 7.3
+rotatespeed: 0.01
+baseRotateSpeed: 0.04
+weapons: [{
+  name: goldEclipseGun
+  x: -32
+  y: 0
+  reload: 10
+  shots: 1
+  shootCone: 100
+  shake: 1
+  inaccuracy: 3
+  alternate: true
+  ejectEffect: none
+  bullet: {
+    type: BasicBulletType
+    speed: 7
+    damage: 126
+    bulletWidth: 15
+    bulletHeight: 21
+    shootEffect: shootBig
+  }
+  shootSound: shootbig
+}]
+research: goldenAntumbra

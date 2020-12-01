@@ -1,0 +1,49 @@
+type: Reconstructor
+size: 5
+consumes: {
+  power: 5
+  items: {
+    items: [
+    silicon/60
+    titanium/50
+    metaglass/30
+    goldIngot/30
+    ]
+  }
+}
+constructTime: 1500
+requirements: [
+  lead/600
+  titanium/300
+  silicon/300
+  thorium/600
+  goldIngot/150
+]
+upgrades: [
+  [
+    goldenMace, goldenFortress
+  ],
+  [
+    goldenPulsar, goldenQuasar
+  ],
+  [
+    goldenHorizon, goldenZenith
+  ],
+  [
+    goldenAtrax, goldenSpiroct
+  ],
+  [
+    teleBlue, hammer
+  ],
+  [
+    teleRed, hammer
+  ],
+  [
+    teleGreen, hammer
+  ],
+  [
+    teleYellow, hammer
+  ]
+]
+category: units
+research: multiplicative-reconstructor

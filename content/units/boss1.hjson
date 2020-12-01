@@ -1,24 +1,55 @@
-type: groundUnit
-speed: 0.2
-mass: 5
-maxVelocity: 0.6
+type: mech
+speed: 0.35
+hitSize: 26
+rotateSpeed: 1.65
 flying: false
-health: 21000
-range: 200
-weapon: {
-weaponLength: 13
-width: 22
-alternate: true
-recoil: 3
-shake: 2
-inaccuracy: 0
-shots: 4
-spacing: 4
-shotDelay: 3
-ejectEffect: shellEjectMedium
-name: boss1-blaster
-reload: 15
-alternate: true
-bullet: standardThoriumBig
-shootSound: shootBig
-}
+health: 72000
+armor: 14
+mechFrontSway: 1.9
+mechSideSway: 0.6
+weapons: [
+  {
+  name: boss1-blaster
+  x: -21.5
+  y: 0
+  shootY: 11
+  alternate: true
+  recoil: 5
+  shake: 4
+  shotDelay: 3
+  reload: 9
+  ejectEffect: casing4
+  bullet: {
+    type: BasicBulletType
+    speed: 13
+    damage: 135
+    pierce: true
+    pierceCap: 12
+    width: 14
+    height: 32
+    lifetime: 15
+    shootEffect: shootBig
+    fragVelocityMin: 0.4
+    hitEffect: blastExplosion
+    splashDamage: 54
+    splashDamageRadius: 40
+    fragBullets: 2
+    fragLifeMin: 0
+    fragCone: 30
+    fragBullet: {
+      type: BasicBulletType
+      speed: 9
+      damage: 15
+      width: 10
+      height: 10
+      pierce: true
+      lifetime: 20
+      hitEffect: blastExplosion
+      splashDamage: 45
+      splashDamageRadius: 20
+    }
+  }
+  shootSound: artillery
+  }
+]
+research: goldenScepter

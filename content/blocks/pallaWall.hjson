@@ -1,9 +1,11 @@
-type: DeflectorWall
+type: Wall
 maxDamageDeflect: 50
+flashWhite: true
+deflect: true
 health: 2000
 size: 1
 requirements: [
 palladium/6
 ]
 category: defense
-research: branch-t3
+research: shinyWall

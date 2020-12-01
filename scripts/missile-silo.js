@@ -1,36 +1,22 @@
-const silo = extendContent(ArtilleryTurret, "missileSilo", {
+const silo = extendContent(ItemTurret, "missileSilo", {
   load(){
     this.super$load();
     this.baseRegion = Core.atlas.find(this.name + "-base");
     this.region = Core.atlas.find(this.name);
     this.topRegion = Core.atlas.find(this.name + "-light");
   }, 
-  draw(tile){
-  Draw.rect(this.baseRegion,tile.drawx(),tile.drawy());
-  if (this.hasAmmo(tile)){
-    Draw.rect(this.region,tile.drawx(),tile.drawy());
-    Draw.rect(this.topRegion,tile.drawx(),tile.drawy());
-  } 
-  }, 
-  drawLayer(tile){}, 
-  generateIcons(){
+  draw(){
+    Draw.rect(Core.atlas.find(this.name + "-base"), x, y);
+    if (this.hasAmmo()){
+      Draw.rect(Core.atlas.find(this.name), x, y);
+      Draw.rect(Core.atlas.find(this.name + "-light"), x, y);
+    };
+  },
+  icons(){
     return [
-      Core.atlas.find(this.name + "-base"), 
-      Core.atlas.find(this.name), 
-      Core.atlas.find(this.name + "-light")
+        this.baseRegion,
+        this.region,
+        this.topRegion
       ];
   }
 });
-
-silo.health = 900;
-silo.size = 3;
-silo.inaccuracy = 0;
-silo.reload = 600;
-silo.recoil = 0;
-silo.range = 540;
-silo.targetAir = false;
-silo.targetGround = true;
-silo.outlineIcon = false;
-silo.shootSound = Sounds.missile;
-silo.update = true;
-silo.maxAmmo = 1;

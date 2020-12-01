@@ -1,16 +1,12 @@
-type: MinerDrone
+type: flying
 health: 400
 flying: true
 range: 50
-minePower: 1
-toMine: [
-copper
-lead
-titanium
-thorium
-]
-speed: 2
-maxVelocity: 1.5
-weapon: {
-bullet: lancerLaser
-}
+mineTier: 4
+mineSpeed: 1.5
+drag: 0.06
+accel: 0.12
+itemCapacity: 30
+speed: 1.5
+weapons: []
+research: goldAirFactory

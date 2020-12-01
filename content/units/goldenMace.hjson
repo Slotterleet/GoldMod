@@ -1,0 +1,19 @@
+type: mech
+speed: 1
+drag: 0.4
+hitSize: 14
+range: 15
+rotateSpeed: 0.1
+health: 1000
+weapons: [{
+  name: goldFlamethrower
+  x: -4
+  y: 0
+  shootSound: flame
+  reload: 7
+  alternate: true
+  recoil: 1
+  ejectEffect: none
+  bullet: pyraFlame
+}]
+research: goldenDagger
