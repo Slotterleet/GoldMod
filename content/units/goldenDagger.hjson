@@ -5,9 +5,9 @@ health: 390
 range: 120
 weapons: [
   {
-  name: goldChainBlaster
-  x: -4
-  y: 0
+  name: gLargeWeapon
+  x: 4
+  y: 2
   reload: 20
   alternate: true
   ejectEffect: casing1

@@ -1,15 +1,20 @@
 const gNova = extendContent(UnitType, "goldenNova", {});
-gNova.constructor = () => extend(MechUnitLegacyNova, {});
+gNova.constructor = () => extend(MechUnit, {});
 const nova_abil = new JavaAdapter(RepairFieldAbility, {}, 5, 180, 60);
 gNova.abilities.add(nova_abil);
 
 const gPulsar = extendContent(UnitType, "goldenPulsar", {});
-gPulsar.constructor = () => extend(MechUnitLegacyPulsar, {});
+gPulsar.constructor = () => extend(MechUnit, {});
 
 const pulsar_abil = new JavaAdapter(ShieldRegenFieldAbility, {}, 50, 100, 300, 60);
 gPulsar.abilities.add(pulsar_abil);
 
-const gp_weapon = extendContent(Weapon, "gHealShotgun", {});
+const gp_weapon = extendContent(Weapon, "gHealShotgun", {
+  load(){
+    this.super$load();
+    this.region = Core.atlas.find("goldmod-gHealShotgun");
+  }
+});
 gp_weapon.top = false;
 gp_weapon.x = 5;
 gp_weapon.y = 0.5;
@@ -17,12 +22,13 @@ gp_weapon.shake = 2.2;
 gp_weapon.shootY = 2.5;
 gp_weapon.reload = 38;
 gp_weapon.shots = 3;
+gp_weapon.mirror = true;
 gp_weapon.inaccuracy = 30;
 gp_weapon.shotDelay = 0.5;
 gp_weapon.spacing = 0;
 gp_weapon.ejectEffect = Fx.none;
 gp_weapon.recoil = 2.5;
-gp_weapon.shootSound = Sounds.pew;
+gp_weapon.shootSound = Sounds.spark;
 
 const gp_bullet = extend(LightningBulletType, {});
 gp_bullet.lightningColor = gp_bullet.hitColor = Color.valueOf("98ffa9");

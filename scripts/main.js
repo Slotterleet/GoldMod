@@ -4,8 +4,8 @@ require('roads');
 require('gForeshadow');
 require('units');
 
-//press F to planets (as for now)
-//require('campaign/zuila');
+//planets are now quite working, thanks A LOT to Gdeft for scripts, you rock :)
+require('campaign/zuila');
 require('campaign/serpulo');
 //require('campaign/cori');
 require('campaign/techtree');

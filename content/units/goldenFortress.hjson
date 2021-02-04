@@ -2,12 +2,11 @@ type: mech
 speed: 0.75
 drag: 0.4
 hitSize: 10
-rotateSpeed: 0.06
 targetAir: false
 health: 2250
 weapons: [{
   name: goldArtillery
-  x: -10
+  x: 9
   y: 0
   reload: 60
   alternate: true
@@ -28,8 +27,8 @@ weapons: [{
     collidesTiles: true
     splashDamageRadius: 32
     splashDamage: 76
-    backColor: bulletYellowBack
-    frontColor: bulletYellow
+    backColor: f0e4a8
+    frontColor: ffffff
   }
   shootSound: artillery
 }]
