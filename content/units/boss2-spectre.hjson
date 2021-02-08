@@ -8,6 +8,7 @@ engineOffset: 21
 engineSize: 5.3
 rotateSpeed: 0.1
 baseRotateSpeed: 0.04
+flying: true
 weapons: [
   {
   name: boss2
