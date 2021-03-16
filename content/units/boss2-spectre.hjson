@@ -32,5 +32,4 @@ weapons: [
     backColor: ff6868
   } 
   shootSound: shootBig
-  shootShake: 2
 }]

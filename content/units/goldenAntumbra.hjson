@@ -7,7 +7,7 @@ range: 80
 flying: true
 engineOffset: 21
 engineSize: 5.3
-rotatespeed: 0.1
+rotateSpeed: 0.01
 baseRotateSpeed: 0.04
 weapons: [{
   name: goldAntumbraMissile

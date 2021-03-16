@@ -18,7 +18,6 @@ ammoTypes: {
     despawnEffect: instBomb
     trailSpacing: 20
     damage: 3000
-    tileDamageMultiplier: 0.6
     speed: 500
     hitShake: 6
     ammoMultiplier: 1

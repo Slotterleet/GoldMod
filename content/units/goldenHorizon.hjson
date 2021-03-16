@@ -24,7 +24,7 @@ bullet: {
   lifetime: 28
   hitEffect: flakExplosion
   status: blasted
-  statusDurarion: 60
+  statusDuration: 60
 }
 shootSound: none
 }]

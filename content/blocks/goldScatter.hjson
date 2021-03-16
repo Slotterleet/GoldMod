@@ -178,7 +178,6 @@ lifetime: 30
 speed: 2
 }}} 
 range: 180
-reload: 10
 inaccuracy: 15
 shots: 2
 targetAir: true

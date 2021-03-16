@@ -13,7 +13,7 @@ shootShake: 2
 range: 190
 reloadTime: 80
 firingMoveFract: 0.5
-shootDuration: 220
+//shootDuration: 220
 shootSound: laserbig
 shootType: {
   type: ContinuousLaserBulletType

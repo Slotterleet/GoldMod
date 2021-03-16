@@ -53,8 +53,6 @@ weapons: [
     colors: [
       f0e4a832, f0e4a888, f0e4a8, ffffff
     ]
-    shootStatus: slow
-    shootStatusDuration: 199
   }
  }]
  research: goldenQuasar
