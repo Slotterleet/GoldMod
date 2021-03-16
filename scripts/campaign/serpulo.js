@@ -23,14 +23,22 @@ goldMountains.addStartingItems = true;
 const goldMines = new SectorPreset("goldMines", Planets.serpulo, 205);
 goldMines.difficulty = 7;
 goldMines.captureWave = 30;
+goldMines.alwaysUnlocked = true;
+goldMines.addStartingItems = true;
+/*goldMines.rules = Seq.with(
+new rules.SectorComplete(Vars.content.getByName(ContentType.sector,"goldMountains")));*/
 
 const abandonedDesert = new SectorPreset("abandonedDesert", Planets.serpulo, 157);
 abandonedDesert.captureWave = 30;
 abandonedDesert.difficulty = 8;
+abandonedDesert.alwaysUnlocked = true;
+abandonedDesert.addStartingItems = true;
 
 const reignLair = new SectorPreset("eradLair", Planets.serpulo, 122);
 reignLair.captureWave = 10;
 reignLair.difficulty = 10;
+reignLair.alwaysUnlocked = true;
+reignLair.addStartingItems = true;
 
 const pallaCrags = new SectorPreset("pallaCrags", Planets.serpulo, 7);
 pallaCrags.captureWave = 20;
