@@ -1,3 +1,64 @@
+//serpulo presets
+var goldMountains = new SectorPreset("goldMountains", Planets.serpulo, 172);
+goldMountains.captureWave = 30;
+goldMountains.difficulty = 4;
+goldMountains.addStartingItems = true;
+
+var t = new TechTree.TechNode(TechTree.get(Vars.content.getByName(ContentType.sector,"stainedMountains")),goldMountains, ItemStack.with());
+t.objectives.add(new Objectives.SectorComplete(SectorPresets.stainedMountains));
+t.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrucible")));
+t.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldForge")));
+t.objectives.add(new Objectives.Research(Blocks.laserDrill));
+
+var goldMines = new SectorPreset("goldMines", Planets.serpulo, 205);
+goldMines.difficulty = 7;
+goldMines.captureWave = 30;
+goldMines.addStartingItems = true;
+
+var gm = new TechTree.TechNode(t,goldMines, ItemStack.with());
+gm.objectives.add(new Objectives.SectorComplete(goldMountains));
+gm.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldenDaggerFactory")));
+
+var abandonedDesert = new SectorPreset("abandonedDesert", Planets.serpulo, 157);
+abandonedDesert.captureWave = 10;
+abandonedDesert.difficulty = 8;
+abandonedDesert.addStartingItems = true;
+
+var ad = new TechTree.TechNode(TechTree.get(Vars.content.getByName(ContentType.sector,"saltFlats")),abandonedDesert, ItemStack.with());
+ad.objectives.add(new Objectives.SectorComplete(SectorPresets.ruinousShores));
+ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
+ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
+
+var goldRidge = new SectorPreset("gold-ridge", Planets.serpulo, 124);
+goldRidge.captureWave = 20;
+goldRidge.difficulty = 4;
+goldRidge.addStartingItems = true;
+
+var gr = new TechTree.TechNode(ad,goldRidge, ItemStack.with());
+gr.objectives.add(new Objectives.SectorComplete(abandonedDesert));
+var cavernRetreat = new SectorPreset("cavern-retreat", Planets.serpulo, 125);
+cavernRetreat.captureWave = 30;
+cavernRetreat.difficulty = 4;
+cavernRetreat.addStartingItems = true;
+
+var cr = new TechTree.TechNode(gr,cavernRetreat, ItemStack.with());
+cr.objectives.add(new Objectives.SectorComplete(abandonedDesert));
+cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
+cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
+cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldScatter")));
+
+var reignLair = new SectorPreset("eradLair", Planets.serpulo, 122);
+reignLair.captureWave = 10;
+reignLair.difficulty = 10;
+reignLair.addStartingItems = true;
+
+var rl = new TechTree.TechNode(ad,reignLair,ItemStack.with());
+rl.objectives.add(new Objectives.SectorComplete(abandonedDesert));
+rl.objectives.add(new Objectives.SectorComplete(SectorPresets.desolateRift));
+rl.objectives.add(new Objectives.SectorComplete(SectorPresets.overgrowth));
+rl.objectives.add(new Objectives.SectorComplete(SectorPresets.nuclearComplex));
+rl.objectives.add(new Objectives.SectorComplete(goldMines));
+
 //planet Zuila
 const zuilagen = extend(PlanetGenerator, {
     rawHeight(position){
@@ -14,7 +75,7 @@ const zuilagen = extend(PlanetGenerator, {
         var block = this.getBlock(position);
         if(block == null) return Blocks.darksand.mapColor;
         Tmp.c1.set(block.mapColor).a = 1 - block.albedo;
-        
+
         return Tmp.c1;
     },
 
@@ -30,15 +91,15 @@ const zuilagen = extend(PlanetGenerator, {
     getBlock(position){
         var arr = this.arr;
         var scl = this.scl;
-        
+
         var height = this.rawHeight(position);
         Tmp.v31.set(position);
-        
+
         position = Tmp.v33.set(position).scl(scl);
         var rad = this.scl;
         var temp = Mathf.clamp(Math.abs(position.y * 2) / rad);
         var tnoise = this.noise.octaveNoise3D(7, 0.56, 1 / 3, position.x, position.y + 999, position.z);
-        
+
         temp = Mathf.lerp(temp, tnoise, 0.5);
         height *= 1.2;
         height = Mathf.clamp(height);
@@ -46,7 +107,7 @@ const zuilagen = extend(PlanetGenerator, {
         var res = arr[Mathf.clamp(Math.floor(temp * arr.length), 0, arr[0].length - 1)][Mathf.clamp(Math.floor(height * arr[0].length), 0, arr[0].length - 1)];
         return res;
     },
-    
+
     noiseOct(x, y, octaves, falloff, scl){
         var v = this.sector.rect.project(x, y).scl(5);
         return this.noise.octaveNoise3D(octaves, falloff, 1 / scl, v.x, v.y, v.z);
@@ -55,10 +116,10 @@ const zuilagen = extend(PlanetGenerator, {
     generate(tiles, sec){
         this.tiles = tiles;
         this.sector = sec;
-        
+
         const rand = this.rand;
         rand.setSeed(sec.id);
-        
+
         //tile, sector
         var gen = new TileGen();
         this.tiles.each((x, y) => {
@@ -68,7 +129,7 @@ const zuilagen = extend(PlanetGenerator, {
             this.genTile(position, gen);
             tiles.set(x, y, new Tile(x, y, gen.floor, gen.overlay, gen.block));
         });
-        
+
         const Room = {
             x: 0, y: 0, radius: 0,
             connected: new ObjectSet(),
@@ -77,21 +138,21 @@ const zuilagen = extend(PlanetGenerator, {
                 if(this.connected.contains(to)) return;
 
                 this.connected.add(to);
-                
+
                 var nscl = rand.random(20, 60);
                 var stroke = rand.random(4, 12);
-                
+
                 zuilagen.brush(zuilagen.pathfind(this.x, this.y, to.x, to.y, tile => (tile.solid() ? 5 : 0) + zuilagen.noiseOct(tile.x, tile.y, 1, 1, 1 / nscl) * 60, Astar.manhattan), stroke);
             }
         };
-        
+
         const setRoom = (x, y, radius) => {
             var room = Object.create(Room);
-            
+
             room.x = x;
             room.y = y;
             room.radius = radius;
-            
+
             return room;
         };
 
@@ -112,19 +173,19 @@ const zuilagen = extend(PlanetGenerator, {
             var ry = Math.floor(this.height / 2 + Tmp.v1.y);
             var maxrad = radius - Tmp.v1.len();
             var rrad = Math.floor(Math.min(rand.random(9, maxrad / 2), 30));
-            
+
             roomseq.add(setRoom(rx, ry, rrad));
         };
 
         var spawn = null;
         var enemies = new Seq();
         var enemySpawns = rand.random(1, Math.max(Mathf.floor(this.sector.threat * 4), 1));
-        
+
         var offset = rand.nextInt(360);
         var length = this.width / 2.55 - rand.random(13, 23);
         var angleStep = 5;
         var waterCheckRad = 5;
-        
+
         for(var i = 0; i < 360; i += angleStep){
             var angle = offset + i;
             var cx = Math.floor(this.width / 2 + Angles.trnsx(angle, length));
@@ -135,7 +196,7 @@ const zuilagen = extend(PlanetGenerator, {
             for(var rx = -waterCheckRad; rx <= waterCheckRad; rx++){
                 for(var ry = -waterCheckRad; ry <= waterCheckRad; ry++){
                     var tile = this.tiles.get(cx + rx, cy + ry);
-                    
+
                     if(tile == null || tile.floor().liquidDrop != null){
                         waterTiles++;
                     };
@@ -148,7 +209,7 @@ const zuilagen = extend(PlanetGenerator, {
 
                 for(var j = 0; j < enemySpawns; j++){
                     var enemyOffset = rand.range(60);
-                    
+
                     Tmp.v1.set(cx - this.width / 2, cy - this.height / 2).rotate(180 + enemyOffset).add(this.width / 2, this.height / 2);
                     var espawn = setRoom(Math.floor(Tmp.v1.x), Math.floor(Tmp.v1.y), rand.random(10, 16));
                     roomseq.add(espawn);
@@ -194,7 +255,7 @@ const zuilagen = extend(PlanetGenerator, {
         if(rand.chance(0.25)){
             ores.add(Blocks.oreScrap);
         };
-        
+
         if(rand.chance(0.7)){
           ores.add(Vars.content.getByName(ContentType.block, "goldmod-ore-goldOre"));
         }
@@ -211,12 +272,12 @@ const zuilagen = extend(PlanetGenerator, {
             for(var i = ores.size - 1; i >= 0; i--){
                 var entry = ores.get(i);
                 var freq = frequencies.get(i);
-                
+
                 if(Math.abs(0.5 - this.noiseOct(offsetX, offsetY + i * 999, 2, 0.7, (40 + i * 2))) > 0.22 + i * 0.01 &&
                     Math.abs(0.5 - this.noiseOct(offsetX, offsetY - i * 999, 1, 1, (30 + i * 4))) > 0.37 + freq){
                     this.ore = entry;
                     break;
-                };    
+                };
             };
 
             if(this.ore == Blocks.oreScrap && rand.chance(0.33)){
@@ -249,7 +310,7 @@ const zuilagen = extend(PlanetGenerator, {
 
         var difficulty = this.sector.threat;
         const ints = this.ints;
-        
+
         ints.clear();
         ints.ensureCapacity(this.width * this.height / 4);
 
@@ -274,7 +335,7 @@ const zuilagen = extend(PlanetGenerator, {
         state.rules.enemyCoreBuildRadius = 480;
 
         state.rules.spawns = Waves.generate(difficulty, new Rand(), state.rules.attackMode);
-        
+
         //this.generate(tiles);
     },
 
@@ -282,15 +343,15 @@ const zuilagen = extend(PlanetGenerator, {
         if(this.sector.hasEnemyBase()){
             this.basegen.postGenerate();
         };
-    } 
+    }
 });
-zuilagen.arr = [   
+zuilagen.arr = [
     [Blocks.deepwater, Blocks.darksandWater, Blocks.sandWater, Blocks.sand, Blocks.craters, Blocks.sand, Blocks.sand, Blocks.basalt, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.deepwater, Blocks.darksandWater, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.sand, Blocks.metalFloorDamaged, Blocks.dacite, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.deepwater, Blocks.sandWater, Blocks.sand, Blocks.sand, Blocks.metalFloorDamaged, Blocks.metalFloorDamaged, Blocks.grass, Blocks.basalt, Blocks.basalt, Blocks.basalt, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.water, Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.basalt, Blocks.metalFloorDamaged, Blocks.basalt, Blocks.hotrock, Blocks.basalt, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.darksandWater, Blocks.darksand, Blocks.darksand, Blocks.darksand, Blocks.metalFloorDamaged, Blocks.tar, Blocks.grass, Blocks.basalt, Blocks.basalt, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
-    
+
     [Blocks.darksandWater, Blocks.craters, Blocks.darksand, Blocks.tar, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.water, Blocks.darksandWater, Blocks.darksand, Blocks.tar, Blocks.tar, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
     [Blocks.darksandWater, Blocks.darksandWater, Blocks.darksand, Blocks.tar, Blocks.metalFloorDamaged, Blocks.tar, Blocks.dacite, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass, Blocks.grass],
@@ -314,22 +375,21 @@ zuila.hasAtmosphere = true;
 zuila.atmosphereColor = Color.valueOf("f0e4a8");
 zuila.meshLoader = () => new HexMesh(zuila, 6);
 //end planet Zuila
-//Zuila sector presets
 
 var groundOne = new SectorPreset("groundOne", zuila, 1);
 groundOne.captureWave = 40;
 
-var g1 = new TechTree.TechNode(serpulo.rl,groundOne,ItemStack.with());
-g1.objectives.add(new Objectives.SectorComplete(serpulo.reignLair));
+var g1 = new TechTree.TechNode(rl,groundOne,ItemStack.with());
+g1.objectives.add(new Objectives.SectorComplete(reignLair));
 
 var frozenPass = new SectorPreset("frozenPass", Planets.serpulo, 123);
 frozenPass.captureWave = 10;
 frozenPass.difficulty = 10;
 frozenPass.addStartingItems = true;
 
-var fp = new TechTree.TechNode(g1,serpulo.reignLair,ItemStack.with());
+var fp = new TechTree.TechNode(g1,frozenPass,ItemStack.with());
 fp.objectives.add(new Objectives.SectorComplete(groundOne));
-fp.objectives.add(new Objectives.SectorComplete(serpulo.cavernRetreat));
+fp.objectives.add(new Objectives.SectorComplete(cavernRetreat));
 fp.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "shinyAlloySmelter")));
 fp.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "apShellFactory1")));
 fp.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "heShellFactory1")));
@@ -360,6 +420,6 @@ sw.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.blo
 var smallDefence = new SectorPreset("smalldefence", zuila, 65);
 smallDefence.captureWave = 20;
 
-var sd = new TechTree.TechNode(pc,scrapWasteland,ItemStack.with());
+var sd = new TechTree.TechNode(pc,smallDefence,ItemStack.with());
 sd.objectives.add(new Objectives.SectorComplete(pallaCrags));
 sd.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "branch-t3")));
