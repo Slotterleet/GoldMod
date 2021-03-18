@@ -6,8 +6,8 @@ goldMountains.addStartingItems = true;
 
 var t = new TechTree.TechNode(TechTree.get(Vars.content.getByName(ContentType.sector,"stainedMountains")),goldMountains, ItemStack.with());
 t.objectives.add(new Objectives.SectorComplete(SectorPresets.stainedMountains));
-t.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrucible")));
-t.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldForge")));
+//t.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrucible")));
+//t.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldForge")));
 t.objectives.add(new Objectives.Research(Blocks.laserDrill));
 
 var goldMines = new SectorPreset("goldMines", Planets.serpulo, 205);
@@ -17,7 +17,7 @@ goldMines.addStartingItems = true;
 
 var gm = new TechTree.TechNode(t,goldMines, ItemStack.with());
 gm.objectives.add(new Objectives.SectorComplete(goldMountains));
-gm.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldenDaggerFactory")));
+//gm.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldenDaggerFactory")));
 
 var abandonedDesert = new SectorPreset("abandonedDesert", Planets.serpulo, 157);
 abandonedDesert.captureWave = 10;
@@ -26,8 +26,8 @@ abandonedDesert.addStartingItems = true;
 
 var ad = new TechTree.TechNode(TechTree.get(Vars.content.getByName(ContentType.sector,"saltFlats")),abandonedDesert, ItemStack.with());
 ad.objectives.add(new Objectives.SectorComplete(SectorPresets.ruinousShores));
-ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
-ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
+//ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
+//ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
 
 var goldRidge = new SectorPreset("gold-ridge", Planets.serpulo, 124);
 goldRidge.captureWave = 20;
@@ -43,9 +43,9 @@ cavernRetreat.addStartingItems = true;
 
 var cr = new TechTree.TechNode(gr,cavernRetreat, ItemStack.with());
 cr.objectives.add(new Objectives.SectorComplete(abandonedDesert));
-cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
-cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
-cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldScatter")));
+//cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
+//cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
+//cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldScatter")));
 
 var reignLair = new SectorPreset("eradLair", Planets.serpulo, 122);
 reignLair.captureWave = 10;
