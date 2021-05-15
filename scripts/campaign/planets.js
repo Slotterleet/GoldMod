@@ -36,7 +36,7 @@ goldRidge.addStartingItems = true;
 
 var gr = new TechTree.TechNode(ad,goldRidge, ItemStack.with());
 gr.objectives.add(new Objectives.SectorComplete(abandonedDesert));
-var cavernRetreat = new SectorPreset("cavern-retreat", Planets.serpulo, 125);
+var cavernRetreat = new SectorPreset("cavern-retreat", Planets.serpulo, 120);
 cavernRetreat.captureWave = 30;
 cavernRetreat.difficulty = 4;
 cavernRetreat.addStartingItems = true;
