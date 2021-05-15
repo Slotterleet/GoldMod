@@ -382,7 +382,7 @@ groundOne.captureWave = 40;
 var g1 = new TechTree.TechNode(rl,groundOne,ItemStack.with());
 g1.objectives.add(new Objectives.SectorComplete(reignLair));
 
-var frozenPass = new SectorPreset("frozenPass", Planets.serpulo, 123);
+var frozenPass = new SectorPreset("frozenPass", Planets.serpulo, 127);
 frozenPass.captureWave = 10;
 frozenPass.difficulty = 10;
 frozenPass.addStartingItems = true;
