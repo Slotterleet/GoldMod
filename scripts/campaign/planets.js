@@ -29,7 +29,7 @@ ad.objectives.add(new Objectives.SectorComplete(SectorPresets.ruinousShores));
 //ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldCrusher")));
 //ad.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
 
-var goldRidge = new SectorPreset("gold-ridge", Planets.serpulo, 124);
+var goldRidge = new SectorPreset("gold-ridge", Planets.serpulo, 96);
 goldRidge.captureWave = 20;
 goldRidge.difficulty = 4;
 goldRidge.addStartingItems = true;
@@ -47,7 +47,7 @@ cr.objectives.add(new Objectives.SectorComplete(abandonedDesert));
 //cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldDuo")));
 //cr.objectives.add(new Objectives.Research(Vars.content.getByName(ContentType.block, "goldScatter")));
 
-var reignLair = new SectorPreset("eradLair", Planets.serpulo, 122);
+var reignLair = new SectorPreset("eradLair", Planets.serpulo, 171);
 reignLair.captureWave = 10;
 reignLair.difficulty = 10;
 reignLair.addStartingItems = true;
