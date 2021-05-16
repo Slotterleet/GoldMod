@@ -368,7 +368,7 @@ zuilagen.scl = 5;
 zuilagen.waterOffset = 0.07;
 zuilagen.water = 2 / zuilagen.arr[0].length;
 
-const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.sun, 7, 1);
+const zuila = new JavaAdapter(Planet, {}, "zuila", Planets.serpulo, 2, 1);
 zuila.generator = zuilagen;
 zuila.startSector = 1;
 zuila.hasAtmosphere = true;
