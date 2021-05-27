@@ -2,7 +2,7 @@ health: 900
 size: 3
 inaccuracy: 0
 reloadTime: 600
-recoil: 0
+recoilAmount: 0
 range: 540
 targetAir: false
 targetGround: true

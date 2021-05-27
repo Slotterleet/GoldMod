@@ -1,7 +1,7 @@
 type: Wall
-flashWhite: true
-deflect: true
-maxDamageDeflect: 50
+flashHit: true
+flashColor: ffffff
+chanceDeflect: 50
 health: 8000
 size: 2
 requirements: [

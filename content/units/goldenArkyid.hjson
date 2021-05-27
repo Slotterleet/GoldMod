@@ -91,7 +91,6 @@ weapons: [
   ejectEffect: casing1
   shootSound: shootBig
   rotate: true
-  occlusion: 8
   recoil: 3
   bullet: {
     type: ArtilleryBulletType
@@ -112,9 +111,8 @@ weapons: [
     lightning: 3
     lightningLength: 15
     smokeEffect: shootBigSmoke2
-    shake: 5
     status: sapped
-    statusDuraion: 600
+    statusDuration: 600
   }
 }
 ]
