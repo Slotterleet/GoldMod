@@ -1,3 +1,8 @@
+//region init
+const dagger = extendContent(UnitType, "goldenDagger", {});
+dagger.constructor = () => extend(MechUnit, {});
+//endregion init
+
 const gNova = extendContent(UnitType, "goldenNova", {});
 gNova.constructor = () => extend(MechUnit, {});
 const nova_abil = new JavaAdapter(RepairFieldAbility, {}, 5, 180, 60);
@@ -61,3 +66,13 @@ hammer.defaultController = () => extend(BuilderAI, {});
 const ghost = extendContent(UnitType, "ghost", {});
 ghost.constructor = () => extend(UnitEntity, {});
 ghost.defaultController = () => extend(MinerAI, {});
+
+module.exports = {
+  gDagger: dagger,
+  gNova: gNova,
+  gPulsar: gPulsar,
+  gQuasar: gQuasar,
+  gCrawler: gCrawler,
+  hammer: hammer,
+  ghost: ghost
+}

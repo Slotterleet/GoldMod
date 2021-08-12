@@ -1,1 +1,8 @@
 hardness: 4
+research: {
+  parent: thorium
+  requirements: [
+    titanium/500
+    thorium/250
+  ]
+}

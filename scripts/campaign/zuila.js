@@ -318,4 +318,8 @@ zuila.meshLoader = () => new HexMesh(zuila, 6);
 const gr1 = new SectorPreset("groundOne", zuila, 1);
 gr1.captureWave = 40;
 gr1.alwaysUnlocked = true;
-//end Zuila sector presets
+
+module.exports = {
+  zuila: zuila,
+  gr1: gr1
+}

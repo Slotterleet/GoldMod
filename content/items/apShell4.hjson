@@ -1,2 +1,7 @@
 color: 3dc2ff
-research: pallaEnriched
+research: {
+  parent: pallaEnriched
+  requirements: [
+    pallaEnriched/800
+  ]
+}

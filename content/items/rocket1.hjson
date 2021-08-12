@@ -1,2 +1,8 @@
 color: deae66
-research: goldCrushed
+research: {
+  parent: goldCrushed
+  requirements: [
+    goldCrushed/800
+    pyratite/800
+  ]
+}

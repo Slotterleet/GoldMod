@@ -1,2 +1,7 @@
 color: DEAE66
-research: goldIngot
+research: {
+  parent: goldIngot
+  requirements: [
+    goldIngot/2500
+  ]
+}

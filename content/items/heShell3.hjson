@@ -1,2 +1,7 @@
 color: 11a7ed
-research: palladium
+research: {
+  parent: palladium
+  requirements: [
+    palladium/800
+  ]
+}

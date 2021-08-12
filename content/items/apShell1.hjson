@@ -1,2 +1,8 @@
 color: DEAE66
-research: goldCrushed
+research: {
+  parent: goldCrushed
+  requirements: [
+    goldCrushed/800
+    titanium/800
+  ]
+}
