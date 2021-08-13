@@ -11,7 +11,7 @@ abandonedDesert.captureWave = 30;
 abandonedDesert.difficulty = 8;
 
 const reignLair = new SectorPreset("eradLair", Planets.serpulo, 122);
-reignLair.captureWave = 10;
+reignLair.captureWave = 30;
 reignLair.difficulty = 10;
 
 module.exports = {
