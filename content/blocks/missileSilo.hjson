@@ -26,6 +26,7 @@ height: 46
 sprite: goldmod-ballistic
 frontColor: d6d6d6
 damage: 75
+blockDamageMultiplier: 5
 lifetime: 180
 speed: 3
 hitSize: 16
@@ -55,6 +56,7 @@ height: 46
 sprite: goldmod-ballistic
 frontColor: 109ee0
 damage: 225
+blockDamageMultiplier: 5
 lifetime: 180
 speed: 3
 hitSize: 16
@@ -83,6 +85,7 @@ height: 46
 sprite: goldmod-ballistic
 frontColor: a6e3ff
 damage: 375
+blockDamageMultiplier: 5
 lifetime: 180
 speed: 3
 hitSize: 16

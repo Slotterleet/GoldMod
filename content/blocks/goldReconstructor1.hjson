@@ -31,7 +31,7 @@ upgrades: [
     goldenNova, goldenPulsar
   ]
   [
-    ghost, teleBlue
+    ghost, hammer
   ]
 ]
 category: units

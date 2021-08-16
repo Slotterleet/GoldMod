@@ -6,7 +6,7 @@ health: 225
 engineOffset: 5.5
 range: 140
 weapons: [{
-  length: 1.5
+  y: 1.5
   reload: 21
   alternate: true
   ejectEffect: casing1

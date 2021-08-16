@@ -1,4 +1,3 @@
-type: GenericSmelter
 health: 2400
 size: 3
 consumes: {
@@ -19,4 +18,3 @@ requirements: [
   goldIngot/100
 ]
 category: crafting
-research: alloy-smelter

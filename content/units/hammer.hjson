@@ -27,4 +27,4 @@ weapons: [{
     damage: 8
   }
 }]
-research: teleBlue
+research: ghost

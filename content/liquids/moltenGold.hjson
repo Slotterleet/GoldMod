@@ -1,9 +1,3 @@
 temperature: 1
 viscosity: 0.8
 color: deae66
-research: {
-  parent: goldOre
-  requirements: [
-    goldOre/4000
-  ]
-}

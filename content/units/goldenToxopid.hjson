@@ -33,7 +33,6 @@ weapons: [
   ejectEffect: casing1
   shootSound: shootBig
   rotate: true
-  occlusion: 12
   recoil: 3
   shots: 2
   spacing: 17
@@ -66,7 +65,6 @@ weapons: [
   ejectEffect: casing4
   shootSound: shootBig
   rotate: true
-  occlusion: 30
   bullet: {
     type: ArtilleryBulletType
     speed: 3

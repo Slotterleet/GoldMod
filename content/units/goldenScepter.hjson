@@ -3,7 +3,6 @@ health: 9000
 speed: 0.68
 drag: 0.4
 hitSize: 20
-
 weapons: [
 {
   name: goldChaos

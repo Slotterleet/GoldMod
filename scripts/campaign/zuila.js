@@ -313,11 +313,12 @@ zuila.startSector = 1;
 zuila.hasAtmosphere = true;
 zuila.atmosphereColor = Color.valueOf("f0e4a8");
 zuila.meshLoader = () => new HexMesh(zuila, 6);
-//end planet Zuila
+//endregion planet Zuila
 //Zuila sector presets
 const gr1 = new SectorPreset("groundOne", zuila, 1);
+gr1.difficulty = 7;
 gr1.captureWave = 40;
-gr1.alwaysUnlocked = true;
+//endregion
 
 module.exports = {
   zuila: zuila,

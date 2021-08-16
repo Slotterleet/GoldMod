@@ -1,6 +1,0 @@
-type: MessageBlock
-requirements: [
-researchPoint/81
-]
-category: effect
-buildVisibility: sandboxOnly

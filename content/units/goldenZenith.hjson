@@ -6,9 +6,8 @@ range: 80
 flying: true
 engineOffset: 12
 engineSize: 3
-rotatespeed: 0.01
-attackLength: 90
-baseRotateSpeed: 0.06
+rotateSpeed: 2
+baseRotateSpeed: 0.6
 weapons: [{
   name: goldenZenith-equip
   x: -10
