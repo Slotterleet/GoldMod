@@ -318,9 +318,28 @@ zuila.meshLoader = () => new HexMesh(zuila, 6);
 const gr1 = new SectorPreset("groundOne", zuila, 1);
 gr1.difficulty = 7;
 gr1.captureWave = 40;
+
+const frozenPass = new SectorPreset("frozenPass", zuila, 115);
+frozenPass.difficulty = 8;
+
+const goldRidge = new SectorPreset("gold-ridge", zuila, 219);
+goldRidge.difficulty = 5;
+goldRidge.captureWave = 45;
+
+const cavernRetreat = new SectorPreset("cavern-retreat", zuila, 214);
+cavernRetreat.difficulty = 6;
+cavernRetreat.captureWave = 30;
+
+const derelictLab = new SectorPreset("derelictLab", zuila, 14);
+derelictLab.difficulty = 10;
+derelictLab.captureWave = 20;
 //endregion
 
 module.exports = {
   zuila: zuila,
-  gr1: gr1
+  gr1: gr1,
+  frozenPass: frozenPass,
+  goldRidge: goldRidge,
+  cavernRetreat: cavernRetreat,
+  derelictLab: derelictLab
 }

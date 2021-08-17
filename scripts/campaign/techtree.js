@@ -17,9 +17,11 @@ function newNode(parent, content, req, objectives){
 }
 //region blocks
 newNode(Blocks.surgeSmelter, blocks.sa_smelter, null, Seq.with(new Objectives.SectorComplete(ssectors.reignLair)));
+newNode(Blocks.oilExtractor, blocks.drillStation, null, Seq.with(new Objectives.Research(liquids.moltenGold)));
 //endregion
 //region items & liquids
-newNode(items.goldOre, liquids.moltenGold, null, Seq.with(new Objectives.Produce(liquids.moltenGold)))
+newNode(Items.thorium, items.goldOre, null, Seq.with(new Objectives.Produce(items.goldOre)));
+newNode(items.goldOre, liquids.moltenGold, null, Seq.with(new Objectives.Produce(liquids.moltenGold)));
 newNode(liquids.moltenGold, items.goldIngot, null, Seq.with(new Objectives.Produce(items.goldIngot)));
 newNode(items.goldIngot, items.shinyAlloy, null, Seq.with(new Objectives.SectorComplete(ssectors.reignLair)));
 newNode(items.shinyAlloy, items.palladium, null, Seq.with(new Objectives.Produce(items.palladium)));
@@ -30,4 +32,8 @@ newNode(ssectors.goldMountains, ssectors.goldMines, null, Seq.with(new Objective
 newNode(SectorPresets.saltFlats, ssectors.abandonedDesert, null, Seq.with(new Objectives.SectorComplete(SectorPresets.saltFlats), new Objectives.Research(blocks.scatter), new Objectives.Research(blocks.crusher)));
 newNode(SectorPresets.planetaryTerminal, ssectors.reignLair, null, Seq.with(new Objectives.SectorComplete(SectorPresets.planetaryTerminal), new Objectives.SectorComplete(SectorPresets.nuclearComplex), new Objectives.SectorComplete(ssectors.goldMines), new Objectives.SectorComplete(ssectors.abandonedDesert)));
 newNode(ssectors.reignLair, zsectors.gr1, null, Seq.with(new Objectives.SectorComplete(ssectors.reignLair), new Objectives.Research(Blocks.interplanetaryAccelerator)));
+newNode(zsectors.gr1, zsectors.frozenPass, null, Seq.with(new Objectives.SectorComplete(zsectors.gr1)));
+newNode(zsectors.gr1, zsectors.goldRidge, null, Seq.with(new Objectives.SectorComplete(zsectors.gr1)));
+newNode(zsectors.goldRidge, zsectors.cavernRetreat, null, Seq.with(new Objectives.SectorComplete(zsectors.goldRidge)));
+newNode(zsectors.cavernRetreat, zsectors.derelictLab, null, Seq.with(new Objectives.SectorComplete(zsectors.cavernRetreat), new Objectives.SectorComplete(zsectors.frozenPass), new Objectives.Research(items.apShell2), new Objectives.Research(items.heShell2), new Objectives.Research(rocket2)));
 //endregion

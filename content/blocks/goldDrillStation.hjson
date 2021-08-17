@@ -1,4 +1,3 @@
-type: Fracker
 liquidCapacity: 10
 itemCapacity: 10
 result: moltenGold
@@ -20,4 +19,3 @@ metaglass/50
 thorium/100
 ]
 category: production
-research: oil-extractor

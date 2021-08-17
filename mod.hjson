@@ -2,5 +2,5 @@ name: "goldmod"
 displayName: "Gold Mod"
 author: "The Slaylord"
 description: "This mod adds ''new'' items, blocks, turrets, units and zones to the game.\n\n> Discord: https://discord.gg/kCvJKyb\n> GitHub: https://github.com/TheSlaylord/GoldMod"
-version: "2.0 alpha b16"
+version: "2.0 alpha b17"
 minGameVersion: 126
