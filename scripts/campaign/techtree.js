@@ -21,8 +21,8 @@ newNode(Blocks.surgeSmelter, blocks.sa_smelter, null, Seq.with(new Objectives.Se
 newNode(Blocks.oilExtractor, blocks.drillStation, null, Seq.with(new Objectives.Research(liquids.moltenGold)));
 //endregion
 //region items & liquids
-newNode(Items.thorium, items.goldOre, null, Seq.with(new Objectives.Produce(items.goldOre)));
-newNode(items.goldOre, liquids.moltenGold, null, Seq.with(new Objectives.Produce(liquids.moltenGold)));
+newNode(Items.thorium, items.goldOre, ItemStack.with(Items.titanium, 500, Items.thorium, 250), null);
+newNode(items.goldOre, liquids.moltenGold, null, Seq.with(new Objectives.Research(items.goldOre)));
 newNode(liquids.moltenGold, items.goldIngot, null, Seq.with(new Objectives.Produce(items.goldIngot)));
 newNode(items.goldIngot, items.shinyAlloy, null, Seq.with(new Objectives.Produce(items.shinyAlloy)));
 newNode(items.shinyAlloy, items.palladium, null, Seq.with(new Objectives.Produce(items.palladium)));
